@@ -1,7 +1,7 @@
 // Pico service worker: app werkt ook offline. Altijd eerst het netwerk proberen
 // (zodat je meteen de nieuwste versie krijgt), anders de bewaarde versie gebruiken.
-const CACHE = 'pico-v1';
-const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
+const CACHE = 'pico-v2';
+const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
 });
