@@ -426,7 +426,7 @@
       <div style="width:38px;"></div>
     </div>
     <div class="content">
-      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 2 okt &middot; v9</div>
+      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 3 okt &middot; v10</div>
       <div class="card">
         <div class="setting-row">
           <div><div class="setting-label">Basistaal</div><div class="setting-sub">Taal van vertalingen &amp; uitleg</div></div>
@@ -12437,7 +12437,8 @@ function buildStageSet(level, unitId, groupId, stage){
   const wordPool = buildWordItemPool(lesson.words, base);
   const sentPool = buildSentenceItemPool(lessonSentences(lesson), base);
   const gapPool = [];
-  for(let i=0;i<3;i++){ const g = pickGapItem(level); if(g) gapPool.push({ ...g, weight: stage==='leer' ? 'easy' : 'hard' }); }
+  const gapUnits = unitsBefore(level, unitId).map(u=>u.id).concat(lesson.kind==='review' ? [unitId] : []);
+  for(let i=0;i<3;i++){ const g = pickGapItemFor(gapUnits); if(g) gapPool.push({ ...g, weight: stage==='leer' ? 'easy' : 'hard' }); }
 
   const allEasy = shuffle(wordPool.filter(i=>i.weight==='easy').concat(sentPool.filter(i=>i.weight==='easy'), gapPool.filter(i=>i.weight==='easy')));
   const allHard = shuffle(wordPool.filter(i=>i.weight==='hard').concat(sentPool.filter(i=>i.weight==='hard'), gapPool.filter(i=>i.weight==='hard')));
@@ -12472,8 +12473,9 @@ function buildCheckpointSet(level, unitId){
       else items.push({ type:'dictation', es, trans });
     });
   });
-  const g1 = pickGapItem(level); if(g1) items.push(g1);
-  const g2 = pickGapItem(level); if(g2) items.push(g2);
+  const cpGapUnits = VERB_PRACTICE[unitId] ? [unitId] : unitsBefore(level, unitId).map(u=>u.id);
+  const g1 = pickGapItemFor(cpGapUnits); if(g1) items.push(g1);
+  const g2 = pickGapItemFor(cpGapUnits); if(g2) items.push(g2);
   return shuffle(items).slice(0, 15);
 }
 function startCheckpoint(level, unitId){
@@ -12659,7 +12661,8 @@ function buildSkipTestSet(level, targetUnitId){
     const trans = base==='en' ? en : nl;
     items.push({ type:'dictation', es, trans });
   });
-  for(let i=0;i<3;i++){ const g = pickGapItem(level); if(g) items.push(g); }
+  const skipGapUnits = prevUnits.map(u=>u.id);
+  for(let i=0;i<3;i++){ const g = pickGapItemFor(skipGapUnits); if(g) items.push(g); }
   return shuffle(items).slice(0, 20);
 }
 async function startSkipTest(level, targetUnitId){
@@ -13718,6 +13721,15 @@ const GAP_BANK = [
   { verb:'volver', verbNl:'terugkomen', tense:'preterito', pronounIdx:1, before:'Tú', after:'tarde ayer.', full:{nl:'Jij kwam gisteren laat terug.', en:'You came back late yesterday.'} },
   { verb:'llegar', verbNl:'aankomen', tense:'preterito', pronounIdx:5, before:'Ellos', after:'a las nueve.', full:{nl:'Zij kwamen om negen uur aan.', en:'They arrived at nine.'} }
 ];
+// Werkwoord-invuloefening alleen uit units die al behandeld zijn (hun eigen werkwoordoefening)
+function pickGapItemFor(unitIds){
+  const ids = (unitIds||[]).filter(id=>VERB_PRACTICE[id]);
+  for(let t=0; t<6 && ids.length; t++){
+    const it = buildVerbPracticeItem(ids[Math.floor(Math.random()*ids.length)]);
+    if(it) return it;
+  }
+  return null;
+}
 function pickGapItem(level){
   const idx = LEVELS.indexOf(level);
   const pool = idx <= 0 ? GAP_BANK.filter(g=>g.tense==='presente') : GAP_BANK;
