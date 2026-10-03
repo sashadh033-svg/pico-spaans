@@ -431,7 +431,7 @@
       <div style="width:38px;"></div>
     </div>
     <div class="content">
-      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 3 okt &middot; v11</div>
+      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 3 okt &middot; v13</div>
       <div class="card">
         <div class="setting-row">
           <div><div class="setting-label">Basistaal</div><div class="setting-sub">Taal van vertalingen &amp; uitleg</div></div>
@@ -13416,9 +13416,9 @@ async function finishExercise(){
       body.innerHTML = `
         <div class="empty-state">
           <div class="e-icon">➡️</div>
-          <h2 class="section-title" style="text-align:center;">Woorden geleerd!</h2>
-          <p class="muted">${scoreA} / ${totalA} goed. Nu ga je deze woorden in hele zinnen gebruiken.</p>
-          <button class="btn" onclick="startRoundB()" style="margin-top:14px;">Verder naar de zinnen &rarr;</button>
+          <h2 class="section-title" style="text-align:center;">Deel 1 van 2 klaar: woorden geleerd!</h2>
+          <p class="muted">${scoreA} / ${totalA} goed. Nu nog deel 2: de zinnen. Pas daarna is dit bolletje af en gaat het volgende open.</p>
+          <button class="btn" onclick="startRoundB()" style="margin-top:14px;">Verder naar deel 2: zinnen &rarr;</button>
         </div>`;
       exPendingRoundB = { level: exState.level, unitId: exState.unitId, groupId: exState.lessonId, scoreA, totalA };
       return;
@@ -13430,8 +13430,9 @@ async function finishExercise(){
     const priorTotal = (exState.roundATotal != null) ? exState.roundATotal : 0;
     const totalCorrect = priorScore + exState.correct;
     const totalQuestions = priorTotal + exState.items.filter(i=>i.type!=='intro').length;
-    const MASTERY_RATIO = 13 / 15; // ~87%, zelfde strengheid als origineel
-    const MASTERY_THRESHOLD = Math.ceil(totalQuestions * MASTERY_RATIO);
+    // Aantal fouten dat mag: ~13%, maar altijd minstens 3 (korte bolletjes waren anders te streng)
+    const ALLOWED_WRONG = Math.max(3, Math.floor(totalQuestions * 0.13));
+    const MASTERY_THRESHOLD = Math.max(0, totalQuestions - ALLOWED_WRONG);
     const passed = totalCorrect >= MASTERY_THRESHOLD;
     const body = document.getElementById('exercise-body');
     if(passed){
@@ -13450,7 +13451,7 @@ async function finishExercise(){
         <div class="empty-state">
           <div class="e-icon">💪</div>
           <h2 class="section-title" style="text-align:center;">Nog niet onder de knie</h2>
-          <p class="muted">${totalCorrect} / ${totalQuestions} goed &mdash; je hebt minimaal ${MASTERY_THRESHOLD} nodig. Probeer het nog een keer met nieuwe vragen over dezelfde stof.</p>
+          <p class="muted">${totalCorrect} / ${totalQuestions} goed &mdash; je hebt minimaal ${MASTERY_THRESHOLD} nodig (max ${ALLOWED_WRONG} fout). Het volgende bolletje gaat pas open als je dit haalt. Probeer het nog een keer met nieuwe vragen over dezelfde stof.</p>
           <button class="btn" onclick="startLessonGroup('${exState.level}','${exState.unitId}','${exState.lessonId}')" style="margin-top:14px;">Opnieuw proberen</button>
           <button class="btn secondary" onclick="go('lessons')" style="margin-top:10px;">Terug naar lessen</button>
         </div>`;
