@@ -1,10 +1,16 @@
 # Pico Spaans – overdracht
 - index.html = app (v25). Hosting: Cloudflare Worker pico-spaans gekoppeld aan GitHub repo sashadh033-svg/pico-spaans (bestanden in root).
-- AI-proxy + D1: worker fancy-surf-0c04, D1 database pico-spaans-db (id 2113ba3c-1467-42cd-98f9-951890311648). D1 bevat ALLEEN tekstverbeteringen (tabellen units/lessons); de app legt lessen uit D1 over de ingebouwde lessen (zelfde les-id). Lege D1 = ingebouwde tekst.
-- Tekstfix live zetten zonder upload: les in index.html aanpassen én die les via push_lesson.py als SQL in D1 zetten.
+- AI-proxy: worker fancy-surf-0c04. D1 database pico-spaans-db (id 2113ba3c-1467-42cd-98f9-951890311648) is LEEG en wordt niet meer gebruikt: alles staat in GitHub. (De app legt lessen uit D1 nog wel over de ingebouwde lessen met hetzelfde les-id, dus zet er niets in. push_lesson.py is verouderd.)
+- Plaatjes staan in img/ (img/backgrounds/*.svg, img/characters/*.png) en worden in FASE_ASSETS/UNIT_ASSETS met een relatief pad gebruikt. Uit index.html gehaald met dev/extract_images.py.
 - Tests: test_prog.js (pad/toetsen), test_checker.js LEVEL, test_stories_lv.js LEVEL, test_click.js, test_typo.js, test_you.js, test_build.js, test_gender.js, test_marks.js (oranje bij vergeten accenten/¿¡), test_review.js (woorden herhalen: x / y, spaties, tikfouten).
 - Kluis: 🏋️ Werkwoorden oefenen = mix van VERB_PRACTICE van alle units tot waar je bent (reachedVerbUnits, startVerbMix).
 - Keuze presente/estar+gerundio (pool pres_prog, trainer in a1-u17p, bijgemengd in 🏋️ van latere units): dev/add_pres_prog_choice.py
 - Extra bij a1-u17p (🏋️ tijd progresivo + gerundio(), 📖 gids, herhaling in latere lessen): dev/add_progresivo_extras.py
 - Nieuwe A1-unit a1-u17p (estar + gerundio): dev/add_a1_progresivo.py. Units met addedLater:true blokkeren voortgang niet voor wie er al voorbij is (skippableLater).
-- A1/A2-grammatica-uitleg vóór bolletjes: dev/a1_intros.py en dev/a2_intros.py (teksten aanpassen en opnieuw draaien voegt alleen ontbrekende toe).
+- Grammatica-uitleg vóór bolletjes: dev/a1_intros.py, dev/a2_intros.py en dev/b1b2_intros.py (B1/B2: gaten in thema-units, o.a. pluscuamperfecto, -ra-vorm in B1, creo que/no creo que) (teksten aanpassen en opnieuw draaien voegt alleen ontbrekende toe).
+- Verhaaltje a1-u17p (Ana kookt, Carlos werkt; alleen presente + estar + gerundio): dev/add_a1u17p_story.py
+- Zinnen vervangen per niveau (te vroege grammatica eruit, geleerde vormen laten terugkomen): dev/a1_sentences.py, dev/a2_sentences.py, dev/b1_sentences.py, dev/b2_sentences.py, dev/story_fixes.py (verhaaltjes), met dev/sentence_tools.py (replace_sentences, replace_text, move_intro). Het aantal zinnen per les blijft gelijk, zodat de bolletjes niet veranderen.
+- Volgorde A2: indefinido regelmatig vanaf unit 6, gebiedende wijs unit 7, lo/la/le unit 16, imperfecto unit 32, onregelmatige indefinido unit 34. Futuro, subjuntivo, se impersonal/pasiva refleja en "se me ha..." horen niet in A2.
+- Voornaamwoorden: dev/pronouns.py. Spiekbriefje GUIDES['__pron__'] (Kluis + link in gids a2-u16, b1-u39, b2-u41), Kluis-knop 🔄 Voornaamwoorden oefenen (startPronMix; PRONOUN_POOL A2/B1/B2 komt vrij bij a2-u16 / b1-u39 / b2-u41 via reachedUnitIds). Test: dev/test_pron_mix.js.
+- Volgorde B1: subjuntivo unit 3, condicional unit 12, se impersonal unit 20, pluscuamperfecto unit 22, estilo indirecto unit 26/28, futuro unit 33. Hubiera, cuando + subjuntivo en 'se me ha...' horen in B2.
+- test_stories_lv.js meldt 'option not found' bij typvragen in verhaaltjes (a2-u1, b1-u1): beperking van de test, geen fout in de app.

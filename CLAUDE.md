@@ -35,7 +35,6 @@ Ga zuinig om met usage: bij grote klussen eerst de omvang schatten en kort voorl
 - Toon van uitlegkaartjes: kort, Nederlands, met 2–3 voorbeeldzinnen.
 
 ## Open ideeën / mogelijke volgende stappen
-- B1 (en B2) grammatica-uitleg vóór bolletjes, zoals bij A1/A2 (`dev/a1_intros.py`, `dev/a2_intros.py` als voorbeeld).
-- Verhaaltje (`STORIES`) voor unit `a1-u17p`.
-- A1/A2 doorlopen op zinnen met grammatica die nog niet behandeld is, en op werkwoorden die pas in een moeilijke vorm voor het eerst voorkomen.
-- Plaatjes uit index.html halen naar een map `img/` (nu ~1,1 MB base64). Zo staat de structuur klaar voor nieuwe karakters/afbeeldingen, en blijft index.html klein.
+- Gedaan (okt 2026): B1/B2-uitleg in thema-units, verhaaltje a1-u17p, A1–B2 nagelopen op te vroege grammatica (zinnen én verhaaltjes), geleerde vormen laten terugkomen door de hele cursus, plaatjes naar `img/`, voornaamwoorden (spiekbriefje, Kluis-knop, meer oefenzinnen). Zie `dev/LEESMIJ.md`.
+- Bij nieuwe inhoud: houd de volgorde aan (zie LEESMIJ) en laat geleerde vormen terugkomen; vervang zinnen in plaats van toevoegen.
+- Mogelijk: nieuwe personages/achtergronden in `img/` voor A2 en verder (nu alleen A1).
