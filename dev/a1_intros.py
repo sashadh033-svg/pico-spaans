@@ -183,10 +183,10 @@ INTROS = {
     '<i>Ir</i> is gewoon regelmatig: <i>he ido</i>.'),
 }
 
-def main(path):
+def apply(intros, path):
     c = open(path, encoding='utf-8').read()
     done = 0
-    for lid, html in INTROS.items():
+    for lid, html in intros.items():
         assert '`' not in html and '${' not in html, lid
         m = re.search(r"\{ id:['\"]" + re.escape(lid) + r"['\"], kind:'new', ", c)
         assert m, lid
@@ -199,4 +199,4 @@ def main(path):
     print(done, 'intros toegevoegd')
 
 if __name__ == '__main__':
-    main(sys.argv[1] if len(sys.argv) > 1 else 'index.html')
+    apply(INTROS, sys.argv[1] if len(sys.argv) > 1 else 'index.html')
