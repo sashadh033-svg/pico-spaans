@@ -14,3 +14,4 @@
 - Voornaamwoorden: dev/pronouns.py. Spiekbriefje GUIDES['__pron__'] (Kluis + link in gids a2-u16, b1-u39, b2-u41), Kluis-knop 🔄 Voornaamwoorden oefenen (startPronMix; PRONOUN_POOL A2/B1/B2 komt vrij bij a2-u16 / b1-u39 / b2-u41 via reachedUnitIds). Test: dev/test_pron_mix.js.
 - Volgorde B1: subjuntivo unit 3, condicional unit 12, se impersonal unit 20, pluscuamperfecto unit 22, estilo indirecto unit 26/28, futuro unit 33. Hubiera, cuando + subjuntivo en 'se me ha...' horen in B2.
 - test_stories_lv.js meldt 'option not found' bij typvragen in verhaaltjes (a2-u1, b1-u1): beperking van de test, geen fout in de app.
+- Tikhulp (HINTS) voor nieuwe woorden in vervangen zinnen: dev/new_word_hints.py.
