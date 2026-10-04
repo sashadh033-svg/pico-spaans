@@ -11,3 +11,4 @@
 - Verhaaltje a1-u17p (Ana kookt, Carlos werkt; alleen presente + estar + gerundio): dev/add_a1u17p_story.py
 - Zinnen vervangen per niveau (te vroege grammatica eruit, geleerde vormen laten terugkomen): dev/a1_sentences.py, dev/a2_sentences.py, met dev/sentence_tools.py (replace_sentences, replace_text, move_intro). Het aantal zinnen per les blijft gelijk, zodat de bolletjes niet veranderen.
 - Volgorde A2: indefinido regelmatig vanaf unit 6, gebiedende wijs unit 7, lo/la/le unit 16, imperfecto unit 32, onregelmatige indefinido unit 34. Futuro, subjuntivo, se impersonal/pasiva refleja en "se me ha..." horen niet in A2.
+- Voornaamwoorden: dev/pronouns.py. Spiekbriefje GUIDES['__pron__'] (Kluis + link in gids a2-u16, b1-u39, b2-u41), Kluis-knop 🔄 Voornaamwoorden oefenen (startPronMix; PRONOUN_POOL A2/B1/B2 komt vrij bij a2-u16 / b1-u39 / b2-u41 via reachedUnitIds). Test: dev/test_pron_mix.js.

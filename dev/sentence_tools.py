@@ -57,7 +57,7 @@ def replace_sentences(changes, path=PATH):
 def replace_text(old, new, path=PATH):
     # kleine tekstfix (bv. in een intro); idempotent
     c = open(path, encoding='utf-8').read()
-    if new in c and old not in c:
+    if new in c:
         return
     assert c.count(old) == 1, 'tekst niet (eenmalig) gevonden: ' + old[:60]
     open(path, 'w', encoding='utf-8').write(c.replace(old, new))
