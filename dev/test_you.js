@@ -1,0 +1,10 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.route(/workers\.dev|googleapis/,r=>r.abort());await p.goto('file:///home/claude/spaans-leren.html');await p.waitForTimeout(400);
+const r=await p.evaluate(()=>{const out=[];window.addToVault=()=>{};let fb;window.showFeedback=(c,it,ty)=>{fb=c?'goed':(ty?'oranje':'fout')};
+ const ty=(base,ans,tr,given)=>{appState.profile.baseLang=base;document.body.insertAdjacentHTML('beforeend','<input id="type-answer">');document.getElementById('type-answer').value=given;exState={items:[],index:0,correct:0,source:'x',currentItem:{type:'type-sentence',es:ans,trans:tr},currentCorrect:ans};checkAnswer();document.getElementById('type-answer').remove();out.push([base,given,fb]);};
+ ty('en','¿Trabajáis en una oficina?','Do you work in an office?','Trabajas en una oficina?');
+ ty('en','¿Trabajáis en una oficina?','Do you work in an office?','¿Trabaja usted en una oficina?');
+ ty('nl','¿Trabajáis en una oficina?','Werken jullie in een kantoor?','Trabajas en una oficina?');
+ ty('en','¿Tienes hermanos?','Do you have siblings?','¿Tenéis hermanos?');
+ ty('en','¿Trabajáis en una oficina?','Do you work in an office?','Trabajo en una oficina');
+ return [out,Object.keys(verbFormMap()).length];});console.log(JSON.stringify(r),errs);await b.close();})();

@@ -1,0 +1,11 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.route(/workers\.dev|googleapis/,r=>r.abort());await p.goto('file:///home/claude/spaans-leren.html');await p.waitForTimeout(400);
+const r=await p.evaluate(()=>{const out=[];window.addToVault=()=>{};window.showFeedback=()=>{};
+ const t=(type,ans,given)=>{document.body.insertAdjacentHTML('beforeend','<input id="type-answer">');document.getElementById('type-answer').value=given;exState={items:[],index:0,correct:0,source:'x',currentItem:{type,es:ans,trans:'x'},currentCorrect:ans};checkAnswer();document.getElementById('type-answer').remove();out.push([given,exState.correct===1]);};
+ t('type-sentence','Había mucha gente en la plaza.','En la plaza había mucha gente');
+ t('type','Dank je','bedankt');
+ t('type','posponer','aplazar');
+ t('type','the arm','arm');
+ t('dictation','Había mucha gente en la plaza.','En la plaza había mucha gente');
+ t('type-sentence','Había mucha gente en la plaza.','Había poca gente en la plaza');
+ return out;});console.log(r,errs);await b.close();})();

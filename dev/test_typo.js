@@ -1,0 +1,11 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.route(/workers\.dev|googleapis/,r=>r.abort());await p.goto('file:///home/claude/spaans-leren.html');await p.waitForTimeout(400);
+const r=await p.evaluate(()=>{const out=[];window.addToVault=()=>{};
+ const t=(type,ans,given)=>{document.body.insertAdjacentHTML('beforeend','<input id="type-answer">');document.getElementById('type-answer').value=given;exState={items:[],index:0,correct:0,source:'x',currentItem:{type,es:ans,trans:'x'},currentCorrect:ans};let fb=null;window.showFeedback=(c,it,ty)=>{fb=c?'goed':(ty?'ORANJE':'fout')};checkAnswer();document.getElementById('type-answer').remove();out.push([given,'=>',fb,exState.correct]);};
+ t('type','la casa','la csaa'); t('type','la casa','la cass'); t('type','la casa','las casas'); t('type','la mesa','la masa');
+ t('type-sentence','Él habla español.','El hablaa español'); t('type-sentence','Él habla español.','El hablas español');
+ t('type-sentence','Tengo un perro y un gato.','Tengo un pero y un gato'); t('type-sentence','Tengo un perro y un gato.','Tengo un perro y un gaot');
+ t('type-sentence','Tengo un perro y un gato.','Tengo una perro y un gato'); t('type','el árbol','el arbol'); t('type','de jongen','de jonegn');
+ t('dictation','Vivimos en una ciudad grande.','Vivimos en una cuidad grande'); t('type-sentence','Tengo un perro.','Tengo dos perros');
+ return out;});
+r.forEach(x=>console.log(x.join(' ')));console.log(errs);await b.close();})();

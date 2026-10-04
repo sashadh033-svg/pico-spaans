@@ -1,0 +1,11 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();await p.route(/workers\.dev|googleapis/,r=>r.abort());await p.goto('file:///home/claude/spaans-leren.html');await p.waitForTimeout(400);
+const r=await p.evaluate(()=>{const out=[];const t=(type,correctAns,given)=>{document.body.insertAdjacentHTML('beforeend','<input id="type-answer">');document.getElementById('type-answer').value=given;exState={items:[],index:0,correct:0,source:'x',currentItem:{type,es:correctAns,trans:'x'},currentCorrect:correctAns};window.showFeedback=()=>{};window.addToVault=()=>{};checkAnswer();document.getElementById('type-answer').remove();out.push([type,given,exState.correct===1]);};
+t('type-sentence','Ellos se llaman Pablo y Lucía.','Se llaman pablo y lucia');
+t('type-sentence','Se llaman Pablo y Lucía.','Ellos se llaman Pablo y Lucía');
+t('type-sentence','Yo soy Carlos, ¿y tú?','soy carlos y tu');
+t('type-sentence','Ellos se llaman Pablo y Lucía.','Ellas se llaman Pablo y Lucía');
+t('type-sentence','Ellos se llaman Pablo y Lucía.','Se llama Pablo y Lucía');
+t('type','ellos','');
+t('type','nosotros','nosotros');
+return out;});console.log(r);await b.close();})();
