@@ -204,6 +204,54 @@ REUSE = [
     ('a2-u34-l3', 'Leí la biografía de un músico famoso.', ['He leído la biografía de un músico famoso.', 'Ik heb de biografie van een beroemde muzikant gelezen.', "I've read the biography of a famous musician."], (HERHALING, PERF)),
 ]
 
+# Voornaamwoorden (unit 16) door de rest van A2 laten terugkomen: per unit lo/la, le/les en se lo/me lo of achteraan.
+PRON = 'Voornaamwoorden (lo/la, le/les, se lo, achteraan) laten terugkomen.'
+PRON_REUSE = [
+    ('a2-u17-l2', 'Tengo un cupón de descuento.', ['Tengo un cupón de descuento; se lo doy al cajero.', 'Ik heb een kortingsbon; ik geef hem aan de caissier.', 'I have a discount coupon; I give it to the cashier.'], (HERHALING, PRON)),
+    ('a2-u17-l1', 'El cajero es muy simpático.', ['El cajero me da el tique y le doy las gracias.', 'De caissier geeft me de bon en ik bedank hem.', 'The cashier gives me the receipt and I thank him.'], (HERHALING, PRON)),
+    ('a2-u18-l1', 'El tendero es muy amable.', ['Le pregunto al tendero el precio de las cerezas.', 'Ik vraag de winkelier de prijs van de kersen.', 'I ask the shopkeeper the price of the cherries.', ['Le pregunto el precio de las cerezas al tendero.']], (HERHALING, PRON)),
+    ('a2-u19-l4', 'Pido una cucharilla y una jarra de agua.', ['Necesito una cucharilla; ¿me la trae, por favor?', 'Ik heb een lepeltje nodig; kunt u het me brengen?', 'I need a teaspoon; could you bring it to me, please?'], (HERHALING, PRON)),
+    ('a2-u20-l3', 'Hay un error en la cuenta.', ['Hay un error en la cuenta; voy a decírselo al camarero.', 'Er zit een fout in de rekening; ik ga het tegen de ober zeggen.', "There's a mistake in the bill; I'm going to tell the waiter.", ['Hay un error en la cuenta; se lo voy a decir al camarero.']], (HERHALING, PRON)),
+    ('a2-u21-l3', 'El técnico viene mañana.', ['Le explico el problema al técnico.', 'Ik leg de monteur het probleem uit.', 'I explain the problem to the technician.'], (HERHALING, PRON)),
+    ('a2-u21-l3', 'Tengo que arreglar la bicicleta.', ['La bicicleta está rota; tengo que arreglarla.', 'De fiets is kapot; ik moet hem repareren.', 'The bike is broken; I have to fix it.', ['La bicicleta está rota; la tengo que arreglar.']], (HERHALING, PRON)),
+    ('a2-u22-l2', 'Mi vecino es muy amable.', ['Mi vecino es muy amable; le doy una llave de casa.', 'Mijn buurman is heel aardig; ik geef hem een huissleutel.', "My neighbour is very kind; I give him a key to the house."], (HERHALING, PRON)),
+    ('a2-u22-l3', 'La calefacción no funciona.', ['La calefacción no funciona; hay que repararla.', 'De verwarming doet het niet; die moet gerepareerd worden.', "The heating doesn't work; it needs fixing."], (HERHALING, PRON)),
+    ('a2-u23-l1', 'Mi abuela lee en la mecedora.', ['Mi abuela lee en la mecedora; le traigo un cojín.', 'Mijn oma leest in de schommelstoel; ik breng haar een kussen.', 'My grandmother reads in the rocking chair; I bring her a cushion.'], (HERHALING, PRON)),
+    ('a2-u23-l4', 'Cuelgo las fotos en la pared.', ['Tengo fotos nuevas; voy a colgarlas en la pared.', "Ik heb nieuwe foto's; ik ga ze aan de muur hangen.", "I have new photos; I'm going to hang them on the wall.", ['Tengo fotos nuevas; las voy a colgar en la pared.']], (HERHALING, PRON)),
+    ('a2-u24-l3', 'Mi hijo saca la basura.', ['Mi hijo saca la basura y le doy las gracias.', 'Mijn zoon brengt het afval weg en ik bedank hem.', 'My son takes out the rubbish and I thank him.'], (HERHALING, PRON)),
+    ('a2-u24-l3', '¿Dónde está la escoba?', ['¿Dónde está la escoba? ¿Me la pasas?', 'Waar is de bezem? Geef je hem even aan?', "Where's the broom? Can you pass it to me?"], (HERHALING, PRON)),
+    ('a2-u25-l1', 'Tengo el hombro muy tenso.', ['Tengo el hombro muy tenso; lo muevo despacio.', 'Mijn schouder zit heel vast; ik beweeg hem langzaam.', 'My shoulder is very tense; I move it slowly.'], (HERHALING, PRON)),
+    ('a2-u25-l2', 'Me duele el cuello de mirar el ordenador.', ['Me duele el cuello de mirar el ordenador; voy a apagarlo.', 'Mijn nek doet pijn van het kijken naar de computer; ik ga hem uitzetten.', "My neck hurts from looking at the computer; I'm going to switch it off.", ['Me duele el cuello de mirar el ordenador; lo voy a apagar.']], (HERHALING, PRON)),
+    ('a2-u26-l3', 'El jarabe ayuda con la tos.', ['El jarabe ayuda con la tos; lo tomo cada noche.', 'De siroop helpt tegen het hoesten; ik neem hem elke avond.', 'The syrup helps with the cough; I take it every night.'], (HERHALING, PRON)),
+    ('a2-u26-l2', '¿Tienes un pañuelo?', ['Mi hermano estornuda; le doy un pañuelo.', 'Mijn broer niest; ik geef hem een zakdoekje.', 'My brother sneezes; I give him a tissue.'], (HERHALING, PRON)),
+    ('a2-u26-l3', 'Esta crema es para las quemaduras.', ['Esta crema es para las quemaduras; tienes que ponértela dos veces al día.', 'Deze crème is voor brandwonden; je moet hem twee keer per dag opdoen.', 'This cream is for burns; you have to put it on twice a day.', ['Esta crema es para las quemaduras; te la tienes que poner dos veces al día.']], (HERHALING, PRON)),
+    ('a2-u27-l3', 'Necesito un análisis de sangre.', ['El médico me pide un análisis de sangre y lo hago mañana.', 'De dokter vraagt om een bloedonderzoek en ik laat het morgen doen.', "The doctor asks for a blood test and I'm doing it tomorrow."], (HERHALING, PRON)),
+    ('a2-u28-l4', '¿Habéis visto a Pedro?', ['¿Habéis visto a Pedro? No, no lo hemos visto.', 'Hebben jullie Pedro gezien? Nee, we hebben hem niet gezien.', "Have you seen Pedro? No, we haven't seen him.", ['¿Habéis visto a Pedro? No, no le hemos visto.']], (HERHALING, PRON)),
+    ('a2-u28-l1', '¿Has oído la noticia?', ['¿Le has contado la noticia a tu madre?', 'Heb je je moeder het nieuws verteld?', 'Have you told your mother the news?'], (HERHALING, PRON)),
+    ('a2-u28-l3', 'Acabo de terminar el informe.', ['Acabo de terminar el informe y te lo he mandado.', 'Ik heb net het rapport afgemaakt en ik heb het je gestuurd.', "I've just finished the report and I've sent it to you."], (HERHALING, PRON)),
+    ('a2-u29-l1', '¿Has impreso los billetes?', ['¿Has impreso los billetes? Sí, los he impreso.', 'Heb je de kaartjes geprint? Ja, ik heb ze geprint.', "Have you printed the tickets? Yes, I've printed them."], (HERHALING, PRON)),
+    ('a2-u29-l4', '¿Qué han dicho los médicos?', ['¿Qué le han dicho los médicos a tu padre?', 'Wat hebben de artsen tegen je vader gezegd?', 'What have the doctors told your father?'], (HERHALING, PRON)),
+    ('a2-u29-l1', 'He hecho la tarea.', ['He hecho la tarea; ¿quieres verla?', 'Ik heb het huiswerk gemaakt; wil je het zien?', "I've done the homework; do you want to see it?", ['He hecho la tarea; ¿la quieres ver?']], (HERHALING, PRON)),
+    ('a2-u30-l4', 'He terminado el informe esta mañana.', ['He terminado el informe y lo he enviado esta mañana.', 'Ik heb het rapport afgemaakt en het vanochtend verstuurd.', "I've finished the report and sent it this morning."], (HERHALING, PRON)),
+    ('a2-u30-l1', 'A la hora de comer he llamado a mi madre.', ['A la hora de comer le he mandado un mensaje a mi madre.', 'Rond etenstijd heb ik mijn moeder een bericht gestuurd.', 'At lunchtime I sent my mother a message.'], (HERHALING, PRON)),
+    ('a2-u30-l3', 'He leído el mensaje de nuevo.', ['No entiendo el mensaje; voy a leerlo de nuevo.', 'Ik begrijp het bericht niet; ik ga het opnieuw lezen.', "I don't understand the message; I'm going to read it again.", ['No entiendo el mensaje; lo voy a leer de nuevo.']], (HERHALING, PRON)),
+    ('a2-u31-l2', 'Brindamos por su éxito.', ['Le damos un regalo y brindamos por su éxito.', 'We geven hem een cadeau en proosten op zijn succes.', 'We give him a present and toast to his success.'], (HERHALING, PRON)),
+    ('a2-u32-l3', 'Mi madre guarda un álbum de fotos.', ['Mi madre tiene un álbum de fotos y lo guarda en el salón.', 'Mijn moeder heeft een fotoalbum en ze bewaart het in de woonkamer.', 'My mother has a photo album and keeps it in the living room.'], (HERHALING, PRON)),
+    ('a2-u32-l3', 'Mi abuelo nos contaba historias.', ['Mi abuelo les contaba historias a mis primos.', 'Mijn opa vertelde mijn neven verhalen.', 'My grandfather used to tell my cousins stories.'], (HERHALING, PRON)),
+    ('a2-u32-l4', 'Teníamos una cometa roja.', ['Teníamos una cometa roja; nos la regaló mi tío.', 'We hadden een rode vlieger; die hadden we van mijn oom gekregen.', 'We had a red kite; my uncle gave it to us.'], (HERHALING, PRON)),
+    ('a2-u33-l1', 'Mis abuelos escuchaban música en un tocadiscos.', ['Mis abuelos tenían un tocadiscos y lo usaban cada día.', 'Mijn grootouders hadden een platenspeler en gebruikten hem elke dag.', 'My grandparents had a record player and used it every day.'], (HERHALING, PRON)),
+    ('a2-u33-l4', 'Mi abuela sabía cocinar muy bien.', ['Mi abuela sabía cocinar muy bien y le enseñaba recetas a mi madre.', 'Mijn oma kon heel goed koken en leerde mijn moeder recepten.', 'My grandmother could cook very well and taught my mother recipes.'], (HERHALING, PRON)),
+    ('a2-u33-l3', 'He empezado a hacer yoga.', ['He empezado a hacer yoga; intento practicarlo cada día.', 'Ik ben begonnen met yoga; ik probeer het elke dag te doen.', "I've started doing yoga; I try to practise it every day."], (HERHALING, PRON)),
+    ('a2-u34-l3', 'Su obra más famosa es una novela.', ['Su obra más famosa es una novela; la escribió en 1990.', 'Zijn beroemdste werk is een roman; hij schreef hem in 1990.', 'His most famous work is a novel; he wrote it in 1990.'], (HERHALING, PRON)),
+    ('a2-u34-l3', 'Recibió un galardón muy importante.', ['Le dieron un galardón muy importante.', 'Ze kreeg een heel belangrijke onderscheiding.', 'She was given a very important award.'], (HERHALING, PRON)),
+    ('a2-u34-l3', 'Su biografía es muy interesante.', ['Su biografía es muy interesante; te la presto.', 'Zijn biografie is heel interessant; ik leen hem je.', "His biography is very interesting; I'll lend it to you."], (HERHALING, PRON)),
+    ('a2-u35-l1', 'Me organizaron una fiesta sorpresa.', ['Le organizamos una fiesta sorpresa a mi madre.', 'We organiseerden een verrassingsfeest voor mijn moeder.', 'We organised a surprise party for my mother.'], (HERHALING, PRON)),
+    ('a2-u35-l2', 'Recuerdo mi primer día de trabajo.', ['Recuerdo mi primer día de trabajo; nunca voy a olvidarlo.', 'Ik herinner me mijn eerste werkdag; ik ga hem nooit vergeten.', "I remember my first day at work; I'm never going to forget it.", ['Recuerdo mi primer día de trabajo; nunca lo voy a olvidar.']], (HERHALING, PRON)),
+    ('a2-u36-l1', 'Anteayer vi a una amiga en el centro.', ['Anteayer vi a una amiga en el centro y la invité a un café.', 'Eergisteren zag ik een vriendin in het centrum en ik trakteerde haar op een koffie.', 'The day before yesterday I saw a friend in the centre and bought her a coffee.'], (HERHALING, PRON)),
+    ('a2-u36-l2', 'Con frecuencia visitábamos a mis tíos.', ['Con frecuencia les escribíamos cartas a mis tíos.', 'We schreven mijn oom en tante vaak brieven.', 'We often wrote letters to my aunt and uncle.'], (HERHALING, PRON)),
+    ('a2-u36-l1', 'Hace dos días compré un coche.', ['Hace dos días compré un coche; me lo vendió mi vecino.', 'Twee dagen geleden kocht ik een auto; mijn buurman verkocht hem aan mij.', 'Two days ago I bought a car; my neighbour sold it to me.'], (HERHALING, PRON)),
+]
+
 # Onregelmatige indefinido: uitleg kwam pas aan het eind van unit 35, terwijl unit 34 er al vol mee staat.
 U34_OLD = 'Jaartallen lees je als gewoon getal: <i>mil novecientos noventa</i>.</p>`'
 U34_NEW = ('Jaartallen lees je als gewoon getal: <i>mil novecientos noventa</i>.</p>'
@@ -218,6 +266,7 @@ U35_NEW = ('<h2 class="section-title" style="margin-top:0;">Onregelmatig: ik en 
 if __name__ == '__main__':
     replace_sentences(CHANGES)
     replace_sentences(REUSE)
+    replace_sentences(PRON_REUSE)
     move_intro('a2-u7-l2', 'a2-u7-l1')   # unit 7 les 1 gebruikt de gebiedende wijs al
     replace_text(U34_OLD, U34_NEW)
     replace_text(U35_OLD, U35_NEW)
