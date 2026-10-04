@@ -9,3 +9,5 @@
 - Nieuwe A1-unit a1-u17p (estar + gerundio): dev/add_a1_progresivo.py. Units met addedLater:true blokkeren voortgang niet voor wie er al voorbij is (skippableLater).
 - Grammatica-uitleg vóór bolletjes: dev/a1_intros.py, dev/a2_intros.py en dev/b1b2_intros.py (B1/B2: gaten in thema-units, o.a. pluscuamperfecto, -ra-vorm in B1, creo que/no creo que) (teksten aanpassen en opnieuw draaien voegt alleen ontbrekende toe).
 - Verhaaltje a1-u17p (Ana kookt, Carlos werkt; alleen presente + estar + gerundio): dev/add_a1u17p_story.py
+- Zinnen vervangen per niveau (te vroege grammatica eruit, geleerde vormen laten terugkomen): dev/a1_sentences.py, dev/a2_sentences.py, met dev/sentence_tools.py (replace_sentences, replace_text, move_intro). Het aantal zinnen per les blijft gelijk, zodat de bolletjes niet veranderen.
+- Volgorde A2: indefinido regelmatig vanaf unit 6, gebiedende wijs unit 7, lo/la/le unit 16, imperfecto unit 32, onregelmatige indefinido unit 34. Futuro, subjuntivo, se impersonal/pasiva refleja en "se me ha..." horen niet in A2.

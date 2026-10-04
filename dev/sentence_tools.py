@@ -39,6 +39,9 @@ def replace_sentences(changes, path=PATH):
         a, b = _lesson_span(c, lid)
         line = c[a:b]
         new_lit = fmt(new)
+        if new_lit in line:
+            skipped += 1
+            continue
         if ('[' + json.dumps(new[0], ensure_ascii=False) + ',') in line and ('[' + json.dumps(old, ensure_ascii=False) + ',') not in line:
             skipped += 1
             continue
@@ -58,3 +61,19 @@ def replace_text(old, new, path=PATH):
         return
     assert c.count(old) == 1, 'tekst niet (eenmalig) gevonden: ' + old[:60]
     open(path, 'w', encoding='utf-8').write(c.replace(old, new))
+
+def move_intro(src, dst, path=PATH):
+    # verplaatst de uitleg (intro) van les src naar les dst (die nog geen intro heeft); idempotent
+    import re
+    c = open(path, encoding='utf-8').read()
+    head = lambda lid: "{ id:'" + lid + "', kind:'new', "
+    m = re.search(re.escape(head(src)) + r"intro:`([^`]*)`, ", c)
+    if not m:
+        assert c.find(head(dst) + 'intro:`') >= 0, 'geen intro bij ' + src + ' of ' + dst
+        return
+    html = m.group(1)
+    c = c[:m.start()] + head(src) + c[m.end():]
+    i = c.index(head(dst)) + len(head(dst))
+    assert not c[i:].startswith('intro:`'), dst + ' heeft al een intro'
+    c = c[:i] + 'intro:`' + html + '`, ' + c[i:]
+    open(path, 'w', encoding='utf-8').write(c)
