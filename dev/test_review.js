@@ -1,0 +1,15 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.route(/workers\.dev|googleapis/,r=>r.abort());await p.goto('file:///home/claude/spaans-leren.html');await p.waitForTimeout(500);
+const r=await p.evaluate(()=>{const out=[];window.addToVault=()=>{};window.triggerMascotReaction=()=>{};
+ const t=(type,dir,es,ans,given)=>{document.getElementById('exercise-body')||document.body.insertAdjacentHTML('beforeend','<div id="exercise-body"></div>');document.body.insertAdjacentHTML('beforeend','<input id="type-answer">');document.getElementById('type-answer').value=given;exState={items:[],index:0,correct:0,source:'x',currentItem:{type,dir,es,trans:ans},currentCorrect:ans};checkAnswer();document.getElementById('type-answer').remove();const bar=[...document.querySelectorAll('.feedback-bar')].pop();out.push(given+' => '+bar.className.replace('feedback-bar ',''));bar.remove();};
+ t('type','es-to-trans','el/la sobrino/a','the nephew / niece','The nephew');
+ t('type','es-to-trans','el/la sobrino/a','the nephew / niece','the niece');
+ t('type','es-to-trans','el/la sobrino/a','the nephew / niece','niece');
+ t('type','es-to-trans','el/la sobrino/a','the nephew / niece','the cousin');
+ t('type','es-to-trans','Buenos días','Good morning','Goodmorning');
+ t('type','es-to-trans','¿A qué te dedicas?','What do you do for work?','What do you de for work');
+ t('type','es-to-trans','¿A qué te dedicas?','What do you do for work?','What do you like');
+ t('type','trans-to-es','el/la sobrino/a','el/la sobrino/a','la sobrina');
+ t('type','trans-to-es','x','el libro','la libro');
+ t('type','es-to-trans','el/la sobrino/a','de neef / nicht','de nicht');
+ return out;});console.log(r.join('\n'),errs);await b.close();})();

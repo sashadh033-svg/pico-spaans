@@ -13179,6 +13179,12 @@ function answerVariants(s){
   const bases = new Set([s, s.replace(/\s*\([^)]*\)\s*/g,' ').trim(), s.replace(/[()]/g,'')]);
   const phraseParts = s.split('/').map(x=>x.trim());
   if(phraseParts.length>1 && phraseParts.every(x=>x.indexOf(' ')>-1)) phraseParts.forEach(x=>bases.add(x));
+  // "the nephew / niece", "de neef / nicht": spatie rond de slash = losse alternatieven; lidwoord van het eerste deel geldt voor allemaal
+  if(/\s\/\s/.test(s)){
+    const parts = s.split(/\s+\/\s+/).map(x=>x.trim()).filter(Boolean);
+    const art = (parts[0].match(/^(the|a|an|de|het|een)\s+/i)||[''])[0];
+    parts.forEach((x,i)=>{ bases.add(x); if(i>0 && art && !/^(the|a|an|de|het|een)\s/i.test(x)) bases.add(art + x); });
+  }
   const out = new Set();
   bases.forEach(b=>{
     out.add(b);
@@ -13350,13 +13356,16 @@ function knownForms(){
 }
 // Is 'given' alleen een kleine typfout t.o.v. 'target'? (zelfde aantal woorden, max 1-2 woorden met 1-2 lettertjes verschil,
 // en het getypte woord is zelf geen ander bestaand woord — dan is het een echte fout, bv. habla/hablas)
-function isTypo(given, target){
+function isTypo(given, target, toNative){
   const g = normalizeLenient(given).split(' ').filter(Boolean), t = normalizeLenient(target).split(' ').filter(Boolean);
+  if(g.length && g.join('') === t.join('')) return true; // alleen spatie vergeten/te veel ("goodmorning")
   if(!g.length || g.length !== t.length) return false;
   if(g.join(' ') === t.join(' ')) return true; // alleen accent/hoofdletter-verschil
   const diffs = []; g.forEach((w,i)=>{ if(w!==t[i]) diffs.push([w,t[i]]); });
   if(diffs.length > (t.length >= 8 ? 2 : 1)) return false;
   const kf = knownForms();
+  // bij vertalen naar je eigen taal (es-to-trans) telt spelling minder: ook korte woorden ("de" i.p.v. "do") zijn een tikfout
+  if(toNative) return diffs.every(([a,b])=> b.length >= 2 && levenshtein(a,b) <= (b.length <= 6 ? 1 : 2));
   return diffs.every(([a,b])=> b.length >= 3 && levenshtein(a,b) <= (b.length <= 6 ? 1 : 2) && !kf.has(a));
 }
 const APPEAL_TYPES = ['type-sentence','ai-freewrite','type','ai-type'];
@@ -13409,7 +13418,7 @@ function checkAnswer(){
     }
   }
   if(!correct && !typo && TYPO_TYPES.includes(it.type)){
-    typo = [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants).some(cnd => isTypo(given, cnd));
+    typo = [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants).some(cnd => isTypo(given, cnd, it.dir==='es-to-trans'));
   }
   if(correct || typo) exState.correct++;
   else {
