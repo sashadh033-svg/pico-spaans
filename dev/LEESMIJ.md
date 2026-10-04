@@ -8,3 +8,4 @@
 - Extra bij a1-u17p (🏋️ tijd progresivo + gerundio(), 📖 gids, herhaling in latere lessen): dev/add_progresivo_extras.py
 - Nieuwe A1-unit a1-u17p (estar + gerundio): dev/add_a1_progresivo.py. Units met addedLater:true blokkeren voortgang niet voor wie er al voorbij is (skippableLater).
 - A1/A2-grammatica-uitleg vóór bolletjes: dev/a1_intros.py en dev/a2_intros.py (teksten aanpassen en opnieuw draaien voegt alleen ontbrekende toe).
+- Verhaaltje a1-u17p (Ana kookt, Carlos werkt; alleen presente + estar + gerundio): dev/add_a1u17p_story.py
