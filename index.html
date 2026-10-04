@@ -13379,12 +13379,25 @@ function checkAnswer(){
   const dropNorm = s => lenient ? dropSubjectPronoun(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'') : dropSubjectPronoun(s);
   const canDrop = lenient || it.type==='type' || it.type==='build' || it.type==='ai-build';
   const myAlts = acceptedAltsFor(exState.currentCorrect);
-  const correct = myAlts.includes(normalizeLenient(given)) || candidates.some(c => norm(given) === norm(c)
+  let correct = myAlts.includes(normalizeLenient(given)) || candidates.some(c => norm(given) === norm(c)
     || (canDrop && genderNeutral(dropSubjectPronoun(given)) === genderNeutral(dropSubjectPronoun(c)) && !pronMismatch(given, c))
     || (canDrop && !pronMismatch(given, c) && (lenient ? canonEs(dropSubjectPronoun(given)) === canonEs(dropSubjectPronoun(c)) : dropSubjectPronoun(given) === dropSubjectPronoun(c)))
     || (canDrop && dropNorm(given) === dropNorm(c) && dropNorm(c).indexOf(' ')>-1 && !(SUBJ_PRON_RE.test(normalize(given)) && SUBJ_PRON_RE.test(normalize(c)))));
   let typo = false;
-  exState.lastTip = '';
+  exState.lastTip = ''; exState.lastTitle = '';
+  // Goed, maar accenten of ¿/¡ vergeten -> oranje (telt wel als goed)
+  if(correct && TYPO_TYPES.includes(it.type)){
+    const strict = s => String(s).toLowerCase().replace(/\.{2,}|…/g,' ').replace(/[?!.,;:"«»]/g,'').replace(/\s+/g,' ').trim();
+    const noMarks = s => strict(s).replace(/[¿¡]/g,'').replace(/\s+/g,' ').trim();
+    const looseHits = [exState.currentCorrect, ...(it.alts||[]), ...(NO_ALT_TYPES.includes(it.type) ? [] : (EXTRA_ALTS[normalizeLenient(exState.currentCorrect)] || []))].flatMap(answerVariants).filter(cnd => normalizeLenient(given) === normalizeLenient(cnd)); // alleen echte antwoorden (gegenereerde varianten missen ¿/¡)
+    if(looseHits.length && !looseHits.some(cnd => strict(given) === strict(cnd))){
+      const accentMiss = !looseHits.some(cnd => noMarks(given) === noMarks(cnd));
+      const markMiss = !looseHits.some(cnd => strict(given).replace(/[\u0300-\u036f]/g,'') === strict(cnd).normalize('NFD').replace(/[\u0300-\u036f]/g,'').normalize('NFC') || strict(given).normalize('NFD').replace(/[\u0300-\u036f]/g,'') === strict(cnd).normalize('NFD').replace(/[\u0300-\u036f]/g,''));
+      correct = false; typo = true;
+      exState.lastTitle = accentMiss && markMiss ? 'Bijna goed! Let op accenten en ¿ ¡ ✏️' : (accentMiss ? 'Bijna goed! Let op de accenten ✏️' : 'Bijna goed! Let op ¿ en ¡ ✏️');
+      if(markMiss) exState.lastTip = 'Spaanse vragen en uitroepen beginnen met <b>¿</b> of <b>¡</b>.';
+    }
+  }
   // Veelgemaakte fout: 'un/una' bij een beroep na ser ("Él es un cocinero") -> oranje met uitleg
   if(!correct && (TYPO_TYPES.includes(it.type) || it.type==='build')){
     const SER = ['soy','eres','es','somos','sois','son','era','eras','fue'];
@@ -13427,7 +13440,7 @@ function showFeedback(correct, it, typo){
   const isAI = it.type.indexOf('ai-')===0;
   const showTranslation = (isAI || it.type==='gap' || it.type==='dictation') && it.translation;
   bar.innerHTML = `
-    <div class="feedback-title">${correct ? '¡Correcto! 🎉' : (typo ? (exState.lastTip ? 'Bijna goed! Kleine grammaticatip 💡' : 'Bijna goed! Let op de spelling ✏️') : 'Niet helemaal')}</div>
+    <div class="feedback-title">${correct ? '¡Correcto! 🎉' : (typo ? (exState.lastTitle ? exState.lastTitle : exState.lastTip ? 'Bijna goed! Kleine grammaticatip 💡' : 'Bijna goed! Let op de spelling ✏️') : 'Niet helemaal')}</div>
     <div class="feedback-text">${correct ? '' : (typo ? `Telt als goed, maar zo is het: <b>${answerShown}</b>${exState.lastTip ? '<br>'+exState.lastTip : ''}` : `Juiste antwoord: <b>${answerShown}</b>`)} ${showTranslation ? '<br>'+it.translation : ''}</div>
     ${!correct && !typo && APPEAL_TYPES.includes(it.type) && String(exState.lastGiven||'').trim() ? `<button class="explain-link" style="margin-right:14px;" onclick="appealAnswer(this)">Mijn antwoord is ook goed</button>` : ''}<button class="explain-link" onclick="requestExplanation(this)">Leg uit</button>
     <div class="explain-box" style="display:none;" id="explain-box"></div>

@@ -1,0 +1,14 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.route(/workers\.dev|googleapis/,r=>r.abort());await p.goto('file:///home/claude/spaans-leren.html');await p.waitForTimeout(500);
+const r=await p.evaluate(()=>{const out=[];window.addToVault=()=>{};window.triggerMascotReaction=()=>{};
+ const t=(type,ans,given)=>{document.getElementById('exercise-body')||document.body.insertAdjacentHTML('beforeend','<div id="exercise-body"></div>');document.body.insertAdjacentHTML('beforeend','<input id="type-answer">');document.getElementById('type-answer').value=given;exState={items:[],index:0,correct:0,source:'x',currentItem:{type,es:ans,trans:'x'},currentCorrect:ans};checkAnswer();document.getElementById('type-answer').remove();const bar=[...document.querySelectorAll('.feedback-bar')].pop();out.push([type,given,bar.className.replace('feedback-bar ',''),bar.querySelector('.feedback-title').textContent]);bar.remove();};
+ t('type-sentence','¿Cómo estás?','¿Cómo estás?');
+ t('type-sentence','¿Cómo estás?','Cómo estás');
+ t('type-sentence','¿Cómo estás?','¿Como estas?');
+ t('type-sentence','¿Cómo estás?','como estas');
+ t('type-sentence','Mi número es cuatro.','mi número es cuatro');
+ t('type-sentence','Mi número es cuatro.','mi numero es cuatro');
+ t('dictation','¡Qué bonito!','Qué bonito');
+ t('type','el árbol','el arbol');
+ t('type-sentence','Había mucha gente en la plaza.','Había poca gente en la plaza');
+ return out;});console.log(r.map(x=>x.join(' | ')).join('\n'),errs);await b.close();})();
