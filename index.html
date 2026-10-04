@@ -433,7 +433,7 @@
       <div style="width:38px;"></div>
     </div>
     <div class="content">
-      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 4 okt &middot; v22</div>
+      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 4 okt &middot; v24</div>
       <div class="card">
         <div class="setting-row">
           <div><div class="setting-label">Basistaal</div><div class="setting-sub">Taal van vertalingen &amp; uitleg</div></div>
@@ -766,59 +766,45 @@ function apiEndpoint(){
    blijft gewoon de ingebakken data staan. */
 let CONTENT_SOURCE = 'ingebakken';
 async function loadRemoteContent(){
-  if(!AI_CONFIG.PROXY_URL) return;
+  // Verbeteringen (patches) uit de database: een les die daar staat vervangt de woorden/zinnen
+  // van de ingebouwde les met hetzelfde id. Draait op de achtergrond; zonder internet blijft alles ingebouwd.
+  if(!AI_CONFIG.PROXY_URL) return 0;
   const base = AI_CONFIG.PROXY_URL.replace(/\/$/, '');
   const withTimeout = (p, ms) => Promise.race([p, new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')), ms))]);
-  let mergedUnits = 0;
+  let patched = 0;
   try{
     await withTimeout(Promise.all(['A1','A2','B1','B2','C1','C2'].map(async level=>{
-      const unitsRes = await fetch(`${base}/api/units?level=${level}`);
+      const unitsRes = await fetch(`${base}/api/units?level=${level}`, { cache:'no-store' });
       if(!unitsRes.ok) return;
       const { units } = await unitsRes.json();
-      const wordUnits = (units||[]).filter(u=>!u.is_ai);
-      if(!wordUnits.length) return;
-      const lessonSets = await Promise.all(wordUnits.map(u=>
-        fetch(`${base}/api/lessons?unit_id=${encodeURIComponent(u.id)}`).then(r=>r.ok?r.json():{lessons:[]}).catch(()=>({lessons:[]}))
+      const dbUnits = (units||[]).filter(u=>!u.is_ai);
+      if(!dbUnits.length) return;
+      const lessonSets = await Promise.all(dbUnits.map(u=>
+        fetch(`${base}/api/lessons?unit_id=${encodeURIComponent(u.id)}`, { cache:'no-store' }).then(r=>r.ok?r.json():{lessons:[]}).catch(()=>({lessons:[]}))
       ));
-      if(!CURRICULUM[level]) CURRICULUM[level] = [];
-      const local = CURRICULUM[level];
-      wordUnits.forEach((u,ui)=>{
-        const dbLessons = lessonSets[ui].lessons || [];
-        let unit = local.find(x=>x.id===u.id);
-        if(!unit){
-          unit = { id:u.id, fase:'Database', lessons:[] };
-          local.splice(Math.min(u.idx ?? local.length, local.length), 0, unit);
-        }
-        if(u.icon) unit.icon = u.icon;
-        if(u.color1 && u.color2) unit.colors = [u.color1, u.color2];
-        if(u.title_nl) unit.title = { nl:u.title_nl, en:u.title_en || u.title_nl };
-        dbLessons.forEach((l,li)=>{
-          const words = Array.isArray(l.words) ? l.words : [];
-          let sents = Array.isArray(l.sentence) ? l.sentence : [];
-          if(sents.length && !Array.isArray(sents[0])) sents = [sents];
-          let lesson = unit.lessons.find(x=>x.id===l.id);
-          let fromDb = false;
-          if(!lesson){
-            lesson = { id:l.id, kind: (l.idx ?? li) < 4 ? 'new' : 'review' };
-            unit.lessons.push(lesson);
-            fromDb = true;
-          }
-          // Database mag alleen AANVULLEN, nooit een les kleiner maken:
-          // alleen overschrijven als de database minstens evenveel woorden/zinnen heeft als de ingebakken versie.
-          const localWords = (lesson.words||[]).length;
-          const localSents = (lesson.sentences||[]).length + (lesson.sentence ? 1 : 0);
-          if(words.length && words.length >= localWords) lesson.words = words;
-          if(sents.length && sents.length >= localSents){ lesson.sentences = sents; delete lesson.sentence; }
-          if(fromDb && (words.length || sents.length) && u.title_nl && lesson.kind==='new') lesson.topic = u.title_nl;
+      dbUnits.forEach((u,ui)=>{
+        const unit = (CURRICULUM[level]||[]).find(x=>x.id===u.id);
+        if(!unit) return; // alleen bestaande units verbeteren
+        (lessonSets[ui].lessons||[]).forEach(l=>{
+          const lesson = unit.lessons.find(x=>x.id===l.id);
+          if(!lesson) return;
+          let words = l.words ?? l.words_json, sents = l.sentence ?? l.sentences ?? l.sentence_json;
+          if(typeof words === 'string'){ try{ words = JSON.parse(words); }catch(e){ words = null; } }
+          if(typeof sents === 'string'){ try{ sents = JSON.parse(sents); }catch(e){ sents = null; } }
+          if(Array.isArray(words) && words.length) lesson.words = words;
+          if(Array.isArray(sents) && sents.length){ if(!Array.isArray(sents[0])) sents = [sents]; lesson.sentences = sents; delete lesson.sentence; }
+          patched++;
         });
-        mergedUnits++;
+        delete unit._nodeGroupsCache; delete unit.nodeGroups;
       });
     })), 8000);
-    if(mergedUnits){ CONTENT_SOURCE = `database (${mergedUnits} units)`; }
-    console.log('Content-bron:', CONTENT_SOURCE);
-  }catch(err){
-    console.error('Kon content niet uit database laden, ingebakken data blijft staan:', err);
+  }catch(err){ console.warn('Verbeteringen uit database niet geladen, ingebouwde tekst blijft:', err); }
+  if(patched){
+    CONTENT_SOURCE = `ingebouwd + ${patched} verbeterde lessen`;
+    KNOWN_FORMS = null; GENDER_FLEX = null;
+    if(typeof currentScreen!=='undefined' && currentScreen==='lessons') renderLessons();
   }
+  return patched;
 }
 let sampleCap; // undefined = nog niet gecheckt, null = niet beschikbaar, functie = beschikbaar
 async function getSampleCap(){
@@ -13362,7 +13348,18 @@ function checkAnswer(){
     || (canDrop && !pronMismatch(given, c) && (lenient ? canonEs(dropSubjectPronoun(given)) === canonEs(dropSubjectPronoun(c)) : dropSubjectPronoun(given) === dropSubjectPronoun(c)))
     || (canDrop && dropNorm(given) === dropNorm(c) && dropNorm(c).indexOf(' ')>-1 && !(SUBJ_PRON_RE.test(normalize(given)) && SUBJ_PRON_RE.test(normalize(c)))));
   let typo = false;
-  if(!correct && TYPO_TYPES.includes(it.type)){
+  exState.lastTip = '';
+  // Veelgemaakte fout: 'un/una' bij een beroep na ser ("Él es un cocinero") -> oranje met uitleg
+  if(!correct && (TYPO_TYPES.includes(it.type) || it.type==='build')){
+    const SER = ['soy','eres','es','somos','sois','son','era','eras','fue'];
+    const g = normalizeLenient(given).split(' ');
+    const stripped = g.filter((w,i)=> !((w==='un'||w==='una') && SER.includes(g[i-1]))).join(' ');
+    if(stripped !== g.join(' ') && [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants).some(cnd=> genderNeutral(dropSubjectPronoun(stripped)) === genderNeutral(dropSubjectPronoun(cnd)))){
+      typo = true;
+      exState.lastTip = 'Bij een beroep na <i>ser</i> laat je <i>un/una</i> weg: <i>Soy médico</i>, <i>Él es cocinero</i> (niet <i>es un cocinero</i>).';
+    }
+  }
+  if(!correct && !typo && TYPO_TYPES.includes(it.type)){
     typo = [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants).some(cnd => isTypo(given, cnd));
   }
   if(correct || typo) exState.correct++;
@@ -13394,8 +13391,8 @@ function showFeedback(correct, it, typo){
   const isAI = it.type.indexOf('ai-')===0;
   const showTranslation = (isAI || it.type==='gap' || it.type==='dictation') && it.translation;
   bar.innerHTML = `
-    <div class="feedback-title">${correct ? '¡Correcto! 🎉' : (typo ? 'Bijna goed! Let op de spelling ✏️' : 'Niet helemaal')}</div>
-    <div class="feedback-text">${correct ? '' : (typo ? `Telt als goed, maar zo schrijf je het: <b>${answerShown}</b>` : `Juiste antwoord: <b>${answerShown}</b>`)} ${showTranslation ? '<br>'+it.translation : ''}</div>
+    <div class="feedback-title">${correct ? '¡Correcto! 🎉' : (typo ? (exState.lastTip ? 'Bijna goed! Kleine grammaticatip 💡' : 'Bijna goed! Let op de spelling ✏️') : 'Niet helemaal')}</div>
+    <div class="feedback-text">${correct ? '' : (typo ? `Telt als goed, maar zo is het: <b>${answerShown}</b>${exState.lastTip ? '<br>'+exState.lastTip : ''}` : `Juiste antwoord: <b>${answerShown}</b>`)} ${showTranslation ? '<br>'+it.translation : ''}</div>
     ${!correct && !typo && APPEAL_TYPES.includes(it.type) && String(exState.lastGiven||'').trim() ? `<button class="explain-link" style="margin-right:14px;" onclick="appealAnswer(this)">Mijn antwoord is ook goed</button>` : ''}<button class="explain-link" onclick="requestExplanation(this)">Leg uit</button>
     <div class="explain-box" style="display:none;" id="explain-box"></div>
     <button class="btn" style="margin-top:10px;" onclick="nextExercise()">Doorgaan</button>
@@ -14145,7 +14142,7 @@ async function init(){
   try{ if('serviceWorker' in navigator && location.protocol==='https:' && !/claude\.ai|claudeusercontent/.test(location.hostname)) navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{try{r.update();}catch(e){}}).catch(()=>{}); }catch(e){}
   // Database is opnieuw gevuld (A1, A2, B1-unit 1): content samenvoegen met ingebakken data.
   // Lesinhoud komt nu volledig uit de app zelf; de (oude) database-kopie overschreef verbeteringen.
-  // await loadRemoteContent();
+  loadRemoteContent(); // op de achtergrond: verbeteringen uit de database
   const srcEl = document.getElementById('content-source');
   if(srcEl) srcEl.textContent = CONTENT_SOURCE;
   if(appState.profile.onboarded){
