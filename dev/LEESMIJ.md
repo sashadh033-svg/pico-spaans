@@ -7,5 +7,5 @@
 - Keuze presente/estar+gerundio (pool pres_prog, trainer in a1-u17p, bijgemengd in 🏋️ van latere units): dev/add_pres_prog_choice.py
 - Extra bij a1-u17p (🏋️ tijd progresivo + gerundio(), 📖 gids, herhaling in latere lessen): dev/add_progresivo_extras.py
 - Nieuwe A1-unit a1-u17p (estar + gerundio): dev/add_a1_progresivo.py. Units met addedLater:true blokkeren voortgang niet voor wie er al voorbij is (skippableLater).
-- A1/A2-grammatica-uitleg vóór bolletjes: dev/a1_intros.py en dev/a2_intros.py (teksten aanpassen en opnieuw draaien voegt alleen ontbrekende toe).
+- Grammatica-uitleg vóór bolletjes: dev/a1_intros.py, dev/a2_intros.py en dev/b1b2_intros.py (B1/B2: gaten in thema-units, o.a. pluscuamperfecto, -ra-vorm in B1, creo que/no creo que) (teksten aanpassen en opnieuw draaien voegt alleen ontbrekende toe).
 - Verhaaltje a1-u17p (Ana kookt, Carlos werkt; alleen presente + estar + gerundio): dev/add_a1u17p_story.py
