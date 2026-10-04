@@ -179,7 +179,7 @@ INTROS = {
     'Deelwoord: <b>-ar → -ado</b> (<i>hablado</i>), <b>-er/-ir → -ido</b> (<i>comido, vivido</i>). <i>Ya <b>he comido</b>.</i> — Ik heb al gegeten.'),
 'a1-u23-l2': card('Onregelmatige deelwoorden',
     'Deze moet je uit je hoofd leren:',
-    ex('<i>hacer → hecho</i>', '<i>ver → visto</i>', '<i>decir → dicho</i>', '<i>escribir → escrito</i>', '<i>poner → puesto</i>', '<i>volver → vuelto</i>', '<i>abrir → abierto</i>', '<i>romper → roto</i>'),
+    ex('<i>hacer → hecho</i> — doen/maken', '<i>ver → visto</i> — zien', '<i>decir → dicho</i> — zeggen', '<i>escribir → escrito</i> — schrijven', '<i>poner → puesto</i> — zetten/leggen', '<i>volver → vuelto</i> — terugkomen', '<i>abrir → abierto</i> — openen', '<i>romper → roto</i> — breken'),
     '<i>Ir</i> is gewoon regelmatig: <i>he ido</i>.'),
 }
 
