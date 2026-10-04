@@ -349,6 +349,8 @@
     </div>
     <div class="content">
       <button class="btn leaf" id="vault-review-btn" onclick="startVaultReview()" style="margin-bottom:14px;">Herhalen starten (<span id="vault-due-count">0</span>)</button>
+      <button class="btn" id="vault-verb-btn" onclick="startVerbMix()" style="margin-bottom:6px; background:#ce82ff; border-color:#a568cc; box-shadow:0 4px 0 #a568cc;">🏋️ Werkwoorden oefenen</button>
+      <div class="muted" id="vault-verb-info" style="font-size:13px; margin:0 0 14px; text-align:center;"></div>
       <h2 class="section-title">Alle woorden</h2>
       <div id="vault-list"></div>
     </div>
@@ -13579,13 +13581,42 @@ function startVerbPractice(unitId){
   go('exercise');
   renderVerbPracticeItem();
 }
+// Werkwoorden-mix (Kluis): alle 🏋️-oefeningen van de units tot waar je nu in de cursus bent
+function reachedVerbUnits(){
+  const cur = appState.profile.level, ci = LEVELS.indexOf(cur), out = [];
+  LEVELS.forEach((L,li)=>{
+    if(li > ci) return;
+    const units = unitsForLevel(L);
+    if(li < ci){ units.forEach(u=>{ if(VERB_PRACTICE[u.id]) out.push(u.id); }); return; }
+    const ns = flattenPath(L);
+    const fi = ns.findIndex((n,i)=> !progressKeyDone(L, n.lesson.id) && !skippableLater(L, ns, i));
+    const lastIdx = fi === -1 ? units.length-1 : units.indexOf(ns[fi].unit);
+    const started = fi !== -1 && ns.some(n=> n.unit === ns[fi].unit && progressKeyDone(L, n.lesson.id));
+    units.forEach((u,i)=>{ if(VERB_PRACTICE[u.id] && (i < lastIdx || (i === lastIdx && (fi === -1 || started)))) out.push(u.id); });
+  });
+  return out;
+}
+function startVerbMix(){
+  const pool = reachedVerbUnits();
+  verbPracticeState = { unitId:'__mix__', pool, count:0, correct:0 };
+  go('exercise');
+  if(!pool.length){
+    document.getElementById('exercise-body').innerHTML = `<div class="empty-state"><div class="e-icon">🏋️</div>Je hebt nog geen werkwoorden geleerd. Maak eerst een paar units af!<br><br><button class="btn secondary" onclick="go('vault')">Terug naar kluis</button></div>`;
+    return;
+  }
+  renderVerbPracticeItem();
+}
 function renderVerbPracticeItem(){
-  const item = buildVerbPracticeItem(verbPracticeState.unitId);
+  let item = null, uid = verbPracticeState.unitId;
+  for(let t=0; t<8 && !item; t++){
+    if(verbPracticeState.pool) uid = verbPracticeState.pool[Math.floor(Math.random()*verbPracticeState.pool.length)];
+    item = buildVerbPracticeItem(uid);
+  }
   if(!item){
     document.getElementById('exercise-body').innerHTML = `<div class="empty-state"><div class="e-icon">🏋️</div>Nog geen oefenstof voor deze unit.<br><br><button class="btn secondary" onclick="go('lessons')">Terug</button></div>`;
     return;
   }
-  exState = { items:[item], index:0, correct:0, level:appState.profile.level, lessonId:null, unitId:verbPracticeState.unitId, source:'verbPractice' };
+  exState = { items:[item], index:0, correct:0, level:appState.profile.level, lessonId:null, unitId:uid, source:'verbPractice' };
   renderExercise();
 }
 let wordPracticeState = null;
@@ -13849,6 +13880,8 @@ function renderVault(){
   const due = dueCards();
   document.getElementById('vault-due-count').textContent = due.length;
   document.getElementById('vault-review-btn').disabled = due.length===0;
+  const vu = reachedVerbUnits();
+  document.getElementById('vault-verb-info').textContent = vu.length ? 'Mix uit ' + vu.length + ' units, tot waar je nu bent' : 'Komt vrij zodra je je eerste werkwoorden hebt geleerd';
   const list = document.getElementById('vault-list');
   if(vault.length===0){
     list.innerHTML = `<div class="empty-state"><div class="e-icon">🗂️</div>Nog geen woorden. Voeg er handmatig een toe of maak fouten tijdens het oefenen — dat werkt ook!</div>`;
