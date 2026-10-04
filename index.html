@@ -433,7 +433,7 @@
       <div style="width:38px;"></div>
     </div>
     <div class="content">
-      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 4 okt &middot; v24</div>
+      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 4 okt &middot; v25</div>
       <div class="card">
         <div class="setting-row">
           <div><div class="setting-label">Basistaal</div><div class="setting-sub">Taal van vertalingen &amp; uitleg</div></div>
@@ -13223,6 +13223,39 @@ function genderNeutral(s){
   const t = normalizeLenient(s).split(' ');
   return t.map((w,i)=>{ if(gf[w]) return gf[w]; if(ART[w] && gf[t[i+1]]) return ART[w]; return w; }).join(' ');
 }
+// Engels "you" kan tú, usted, vosotros of ustedes zijn: bij een Engelse prompt met "you" tellen alle vier de vormen.
+let VERB_FORM_MAP = null;
+function verbFormMap(){
+  if(VERB_FORM_MAP) return VERB_FORM_MAP;
+  const m = {}; const infs = new Set(['ser','estar','tener','ir','hacer','poder','querer','saber','vivir','trabajar','hablar','comer']);
+  Object.keys(CURRICULUM).forEach(L=> (CURRICULUM[L]||[]).forEach(u=> (u.lessons||[]).forEach(l=> (l.words||[]).forEach(w=>{
+    answerVariants(w[0]).forEach(v=>{ const t = v.toLowerCase().trim(); if(/^[a-záéíóúñ]+(ar|er|ir|ír)(se)?$/.test(t)) infs.add(t.replace(/se$/,'')); });
+  }))));
+  ['presente','preterito','imperfecto','futuro','condicional','subjuntivo'].forEach(T=> infs.forEach(inf=>{
+    let f; try{ f = conjugate(inf,T); }catch(e){ f = null; }
+    if(!f) return;
+    [1,2,4,5].forEach(i=>{ const x = String(f[i]||'').toLowerCase(); if(x && !x.includes(' ') && !m[x]) m[x] = { inf, T, i }; });
+  }));
+  return (VERB_FORM_MAP = m);
+}
+function youVariants(ans){
+  const vm = verbFormMap();
+  const toks = normalize(ans).split(' ');
+  if(!toks.some(t=> vm[t])) return [];
+  const PR = {1:'tú',2:'usted',4:'vosotros',5:'ustedes'};
+  const out = [];
+  [1,2,4,5].forEach(p=>{
+    const v = toks.map(t=>{
+      if(vm[t]){ const {inf,T} = vm[t]; let f; try{ f = conjugate(inf,T); }catch(e){} return f && f[p] ? String(f[p]).toLowerCase() : t; }
+      if(['tú','usted','vosotros','vosotras','ustedes'].includes(t)) return PR[p];
+      if(t==='os' && p===1) return 'te';
+      if(t==='te' && p===4) return 'os';
+      return t;
+    }).join(' ');
+    if(v !== toks.join(' ')) out.push(v);
+  });
+  return out;
+}
 const PRON_LIST = ['yo','tú','él','ella','usted','nosotros','nosotras','vosotros','vosotras','ellos','ellas','ustedes'];
 // twee verschillende onderwerpen (ellos vs ellas) mogen niet als 'weggelaten' goedgerekend worden
 function pronMismatch(a,b){
@@ -13232,7 +13265,7 @@ function pronMismatch(a,b){
   return (s1 && s2 && s1!==s2) || (e1 && e2 && e1!==e2);
 }
 function dropSubjectPronoun(s){
-  let t = normalize(s).replace(SUBJ_PRON_RE,'');
+  let t = normalize(s).replace(SUBJ_PRON_RE,'').split(' ').filter(w=> w!=='usted' && w!=='ustedes').join(' '); // usted/ustedes mag overal weg
   const m = t.match(/\s(yo|tú|él|ella|usted|nosotros|nosotras|vosotros|vosotras|ellos|ellas|ustedes)$/);
   if(m){ const words = t.split(' '); const prev = words[words.length-2]; if(words.length >= 3 && !['y','a','de','con','para','por','que','sin','e','o','como','entre'].includes(prev)) t = words.slice(0,-1).join(' '); }
   return t;
@@ -13338,7 +13371,10 @@ function checkAnswer(){
   else { given = typeInp.value; }
   const lenient = LENIENT_TYPES.includes(it.type);
   const norm = lenient ? normalizeLenient : normalize;
-  const extra = NO_ALT_TYPES.includes(it.type) ? [] : (EXTRA_ALTS[normalizeLenient(exState.currentCorrect)] || []);
+  let extra = NO_ALT_TYPES.includes(it.type) ? [] : (EXTRA_ALTS[normalizeLenient(exState.currentCorrect)] || []);
+  if(appState.profile.baseLang==='en' && /\byou(r|rs)?\b/i.test(it.trans||'') && ['type-sentence','build','dictation-no','type','ai-freewrite'].includes(it.type) && it.dir!=='es-to-trans'){
+    extra = extra.concat([exState.currentCorrect, ...(it.alts||[])].flatMap(youVariants));
+  }
   const candidates = [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants);
   const dropNorm = s => lenient ? dropSubjectPronoun(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'') : dropSubjectPronoun(s);
   const canDrop = lenient || it.type==='type' || it.type==='build' || it.type==='ai-build';
