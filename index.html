@@ -433,7 +433,7 @@
       <div style="width:38px;"></div>
     </div>
     <div class="content">
-      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 4 okt &middot; v21</div>
+      <div class="muted" style="text-align:center;font-size:12px;margin-bottom:8px;">App-versie 4 okt &middot; v22</div>
       <div class="card">
         <div class="setting-row">
           <div><div class="setting-label">Basistaal</div><div class="setting-sub">Taal van vertalingen &amp; uitleg</div></div>
@@ -13216,6 +13216,27 @@ function normalizeLenient(s){ return normalize(s).normalize('NFD').replace(/[\u0
 const SUBJ_PRON_RE = /^(yo|tú|él|ella|usted|nosotros|nosotras|vosotros|vosotras|ellos|ellas|ustedes)\s+(?=\S)/;
 // ook een los onderwerp aan het EIND mag weg/erbij: "¿A qué te dedicas (tú)?" — maar niet na y/a/de/con/para/por/que ("¿y tú?")
 const SUBJ_PRON_END_RE = /(^|\s)(?!(?:y|a|de|con|para|por|que|sin|e|o)\s)(\S+)\s+(yo|tú|él|ella|usted|nosotros|nosotras|vosotros|vosotras|ellos|ellas|ustedes)$/;
+// Woorden die in de woordenlijst als man/vrouw-paar staan (médico/a, profesor/a, alto/a): bij een
+// sekse-neutrale prompt ("I am a doctor") is zowel médico als médica goed -> beide naar dezelfde vorm.
+let GENDER_FLEX = null;
+function genderFlex(){
+  if(GENDER_FLEX) return GENDER_FLEX;
+  const m = {};
+  Object.keys(CURRICULUM).forEach(L=> (CURRICULUM[L]||[]).forEach(u=> (u.lessons||[]).forEach(l=> (l.words||[]).forEach(w=>{
+    if(!/\/(a|as|la|una)\b/.test(w[0])) return;
+    if(/\/|brother|sister|son\b|daughter|uncle|aunt|boy|girl|\bman\b|woman|father|mother|husband|wife|grand|nephew|niece|king|queen|bride|groom/i.test(w[2]||'')) return; // echte man/vrouw-betekenis: niet uitwisselbaar
+    const vs = answerVariants(w[0]).map(v=>normalizeLenient(v).split(' ')).filter(t=>t.length);
+    const lastToks = [...new Set(vs.map(t=>t[t.length-1]))];
+    if(lastToks.length > 1 && lastToks.length <= 4){ const base = lastToks[0]; lastToks.forEach(t=>{ m[t] = base; }); }
+  }))));
+  ['nosotros','nosotras'].forEach(t=> m[t]='nosotros'); ['vosotros','vosotras'].forEach(t=> m[t]='vosotros');
+  return (GENDER_FLEX = m);
+}
+function genderNeutral(s){
+  const gf = genderFlex(); const ART = {la:'el', una:'un', las:'los', unas:'unos'};
+  const t = normalizeLenient(s).split(' ');
+  return t.map((w,i)=>{ if(gf[w]) return gf[w]; if(ART[w] && gf[t[i+1]]) return ART[w]; return w; }).join(' ');
+}
 const PRON_LIST = ['yo','tú','él','ella','usted','nosotros','nosotras','vosotros','vosotras','ellos','ellas','ustedes'];
 // twee verschillende onderwerpen (ellos vs ellas) mogen niet als 'weggelaten' goedgerekend worden
 function pronMismatch(a,b){
@@ -13337,6 +13358,7 @@ function checkAnswer(){
   const canDrop = lenient || it.type==='type' || it.type==='build' || it.type==='ai-build';
   const myAlts = acceptedAltsFor(exState.currentCorrect);
   const correct = myAlts.includes(normalizeLenient(given)) || candidates.some(c => norm(given) === norm(c)
+    || (canDrop && genderNeutral(dropSubjectPronoun(given)) === genderNeutral(dropSubjectPronoun(c)) && !pronMismatch(given, c))
     || (canDrop && !pronMismatch(given, c) && (lenient ? canonEs(dropSubjectPronoun(given)) === canonEs(dropSubjectPronoun(c)) : dropSubjectPronoun(given) === dropSubjectPronoun(c)))
     || (canDrop && dropNorm(given) === dropNorm(c) && dropNorm(c).indexOf(' ')>-1 && !(SUBJ_PRON_RE.test(normalize(given)) && SUBJ_PRON_RE.test(normalize(c)))));
   let typo = false;
