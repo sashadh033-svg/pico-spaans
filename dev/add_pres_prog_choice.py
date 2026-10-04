@@ -61,7 +61,7 @@ NEW_GUIDE_CARD = ('<h2 class="section-title" style="margin-top:0;">Wanneer gebru
  'Spaans gebruikt het dus veel minder dan Engels. Twijfel je, kies dan de presente: die is bijna nooit fout.</div>')
 
 # Recurrence: keuze-oefening wordt bijgemengd in de 🏋️-oefening van latere units
-MIX_UNITS = ['a1-u17p','a1-u18','a1-u19','a1-u20','a1-u21','a1-u22','a1-u23','a2-u2','a2-u3','a2-u4','a2-u6','a2-u15','a2-u26']
+MIX_UNITS = ['a1-u17p','a1-u18','a1-u19','a1-u20','a1-u21','a2-u2','a2-u3','a2-u4','a2-u6','a2-u15','a2-u26']
 
 def rep(c, old, new):
     assert c.count(old) == 1, old[:80]

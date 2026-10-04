@@ -4004,7 +4004,7 @@ function startTrainer(level, unitId){
   renderExercise();
 }
 // estar + gerundio blijft terugkomen: keuze presente/progresivo bijmengen in de werkwoordoefening van latere units
-["a1-u17p", "a1-u18", "a1-u19", "a1-u20", "a1-u21", "a1-u22", "a1-u23", "a2-u2", "a2-u3", "a2-u4", "a2-u6", "a2-u15", "a2-u26"].forEach(id=>{ const v = VERB_PRACTICE[id]; if(!v || v.mode==='keuze' || v.mode==='pronombres') return;
+["a1-u17p", "a1-u18", "a1-u19", "a1-u20", "a1-u21", "a2-u2", "a2-u3", "a2-u4", "a2-u6", "a2-u15", "a2-u26"].forEach(id=>{ const v = VERB_PRACTICE[id]; if(!v || v.mode==='keuze' || v.mode==='pronombres') return;
   v.mix = v.mix ? { pools:[...v.mix.pools, 'pres_prog'], rate: v.mix.rate } : { pools:['pres_prog'], rate: id==='a1-u17p' ? 0.4 : 0.25 }; });
 function buildVerbPracticeItem(unitId){
   const config = VERB_PRACTICE[unitId];
