@@ -11,7 +11,9 @@ def _lesson_span(c, lid):
     i = c.find(key)
     assert i >= 0, 'les niet gevonden: ' + lid
     assert c.find(key, i + 1) < 0, 'les dubbel: ' + lid
-    return i, c.index('\n', i)
+    # tot aan de volgende les of unit (sommige lessen staan over meerdere regels)
+    j = c.find("{ id:'", i + 1)
+    return i, (j if j > 0 else c.index('\n', i))
 
 def _array_end(s, start):
     # einde van een JSON-array die op s[start] == '[' begint (houdt rekening met strings en geneste arrays)
