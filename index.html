@@ -12094,6 +12094,18 @@ const BUBBLE_SIZE = 8; // ~8 woorden + ~8 zinnen per leerbolletje -> Ronde A en 
 // NADAT alle woorden die hij gebruikt zijn aangeleerd.
 const WORD_STOP = new Set(['el','la','los','las','un','una','unos','unas','de','del','al','a','y','en','que','se','me','te','lo','le']);
 function esTokens(s){ return String(s).toLowerCase().replace(/[¿?¡!.,;:"«»()…—–]/g,' ').split(/\s+/).filter(Boolean); }
+// Alle losse vormen van een werkwoord die in een zin kunnen staan: presente, indefinido, imperfecto,
+// voltooid deelwoord (he quedado) en gerundio (estoy leyendo). Zo komt een zin met 'me he quedado dormido'
+// pas ná het bolletje met 'quedarse dormido'.
+function verbFormTokens(inf){
+  if(!verbFormTokens.cache) verbFormTokens.cache = {};
+  if(verbFormTokens.cache[inf]) return verbFormTokens.cache[inf];
+  const out = new Set();
+  ['presente','preterito','imperfecto'].forEach(T=>{ try{ (conjugate(inf,T)||[]).forEach(f=>{ if(f) esTokens(f).forEach(x=>out.add(x)); }); }catch(e){} });
+  try{ const p = participle(inf); [p, p.replace(/o$/,'a'), p+'s', p.replace(/o$/,'as')].forEach(x=>out.add(x)); }catch(e){}
+  try{ esTokens(gerundio(inf)).forEach(x=>out.add(x)); }catch(e){}
+  return (verbFormTokens.cache[inf] = [...out]);
+}
 function wordKeys(es){
   if(!wordKeys.cache) wordKeys.cache = {};
   if(wordKeys.cache[es]) return wordKeys.cache[es];
@@ -12106,7 +12118,7 @@ function wordKeys(es){
     ts.forEach(t=>{
       [t, t+'s', t+'es', t.replace(/o$/,'a'), t.replace(/a$/,'o'), t.replace(/os$/,'as'), t.replace(/as$/,'os'), t.replace(/z$/,'ces')].forEach(x=>keys.add(x));
       const m = t.match(/^(.*?)(ar|er|ir|ír)(se)?$/);
-      if(m && t.length>3){ const inf = m[3] ? t.slice(0,-2) : t; try{ (conjugate(inf,'presente')||[]).forEach(f=>esTokens(f).forEach(x=>keys.add(x))); }catch(e){} }
+      if(m && t.length>3){ const inf = m[3] ? t.slice(0,-2) : t; verbFormTokens(inf).forEach(x=>keys.add(x)); }
     });
   });
   return (wordKeys.cache[es] = [...keys]);
@@ -12118,7 +12130,7 @@ function wordMatcher(es){
   if(wordMatcher.cache[es]) return wordMatcher.cache[es];
   const forms = t => { const s = new Set([t, t+'s', t+'es', t.replace(/o$/,'a'), t.replace(/a$/,'o'), t.replace(/os$/,'as'), t.replace(/as$/,'os'), t.replace(/z$/,'ces')]);
     const m = t.match(/^(.*?)(ar|er|ir|ír)(se)?$/);
-    if(m && t.length>3){ const inf = m[3] ? t.slice(0,-2) : t; try{ (conjugate(inf,'presente')||[]).forEach(f=>esTokens(f).forEach(x=>s.add(x))); }catch(e){} }
+    if(m && t.length>3){ const inf = m[3] ? t.slice(0,-2) : t; verbFormTokens(inf).forEach(x=>s.add(x)); }
     return s; };
   const variants = answerVariants(es).map(v=>{
     let ts = esTokens(v).filter(t=>t!=='/');
