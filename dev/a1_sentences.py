@@ -25,7 +25,7 @@ CHANGES = [
         ['Tengo las manos frías.', 'Ik heb koude handen.', 'My hands are cold.'],
         (DUBBEL, 'Deze zin stond al in unit 16.')),
     ('a1-u23-l1', 'Todavía no he comido.',
-        ['Todavía no he comido, voy a comer ahora.', 'Ik heb nog niet gegeten, ik ga nu eten.', "I haven't eaten yet, I'm going to eat now."],
+        ['Todavía no he comido, voy a comer ahora.', 'Ik heb nog niet gegeten, ik ga nu eten.', "I haven't eaten yet, I'm going to eat now.", ['Aún no he comido, voy a comer ahora.', 'Todavía no he comido, ahora voy a comer.', 'Aún no he comido, ahora voy a comer.']],
         (HERHALING, 'Voltooide tijd + ir a (unit 22).')),
     ('a1-u23-l3', 'Nunca he estado en España.',
         ['Nunca he estado en España, pero voy a ir este verano.', 'Ik ben nog nooit in Spanje geweest, maar ik ga deze zomer.', "I've never been to Spain, but I'm going this summer."],
