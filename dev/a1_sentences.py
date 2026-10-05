@@ -33,6 +33,13 @@ CHANGES = [
     ('a1-u23-l4', 'Hemos comido ya.',
         ['Hemos preparado la cena y ahora vamos a comer.', 'We hebben het avondeten klaargemaakt en nu gaan we eten.', "We've made dinner and now we're going to eat."],
         (HERHALING, 'Voltooide tijd + ir a (unit 22).')),
+    # Engelse vertaling in de voltooide tijd, anders lokt "I called" uit dat je "he" weglaat
+    ('a1-u23-l1', 'Hace un rato he llamado a Ana.',
+        ['Hace un rato he llamado a Ana.', 'Ik heb Ana net gebeld.', "I've just called Ana.", ['He llamado a Ana hace un rato.']],
+        (HERHALING, 'Engels in de voltooide tijd.')),
+    ('a1-u23-l2', 'He vuelto a casa muy tarde.',
+        ['He vuelto a casa muy tarde.', 'Ik ben heel laat thuisgekomen.', "I've come home very late."],
+        (HERHALING, 'Engels in de voltooide tijd.')),
 ]
 
 # 'Nací en...' wordt in a1-u3 als woord geleerd: uitleggen dat het een vaste uitdrukking is.
