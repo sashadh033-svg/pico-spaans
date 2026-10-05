@@ -1,0 +1,4109 @@
+[
+ {
+  "es": "Mucho gusto",
+  "alts": [
+   "Encantado",
+   "Encantada"
+  ],
+  "why": "Zelfde vertaling als Encantado/a"
+ },
+ {
+  "es": "Encantado/a",
+  "alts": [
+   "Mucho gusto"
+  ],
+  "why": "Zelfde vertaling als Mucho gusto"
+ },
+ {
+  "es": "Regular",
+  "alts": [
+   "Así así",
+   "Más o menos"
+  ],
+  "why": "Synoniem voor gaat wel / so-so"
+ },
+ {
+  "es": "Más o menos",
+  "alts": [
+   "Así así",
+   "Regular"
+  ],
+  "why": "Synoniem voor zo-zo"
+ },
+ {
+  "es": "es",
+  "nl_new": "is (wie/wat iemand is)",
+  "en_new": "is (identity/trait)"
+ },
+ {
+  "es": "Soy",
+  "nl_new": "Ik ben (wie/wat)",
+  "en_new": "I am (identity/trait)"
+ },
+ {
+  "es": "son",
+  "nl_new": "zijn (wie/wat ze zijn)",
+  "en_new": "are (identity/trait)"
+ },
+ {
+  "es": "el chico",
+  "alts": [
+   "el niño"
+  ],
+  "why": "Zelfde vertaling the boy"
+ },
+ {
+  "es": "el niño",
+  "alts": [
+   "el chico"
+  ],
+  "why": "Zelfde vertaling the boy"
+ },
+ {
+  "es": "la chica",
+  "alts": [
+   "la niña"
+  ],
+  "why": "Zelfde vertaling the girl"
+ },
+ {
+  "es": "la niña",
+  "alts": [
+   "la chica"
+  ],
+  "why": "Zelfde vertaling the girl"
+ },
+ {
+  "es": "Holanda",
+  "alts": [
+   "los Países Bajos"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "los Países Bajos",
+  "alts": [
+   "Holanda"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "el sueldo",
+  "alts": [
+   "el salario"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el/la compañero/a",
+  "alts": [
+   "el/la colega"
+  ],
+  "why": "Synoniem voor collega"
+ },
+ {
+  "es": "trabajar en casa",
+  "alts": [
+   "teletrabajar"
+  ],
+  "why": "Synoniem voor thuiswerken"
+ },
+ {
+  "es": "el/la médico/a",
+  "alts": [
+   "el doctor",
+   "la doctora"
+  ],
+  "why": "Doctor is gangbaar voor dokter"
+ },
+ {
+  "es": "la escuela",
+  "alts": [
+   "el colegio"
+  ],
+  "why": "School kan ook colegio"
+ },
+ {
+  "es": "el empleo",
+  "alts": [
+   "el trabajo"
+  ],
+  "why": "Job/baan is ook trabajo"
+ },
+ {
+  "es": "cuidar (a)",
+  "alts": [
+   "cuidar de"
+  ],
+  "why": "cuidar de is even goed"
+ },
+ {
+  "es": "el marido",
+  "alts": [
+   "el esposo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "la esposa",
+  "alts": [
+   "la mujer"
+  ],
+  "why": "Mujer = vrouw/echtgenote"
+ },
+ {
+  "es": "el pariente",
+  "alts": [
+   "el familiar"
+  ],
+  "why": "Synoniem familielid"
+ },
+ {
+  "es": "el portátil",
+  "alts": [
+   "el ordenador portátil"
+  ],
+  "why": "Volledige vorm"
+ },
+ {
+  "es": "los auriculares",
+  "alts": [
+   "los cascos"
+  ],
+  "why": "Gangbaar in Spanje"
+ },
+ {
+  "es": "una cartera",
+  "alts": [
+   "un monedero"
+  ],
+  "why": "Zelfde vertaling portemonnee"
+ },
+ {
+  "es": "el monedero",
+  "alts": [
+   "la cartera"
+  ],
+  "why": "Zelfde vertaling portemonnee/wallet"
+ },
+ {
+  "es": "el/la dueño/a",
+  "alts": [
+   "el/la propietario/a"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el pájaro",
+  "alts": [
+   "el ave"
+  ],
+  "why": "Synoniem vogel"
+ },
+ {
+  "es": "un bocadillo",
+  "alts": [
+   "un sándwich"
+  ],
+  "why": "Sándwich is ook gangbaar"
+ },
+ {
+  "es": "una nevera",
+  "alts": [
+   "un frigorífico"
+  ],
+  "why": "Synoniem koelkast"
+ },
+ {
+  "es": "un bolso",
+  "alts": [
+   "una bolsa"
+  ],
+  "why": "Tas/bag kan ook bolsa"
+ },
+ {
+  "es": "la empresa",
+  "alts": [
+   "la compañía"
+  ],
+  "why": "Synoniem bedrijf"
+ },
+ {
+  "es": "allí",
+  "alts": [
+   "ahí",
+   "allá"
+  ],
+  "why": "Synoniemen voor daar"
+ },
+ {
+  "es": "¿En qué trabajas?",
+  "alts": [
+   "¿A qué te dedicas?"
+  ],
+  "why": "Gangbare variant"
+ },
+ {
+  "es": "el cuaderno",
+  "alts": [
+   "la libreta"
+  ],
+  "why": "Synoniem schrift/notebook"
+ },
+ {
+  "es": "inteligente",
+  "alts": [
+   "listo/a"
+  ],
+  "why": "Slim = listo"
+ },
+ {
+  "es": "guapo/a",
+  "alts": [
+   "bonito/a"
+  ],
+  "why": "Mooi/pretty"
+ },
+ {
+  "es": "gracioso/a",
+  "alts": [
+   "divertido/a"
+  ],
+  "why": "Zelfde vertaling grappig"
+ },
+ {
+  "es": "divertido/a",
+  "alts": [
+   "gracioso/a"
+  ],
+  "why": "Zelfde vertaling grappig"
+ },
+ {
+  "es": "perezoso/a",
+  "alts": [
+   "vago/a"
+  ],
+  "why": "Synoniem lui"
+ },
+ {
+  "es": "caluroso",
+  "en_new": "hot (weather)",
+  "nl_new": "heet / warm (weer)",
+  "why": "Verwarring met caliente"
+ },
+ {
+  "es": "caliente",
+  "en_new": "hot (to the touch, food)",
+  "nl_new": "warm / heet (voorwerp, eten)",
+  "why": "Verwarring met caluroso"
+ },
+ {
+  "es": "la lista de la compra",
+  "alts": [
+   "la lista de compras"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "la verdura",
+  "alts": [
+   "las verduras"
+  ],
+  "why": "En-vertaling is meervoud"
+ },
+ {
+  "es": "el banco",
+  "nl_new": "de bank (voor geld)",
+  "why": "Nl 'de bank' ook sofá"
+ },
+ {
+  "es": "el sofá",
+  "nl_new": "de bank (zitbank)",
+  "why": "Nl 'de bank' ook banco"
+ },
+ {
+  "es": "el aparcamiento",
+  "alts": [
+   "el parking"
+  ],
+  "why": "Gangbaar in Spanje"
+ },
+ {
+  "es": "todo recto",
+  "alts": [
+   "todo derecho",
+   "recto"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "girar",
+  "alts": [
+   "torcer",
+   "doblar"
+  ],
+  "why": "Synoniemen afslaan"
+ },
+ {
+  "es": "perdone",
+  "alts": [
+   "disculpe"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "cerca de",
+  "alts": [
+   "cerca"
+  ],
+  "why": "Nl dichtbij zonder van"
+ },
+ {
+  "es": "al lado de",
+  "alts": [
+   "junto a"
+  ],
+  "why": "Synoniem naast"
+ },
+ {
+  "es": "enfrente de",
+  "alts": [
+   "frente a"
+  ],
+  "why": "Synoniem tegenover"
+ },
+ {
+  "es": "la cafetería",
+  "alts": [
+   "el café"
+  ],
+  "why": "Café = cafetería"
+ },
+ {
+  "es": "caminar",
+  "alts": [
+   "andar"
+  ],
+  "why": "Synoniem lopen"
+ },
+ {
+  "es": "contento",
+  "alts": [
+   "feliz"
+  ],
+  "why": "Blij/happy"
+ },
+ {
+  "es": "rico/a",
+  "alts": [
+   "sabroso/a"
+  ],
+  "why": "Lekker"
+ },
+ {
+  "es": "estar enfermo",
+  "alts": [
+   "estar malo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el piso",
+  "alts": [
+   "el apartamento"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "el baño",
+  "alts": [
+   "el cuarto de baño"
+  ],
+  "why": "Volledige vorm"
+ },
+ {
+  "es": "la habitación",
+  "alts": [
+   "el cuarto"
+  ],
+  "why": "Synoniem kamer"
+ },
+ {
+  "es": "el salón",
+  "alts": [
+   "la sala de estar"
+  ],
+  "why": "Synoniem woonkamer"
+ },
+ {
+  "es": "el váter",
+  "alts": [
+   "el inodoro",
+   "el aseo"
+  ],
+  "why": "Synoniemen toilet"
+ },
+ {
+  "es": "ser",
+  "nl_new": "zijn (wie/wat iemand is)",
+  "en_new": "to be (identity/trait)"
+ },
+ {
+  "es": "el pelo",
+  "alts": [
+   "el cabello"
+  ],
+  "why": "Synoniem haar"
+ },
+ {
+  "es": "una pelota",
+  "alts": [
+   "un balón"
+  ],
+  "why": "Balón is ook bal"
+ },
+ {
+  "es": "la pausa",
+  "alts": [
+   "el descanso"
+  ],
+  "why": "Synoniem pauze/break"
+ },
+ {
+  "es": "empezar",
+  "alts": [
+   "comenzar"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "terminar",
+  "alts": [
+   "acabar",
+   "finalizar"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "volver",
+  "alts": [
+   "regresar"
+  ],
+  "why": "Synoniem terugkomen"
+ },
+ {
+  "es": "despacio",
+  "alts": [
+   "lentamente"
+  ],
+  "why": "Synoniem langzaam"
+ },
+ {
+  "es": "el fin de semana",
+  "alts": [
+   "el finde"
+  ],
+  "why": "Gangbare afkorting"
+ },
+ {
+  "es": "cada día",
+  "alts": [
+   "todos los días"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "cepillarse los dientes",
+  "alts": [
+   "lavarse los dientes"
+  ],
+  "why": "Gangbare variant"
+ },
+ {
+  "es": "quedarse en la cama",
+  "alts": [
+   "quedarse en cama"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "montar en bici",
+  "alts": [
+   "montar en bicicleta"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "ver la televisión",
+  "alts": [
+   "ver la tele"
+  ],
+  "why": "Gangbare afkorting"
+ },
+ {
+  "es": "el aficionado",
+  "alts": [
+   "el hincha",
+   "el fan"
+  ],
+  "why": "Synoniemen fan"
+ },
+ {
+  "es": "el balón",
+  "alts": [
+   "la pelota"
+  ],
+  "why": "Zelfde vertaling bal"
+ },
+ {
+  "es": "ahora mismo",
+  "alts": [
+   "en este momento"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "en este momento",
+  "alts": [
+   "ahora mismo"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "estar ocupado/a",
+  "alts": [
+   "estar liado/a"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "están viendo la tele",
+  "alts": [
+   "están viendo la televisión"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "el pantalón",
+  "alts": [
+   "los pantalones"
+  ],
+  "why": "En-vertaling is meervoud"
+ },
+ {
+  "es": "el jersey",
+  "alts": [
+   "el suéter"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "los vaqueros",
+  "alts": [
+   "los tejanos",
+   "los jeans"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "en efectivo",
+  "alts": [
+   "en metálico"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "gratis",
+  "alts": [
+   "gratuito"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "las zapatillas",
+  "alts": [
+   "las deportivas"
+  ],
+  "why": "Synoniem sneakers"
+ },
+ {
+  "es": "el menú",
+  "en_new": "the menu (set menu, fixed price)",
+  "nl_new": "het menu (vaste prijs)"
+ },
+ {
+  "es": "la carta",
+  "en_new": "the menu (à la carte)",
+  "why": "Verwarring met el menú"
+ },
+ {
+  "es": "el sitio",
+  "alts": [
+   "el lugar"
+  ],
+  "why": "Synoniem plek"
+ },
+ {
+  "es": "la tarta",
+  "alts": [
+   "el pastel"
+  ],
+  "why": "Synoniem taart/cake"
+ },
+ {
+  "es": "la vuelta",
+  "alts": [
+   "el cambio"
+  ],
+  "why": "Zelfde vertaling wisselgeld"
+ },
+ {
+  "es": "el recibo",
+  "alts": [
+   "el tique",
+   "el ticket"
+  ],
+  "why": "Synoniemen bon"
+ },
+ {
+  "es": "delicioso",
+  "alts": [
+   "rico",
+   "sabroso",
+   "exquisito"
+  ],
+  "why": "Synoniemen heerlijk"
+ },
+ {
+  "es": "la moto",
+  "alts": [
+   "la motocicleta"
+  ],
+  "why": "Volledige vorm"
+ },
+ {
+  "es": "de ida y vuelta",
+  "alts": [
+   "ida y vuelta"
+  ],
+  "why": "Variant retour"
+ },
+ {
+  "es": "el mapa",
+  "alts": [
+   "el plano"
+  ],
+  "why": "Plattegrond = plano"
+ },
+ {
+  "es": "aparcar",
+  "alts": [
+   "estacionar"
+  ],
+  "why": "Synoniem parkeren"
+ },
+ {
+  "es": "la medicina",
+  "alts": [
+   "el medicamento"
+  ],
+  "why": "Synoniem medicijn"
+ },
+ {
+  "es": "sentirse mal",
+  "alts": [
+   "encontrarse mal"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el resfriado",
+  "alts": [
+   "el catarro"
+  ],
+  "why": "Synoniem verkoudheid"
+ },
+ {
+  "es": "estar mejor",
+  "alts": [
+   "sentirse mejor",
+   "encontrarse mejor"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "sentirse",
+  "alts": [
+   "encontrarse"
+  ],
+  "why": "Synoniem zich voelen"
+ },
+ {
+  "es": "la semana que viene",
+  "alts": [
+   "la próxima semana"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el mes que viene",
+  "alts": [
+   "el próximo mes"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el año que viene",
+  "alts": [
+   "el próximo año",
+   "el año próximo"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "el próximo año",
+  "alts": [
+   "el año que viene"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el próximo lunes",
+  "alts": [
+   "el lunes que viene"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "algún día",
+  "nl_new": "ooit (ooit in de toekomst)",
+  "why": "Nl 'ooit' ook bij alguna vez"
+ },
+ {
+  "es": "alguna vez",
+  "nl_new": "ooit (ooit al eens)",
+  "why": "Nl 'ooit' ook bij algún día"
+ },
+ {
+  "es": "después",
+  "alts": [
+   "luego"
+  ],
+  "why": "Synoniem daarna"
+ },
+ {
+  "es": "luego",
+  "alts": [
+   "después"
+  ],
+  "why": "Synoniem daarna"
+ },
+ {
+  "es": "dentro de poco",
+  "alts": [
+   "en breve",
+   "próximamente"
+  ],
+  "why": "Synoniemen binnenkort"
+ },
+ {
+  "es": "pronto",
+  "alts": [
+   "dentro de poco",
+   "en breve"
+  ],
+  "why": "Binnenkort"
+ },
+ {
+  "es": "enseguida",
+  "alts": [
+   "en seguida",
+   "ahora mismo"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "el objetivo",
+  "alts": [
+   "la meta"
+  ],
+  "why": "Synoniem doel"
+ },
+ {
+  "es": "todavía no",
+  "alts": [
+   "aún no"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "todavía",
+  "alts": [
+   "aún"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "hoy mismo",
+  "en_new": "today (this very day)",
+  "why": "Hoy mismo is niet gewoon 'today'"
+ },
+ {
+  "es": "he ido",
+  "alts": [
+   "he estado"
+  ],
+  "why": "Nl 'ik ben geweest' past ook bij he estado"
+ },
+ {
+  "es": "nunca",
+  "alts": [
+   "jamás"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "muchas veces",
+  "alts": [
+   "a menudo"
+  ],
+  "why": "Synoniem vaak"
+ },
+ {
+  "es": "recientemente",
+  "alts": [
+   "hace poco"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "rápido",
+  "alts": [
+   "rápidamente"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "coger el autobús",
+  "alts": [
+   "tomar el autobús"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el pintalabios",
+  "alts": [
+   "la barra de labios"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "volver a casa",
+  "alts": [
+   "regresar a casa"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "preparar la cena",
+  "alts": [
+   "hacer la cena"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "fregar los platos",
+  "alts": [
+   "lavar los platos"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el episodio",
+  "alts": [
+   "el capítulo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "la almohada",
+  "nl_new": "het kussen (hoofdkussen)",
+  "why": "Kussen is ook cojín"
+ },
+ {
+  "es": "el cuadro",
+  "alts": [
+   "la pintura"
+  ],
+  "why": "Synoniem schilderij"
+ },
+ {
+  "es": "hacer fotos",
+  "alts": [
+   "sacar fotos"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el pasatiempo",
+  "alts": [
+   "la afición"
+  ],
+  "why": "Synoniem hobby"
+ },
+ {
+  "es": "la afición",
+  "alts": [
+   "el pasatiempo"
+  ],
+  "why": "Synoniem hobby"
+ },
+ {
+  "es": "proponer",
+  "alts": [
+   "sugerir"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "pasar a buscar",
+  "alts": [
+   "recoger"
+  ],
+  "why": "Synoniem ophalen"
+ },
+ {
+  "es": "posponer",
+  "alts": [
+   "aplazar"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "perdona",
+  "alts": [
+   "perdón",
+   "disculpa",
+   "lo siento"
+  ],
+  "why": "Synoniemen sorry"
+ },
+ {
+  "es": "olvidar",
+  "alts": [
+   "olvidarse de"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "con antelación",
+  "alts": [
+   "por adelantado",
+   "de antemano"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "el principio",
+  "alts": [
+   "el comienzo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el día festivo",
+  "alts": [
+   "el festivo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "la venda",
+  "alts": [
+   "el vendaje"
+  ],
+  "why": "Synoniem verband"
+ },
+ {
+  "es": "tomar café",
+  "alts": [
+   "beber café"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "exactamente",
+  "alts": [
+   "exacto"
+  ],
+  "why": "Zelfde vertaling precies"
+ },
+ {
+  "es": "apuntar",
+  "alts": [
+   "anotar"
+  ],
+  "why": "Synoniem opschrijven"
+ },
+ {
+  "es": "el pronóstico",
+  "alts": [
+   "la previsión"
+  ],
+  "why": "Synoniem weersvoorspelling"
+ },
+ {
+  "es": "de pequeño",
+  "alts": [
+   "de niño"
+  ],
+  "why": "Synoniem als kind"
+ },
+ {
+  "es": "montar en bicicleta",
+  "alts": [
+   "montar en bici"
+  ],
+  "why": "Gangbare afkorting"
+ },
+ {
+  "es": "el hincha",
+  "alts": [
+   "el aficionado",
+   "el seguidor"
+  ],
+  "why": "Synoniemen supporter"
+ },
+ {
+  "es": "las zapatillas de deporte",
+  "alts": [
+   "las deportivas"
+  ],
+  "why": "Synoniem sportschoenen"
+ },
+ {
+  "es": "seguir recto",
+  "alts": [
+   "seguir todo recto",
+   "seguir derecho",
+   "ir todo recto"
+  ],
+  "why": "Synoniemen rechtdoor"
+ },
+ {
+  "es": "torcer",
+  "alts": [
+   "girar",
+   "doblar"
+  ],
+  "why": "Synoniemen afslaan"
+ },
+ {
+  "es": "a mano derecha",
+  "alts": [
+   "a la derecha"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "a mano izquierda",
+  "alts": [
+   "a la izquierda"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "el plano",
+  "alts": [
+   "el mapa"
+  ],
+  "why": "Mapa = plattegrond/city map"
+ },
+ {
+  "es": "junto a",
+  "alts": [
+   "al lado de"
+  ],
+  "why": "Synoniem naast"
+ },
+ {
+  "es": "transbordar",
+  "alts": [
+   "hacer transbordo"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "con retraso",
+  "alts": [
+   "retrasado"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el billete sencillo",
+  "alts": [
+   "el billete de ida"
+  ],
+  "why": "Synoniem enkele reis"
+ },
+ {
+  "es": "el casco antiguo",
+  "alts": [
+   "el casco histórico"
+  ],
+  "why": "Synoniem oude binnenstad"
+ },
+ {
+  "es": "por ahora",
+  "alts": [
+   "de momento",
+   "por lo pronto"
+  ],
+  "why": "Synoniemen voorlopig"
+ },
+ {
+  "es": "por suerte",
+  "alts": [
+   "afortunadamente"
+  ],
+  "why": "Synoniem gelukkig"
+ },
+ {
+  "es": "por fin",
+  "alts": [
+   "al fin"
+  ],
+  "why": "Synoniem eindelijk"
+ },
+ {
+  "es": "el apartamento",
+  "alts": [
+   "el piso"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "la ganga",
+  "alts": [
+   "el chollo"
+  ],
+  "why": "Synoniem koopje"
+ },
+ {
+  "es": "el reembolso",
+  "alts": [
+   "la devolución"
+  ],
+  "why": "Synoniem terugbetaling"
+ },
+ {
+  "es": "el depósito",
+  "alts": [
+   "la fianza"
+  ],
+  "why": "Synoniem borg"
+ },
+ {
+  "es": "el suplemento",
+  "alts": [
+   "el recargo"
+  ],
+  "why": "Synoniem toeslag"
+ },
+ {
+  "es": "la página web",
+  "alts": [
+   "el sitio web"
+  ],
+  "why": "Synoniem website"
+ },
+ {
+  "es": "el sobrepeso",
+  "alts": [
+   "el exceso de equipaje"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el lugar",
+  "alts": [
+   "el sitio"
+  ],
+  "why": "Synoniem plek"
+ },
+ {
+  "es": "merecer la pena",
+  "alts": [
+   "valer la pena"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "sacar fotos",
+  "alts": [
+   "hacer fotos"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "precioso",
+  "alts": [
+   "hermoso",
+   "bonito"
+  ],
+  "why": "Synoniemen prachtig"
+ },
+ {
+  "es": "igual que",
+  "alts": [
+   "lo mismo que",
+   "el mismo que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "lo mismo que",
+  "alts": [
+   "igual que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "el más antiguo",
+  "alts": [
+   "el más viejo"
+  ],
+  "why": "Synoniem oudste"
+ },
+ {
+  "es": "mayor que",
+  "alts": [
+   "más viejo que"
+  ],
+  "why": "Synoniem ouder dan"
+ },
+ {
+  "es": "menor que",
+  "alts": [
+   "más joven que"
+  ],
+  "why": "Synoniem jonger dan"
+ },
+ {
+  "es": "la rebaja",
+  "alts": [
+   "las rebajas"
+  ],
+  "why": "Zelfde vertaling uitverkoop"
+ },
+ {
+  "es": "pagar en efectivo",
+  "alts": [
+   "pagar al contado",
+   "pagar en metálico"
+  ],
+  "why": "Synoniemen contant"
+ },
+ {
+  "es": "el tique",
+  "alts": [
+   "el ticket",
+   "el recibo",
+   "el tique de compra",
+   "el ticket de compra"
+  ],
+  "why": "Synoniemen kassabon"
+ },
+ {
+  "es": "el tique de compra",
+  "alts": [
+   "el tique",
+   "el ticket",
+   "el ticket de compra"
+  ],
+  "why": "Synoniemen kassabon"
+ },
+ {
+  "es": "le mando",
+  "alts": [
+   "le envío"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el carrito",
+  "alts": [
+   "el carro de la compra"
+  ],
+  "why": "Synoniem winkelwagentje"
+ },
+ {
+  "es": "la sección",
+  "alts": [
+   "el departamento"
+  ],
+  "why": "Synoniem afdeling"
+ },
+ {
+  "es": "ecológico",
+  "alts": [
+   "orgánico",
+   "bio"
+  ],
+  "why": "Synoniemen biologisch"
+ },
+ {
+  "es": "un trozo",
+  "alts": [
+   "un pedazo"
+  ],
+  "why": "Synoniem stuk"
+ },
+ {
+  "es": "la barra de pan",
+  "alts": [
+   "la baguette"
+  ],
+  "why": "Synoniem stokbrood"
+ },
+ {
+  "es": "elegir",
+  "alts": [
+   "escoger"
+  ],
+  "why": "Synoniem kiezen"
+ },
+ {
+  "es": "de momento",
+  "alts": [
+   "por ahora"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "el primer plato",
+  "alts": [
+   "el entrante"
+  ],
+  "why": "Zelfde vertaling voorgerecht"
+ },
+ {
+  "es": "el entrante",
+  "alts": [
+   "el primer plato"
+  ],
+  "why": "Zelfde vertaling voorgerecht"
+ },
+ {
+  "es": "abonar",
+  "alts": [
+   "pagar"
+  ],
+  "why": "Synoniem betalen"
+ },
+ {
+  "es": "dividir la cuenta",
+  "alts": [
+   "pagar a medias"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "pagar a medias",
+  "alts": [
+   "dividir la cuenta"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "el ticket",
+  "alts": [
+   "el tique",
+   "el recibo"
+  ],
+  "why": "Synoniemen bonnetje"
+ },
+ {
+  "es": "el cambio",
+  "alts": [
+   "la vuelta"
+  ],
+  "why": "Zelfde vertaling wisselgeld"
+ },
+ {
+  "es": "el recargo",
+  "alts": [
+   "el suplemento"
+  ],
+  "why": "Zelfde vertaling toeslag"
+ },
+ {
+  "es": "pagar al contado",
+  "alts": [
+   "pagar en efectivo"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "el billetero",
+  "alts": [
+   "la cartera"
+  ],
+  "why": "Synoniem portefeuille"
+ },
+ {
+  "es": "satisfecho",
+  "alts": [
+   "contento"
+  ],
+  "why": "Synoniem tevreden"
+ },
+ {
+  "es": "el encargado",
+  "alts": [
+   "el gerente"
+  ],
+  "why": "Synoniem manager"
+ },
+ {
+  "es": "disculparse",
+  "alts": [
+   "pedir perdón",
+   "pedir disculpas"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "el vale regalo",
+  "alts": [
+   "la tarjeta regalo"
+  ],
+  "why": "Synoniem cadeaubon"
+ },
+ {
+  "es": "pagar por adelantado",
+  "alts": [
+   "pagar de antemano"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "recoger",
+  "alts": [
+   "pasar a buscar"
+  ],
+  "why": "Zelfde betekenis ophalen"
+ },
+ {
+  "es": "reparar",
+  "alts": [
+   "arreglar"
+  ],
+  "why": "Zelfde vertaling repareren"
+ },
+ {
+  "es": "arreglar",
+  "alts": [
+   "reparar"
+  ],
+  "why": "Zelfde vertaling repareren"
+ },
+ {
+  "es": "estropearse",
+  "alts": [
+   "averiarse"
+  ],
+  "why": "Synoniem kapotgaan"
+ },
+ {
+  "es": "hace falta",
+  "alts": [
+   "es necesario"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "me hace falta",
+  "alts": [
+   "necesito"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el cuarto de invitados",
+  "alts": [
+   "la habitación de invitados"
+  ],
+  "why": "Synoniem logeerkamer"
+ },
+ {
+  "es": "el aseo",
+  "alts": [
+   "el váter",
+   "el servicio"
+  ],
+  "why": "Synoniemen toilet"
+ },
+ {
+  "es": "el despacho",
+  "alts": [
+   "el estudio"
+  ],
+  "why": "Synoniem werkkamer"
+ },
+ {
+  "es": "espacioso",
+  "alts": [
+   "amplio"
+  ],
+  "why": "Synoniem ruim"
+ },
+ {
+  "es": "el propietario",
+  "alts": [
+   "el dueño"
+  ],
+  "why": "Zelfde vertaling eigenaar"
+ },
+ {
+  "es": "la televisión",
+  "alts": [
+   "la tele"
+  ],
+  "why": "Gangbare afkorting"
+ },
+ {
+  "es": "la repisa",
+  "alts": [
+   "el estante"
+  ],
+  "why": "Zelfde vertaling plank"
+ },
+ {
+  "es": "lavar la ropa",
+  "alts": [
+   "hacer la colada"
+  ],
+  "why": "Synoniem de was doen"
+ },
+ {
+  "es": "ordenar",
+  "alts": [
+   "recoger"
+  ],
+  "why": "Synoniem opruimen"
+ },
+ {
+  "es": "las tareas de casa",
+  "alts": [
+   "las tareas del hogar",
+   "las tareas domésticas"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "la palma",
+  "alts": [
+   "la palma de la mano"
+  ],
+  "why": "Volledige vorm"
+ },
+ {
+  "es": "la muñeca",
+  "nl_new": "de pols (van je hand)",
+  "why": "Nl 'de pols' ook pulso"
+ },
+ {
+  "es": "el pulso",
+  "nl_new": "de pols (hartslag)",
+  "why": "Nl 'de pols' ook muñeca"
+ },
+ {
+  "es": "estar resfriado",
+  "alts": [
+   "estar acatarrado"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "encontrarse mal",
+  "alts": [
+   "sentirse mal"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "ponerse enfermo",
+  "alts": [
+   "enfermar"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "quedarse en cama",
+  "alts": [
+   "quedarse en la cama"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "el comprimido",
+  "alts": [
+   "la pastilla"
+  ],
+  "why": "Synoniem tablet"
+ },
+ {
+  "es": "tomar medicina",
+  "alts": [
+   "tomar medicamentos"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el consultorio",
+  "alts": [
+   "la consulta"
+  ],
+  "why": "Synoniem spreekkamer"
+ },
+ {
+  "es": "la receta médica",
+  "alts": [
+   "la receta"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "la tensión",
+  "alts": [
+   "la presión arterial"
+  ],
+  "why": "Synoniem bloeddruk"
+ },
+ {
+  "es": "el yeso",
+  "alts": [
+   "la escayola"
+  ],
+  "why": "Gangbaar in Spanje"
+ },
+ {
+  "es": "el moratón",
+  "alts": [
+   "el cardenal",
+   "el hematoma"
+  ],
+  "why": "Synoniemen blauwe plek"
+ },
+ {
+  "es": "he estado",
+  "alts": [
+   "he ido"
+  ],
+  "why": "Nl 'ik ben geweest' past ook bij he ido"
+ },
+ {
+  "es": "hasta la fecha",
+  "alts": [
+   "a día de hoy"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "alguna que otra vez",
+  "alts": [
+   "de vez en cuando"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "de vez en cuando",
+  "alts": [
+   "alguna que otra vez"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "rara vez",
+  "alts": [
+   "raramente"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "hasta ahora",
+  "alts": [
+   "hasta el momento"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "frecuentemente",
+  "alts": [
+   "con frecuencia"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el espectáculo",
+  "alts": [
+   "la función"
+  ],
+  "why": "Synoniem voorstelling"
+ },
+ {
+  "es": "hace poco",
+  "alts": [
+   "recientemente"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "de nuevo",
+  "alts": [
+   "otra vez"
+  ],
+  "why": "Synoniem opnieuw"
+ },
+ {
+  "es": "al final",
+  "alts": [
+   "finalmente"
+  ],
+  "why": "Synoniem uiteindelijk"
+ },
+ {
+  "es": "he terminado",
+  "alts": [
+   "he acabado"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "acabar",
+  "alts": [
+   "terminar"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "lograr",
+  "alts": [
+   "alcanzar",
+   "conseguir"
+  ],
+  "why": "Synoniemen bereiken"
+ },
+ {
+  "es": "alcanzar",
+  "alts": [
+   "lograr"
+  ],
+  "why": "Synoniem bereiken"
+ },
+ {
+  "es": "conseguir",
+  "alts": [
+   "lograr",
+   "obtener"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "la meta",
+  "alts": [
+   "el objetivo"
+  ],
+  "why": "Synoniem doel"
+ },
+ {
+  "es": "¡Enhorabuena!",
+  "alts": [
+   "¡Felicidades!"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "¡Felicidades!",
+  "alts": [
+   "¡Enhorabuena!"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "la constancia",
+  "alts": [
+   "la perseverancia"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "el reto",
+  "alts": [
+   "el desafío"
+  ],
+  "why": "Synoniem uitdaging"
+ },
+ {
+  "es": "rendirse",
+  "alts": [
+   "darse por vencido"
+  ],
+  "why": "Synoniem opgeven"
+ },
+ {
+  "es": "intentarlo",
+  "alts": [
+   "intentar"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "el colegio",
+  "alts": [
+   "la escuela"
+  ],
+  "why": "Zelfde vertaling school"
+ },
+ {
+  "es": "a menudo",
+  "alts": [
+   "con frecuencia",
+   "muchas veces"
+  ],
+  "why": "Synoniemen vaak"
+ },
+ {
+  "es": "recordar",
+  "alts": [
+   "acordarse de"
+  ],
+  "why": "Synoniem herinneren"
+ },
+ {
+  "es": "echar de menos",
+  "alts": [
+   "extrañar"
+  ],
+  "why": "Synoniem missen"
+ },
+ {
+  "es": "trepar",
+  "alts": [
+   "escalar"
+  ],
+  "why": "Synoniem klimmen"
+ },
+ {
+  "es": "hoy en día",
+  "alts": [
+   "actualmente",
+   "hoy día"
+  ],
+  "why": "Synoniemen tegenwoordig"
+ },
+ {
+  "es": "en aquella época",
+  "alts": [
+   "por aquel entonces"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "por aquel entonces",
+  "alts": [
+   "en aquella época"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "empezar a",
+  "alts": [
+   "comenzar a"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "crecer",
+  "alts": [
+   "criarse"
+  ],
+  "why": "Zelfde vertaling opgroeien"
+ },
+ {
+  "es": "criarse",
+  "alts": [
+   "crecer"
+  ],
+  "why": "Zelfde vertaling opgroeien"
+ },
+ {
+  "es": "graduarse",
+  "alts": [
+   "licenciarse"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "mudarse",
+  "alts": [
+   "mudarse de casa"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "mudarse de casa",
+  "alts": [
+   "mudarse"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "jubilarse",
+  "alts": [
+   "retirarse"
+  ],
+  "why": "Synoniem met pensioen gaan"
+ },
+ {
+  "es": "famoso",
+  "alts": [
+   "célebre"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "la trayectoria",
+  "alts": [
+   "la trayectoria profesional",
+   "la carrera profesional"
+  ],
+  "why": "Synoniem loopbaan"
+ },
+ {
+  "es": "el galardón",
+  "alts": [
+   "el premio"
+  ],
+  "why": "Synoniem onderscheiding/award"
+ },
+ {
+  "es": "el acontecimiento",
+  "alts": [
+   "el evento",
+   "el suceso"
+  ],
+  "why": "Synoniemen gebeurtenis"
+ },
+ {
+  "es": "ocurrir",
+  "alts": [
+   "pasar",
+   "suceder"
+  ],
+  "why": "Synoniemen gebeuren"
+ },
+ {
+  "es": "el viaje de novios",
+  "alts": [
+   "la luna de miel"
+  ],
+  "why": "Synoniem huwelijksreis"
+ },
+ {
+  "es": "el carné de conducir",
+  "alts": [
+   "el carnet de conducir",
+   "el permiso de conducir"
+  ],
+  "why": "Synoniemen rijbewijs"
+ },
+ {
+  "es": "de repente",
+  "alts": [
+   "de pronto"
+  ],
+  "why": "Synoniem plotseling"
+ },
+ {
+  "es": "aquel día",
+  "alts": [
+   "ese día"
+  ],
+  "why": "Synoniem die dag"
+ },
+ {
+  "es": "en ese momento",
+  "alts": [
+   "en aquel momento"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "en aquel momento",
+  "alts": [
+   "en ese momento"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "pasó",
+  "alts": [
+   "sucedió",
+   "ocurrió"
+  ],
+  "why": "Zelfde vertaling het gebeurde"
+ },
+ {
+  "es": "sucedió",
+  "alts": [
+   "pasó",
+   "ocurrió"
+  ],
+  "why": "Zelfde vertaling het gebeurde"
+ },
+ {
+  "es": "ocurrió",
+  "alts": [
+   "pasó",
+   "sucedió"
+  ],
+  "why": "Zelfde vertaling het gebeurde"
+ },
+ {
+  "es": "empezó",
+  "alts": [
+   "comenzó"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "anteayer",
+  "alts": [
+   "antes de ayer"
+  ],
+  "why": "Synoniem eergisteren"
+ },
+ {
+  "es": "todos los días",
+  "alts": [
+   "cada día"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "con frecuencia",
+  "alts": [
+   "frecuentemente",
+   "a menudo"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "creo que",
+  "alts": [
+   "pienso que"
+  ],
+  "why": "Zelfde vertaling ik denk dat"
+ },
+ {
+  "es": "pienso que",
+  "alts": [
+   "creo que"
+  ],
+  "why": "Zelfde vertaling ik denk dat"
+ },
+ {
+  "es": "en mi opinión",
+  "alts": [
+   "a mi parecer"
+  ],
+  "why": "Zelfde vertaling naar mijn mening"
+ },
+ {
+  "es": "a mi parecer",
+  "alts": [
+   "en mi opinión"
+  ],
+  "why": "Zelfde vertaling naar mijn mening"
+ },
+ {
+  "es": "claro que sí",
+  "alts": [
+   "por supuesto",
+   "claro"
+  ],
+  "why": "Synoniemen natuurlijk"
+ },
+ {
+  "es": "exacto",
+  "alts": [
+   "exactamente"
+  ],
+  "why": "Zelfde vertaling precies"
+ },
+ {
+  "es": "me da igual",
+  "alts": [
+   "me da lo mismo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "testarudo",
+  "alts": [
+   "cabezota",
+   "terco"
+  ],
+  "why": "Synoniemen koppig"
+ },
+ {
+  "es": "ser terco",
+  "alts": [
+   "ser testarudo",
+   "ser cabezota"
+  ],
+  "why": "Synoniemen koppig zijn"
+ },
+ {
+  "es": "vago",
+  "alts": [
+   "perezoso"
+  ],
+  "why": "Synoniem lui"
+ },
+ {
+  "es": "sincero",
+  "alts": [
+   "honesto"
+  ],
+  "why": "Synoniem eerlijk"
+ },
+ {
+  "es": "extremadamente",
+  "alts": [
+   "sumamente"
+  ],
+  "why": "Synoniem uiterst"
+ },
+ {
+  "es": "ser de fiar",
+  "alts": [
+   "ser fiable",
+   "ser de confianza"
+  ],
+  "why": "Synoniemen betrouwbaar"
+ },
+ {
+  "es": "estar aburrido",
+  "alts": [
+   "aburrirse"
+  ],
+  "why": "Zelfde vertaling zich vervelen"
+ },
+ {
+  "es": "estar malo",
+  "alts": [
+   "estar enfermo"
+  ],
+  "why": "Synoniem ziek zijn"
+ },
+ {
+  "es": "fastidiar",
+  "alts": [
+   "molestar",
+   "irritar"
+  ],
+  "why": "Synoniemen irriteren"
+ },
+ {
+  "es": "enojarse",
+  "alts": [
+   "enfadarse"
+  ],
+  "why": "Synoniem boos worden"
+ },
+ {
+  "es": "es una pena que",
+  "alts": [
+   "es una lástima que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "es una lástima que",
+  "alts": [
+   "es una pena que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "me da miedo que",
+  "alts": [
+   "tengo miedo de que"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "mantenerse en contacto",
+  "alts": [
+   "mantener el contacto",
+   "seguir en contacto"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "mantener el contacto",
+  "alts": [
+   "mantenerse en contacto",
+   "seguir en contacto"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "extrañar",
+  "alts": [
+   "echar de menos"
+  ],
+  "why": "Synoniem missen"
+ },
+ {
+  "es": "dar plantón",
+  "alts": [
+   "dejar plantado/a"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "sugiero que",
+  "alts": [
+   "propongo que"
+  ],
+  "why": "Zelfde vertaling ik stel voor"
+ },
+ {
+  "es": "propongo que",
+  "alts": [
+   "sugiero que"
+  ],
+  "why": "Zelfde vertaling ik stel voor"
+ },
+ {
+  "es": "que tengas suerte",
+  "alts": [
+   "mucha suerte",
+   "buena suerte"
+  ],
+  "why": "Synoniemen veel succes"
+ },
+ {
+  "es": "que aproveche",
+  "alts": [
+   "buen provecho"
+  ],
+  "why": "Synoniem eet smakelijk"
+ },
+ {
+  "es": "rogar",
+  "alts": [
+   "suplicar"
+  ],
+  "why": "Zelfde vertaling smeken"
+ },
+ {
+  "es": "suplicar",
+  "alts": [
+   "rogar"
+  ],
+  "why": "Zelfde vertaling smeken"
+ },
+ {
+  "es": "criar",
+  "alts": [
+   "educar"
+  ],
+  "why": "Synoniem opvoeden"
+ },
+ {
+  "es": "cuidar de",
+  "alts": [
+   "cuidar a"
+  ],
+  "why": "Variant"
+ },
+ {
+  "es": "tener nostalgia de",
+  "alts": [
+   "añorar"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "a pesar de que",
+  "alts": [
+   "pese a que"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "sin embargo",
+  "alts": [
+   "no obstante"
+  ],
+  "why": "Synoniem echter"
+ },
+ {
+  "es": "no obstante",
+  "alts": [
+   "sin embargo"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "de todos modos",
+  "alts": [
+   "de todas formas",
+   "de todas maneras"
+  ],
+  "why": "Synoniemen"
+ },
+ {
+  "es": "defender una postura",
+  "alts": [
+   "defender una posición"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "ponerse de acuerdo",
+  "alts": [
+   "llegar a un acuerdo"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "llegar a un acuerdo",
+  "alts": [
+   "ponerse de acuerdo"
+  ],
+  "why": "Zelfde betekenis"
+ },
+ {
+  "es": "sugerir",
+  "alts": [
+   "proponer"
+  ],
+  "why": "Synoniem voorstellen"
+ },
+ {
+  "es": "sería conveniente que",
+  "alts": [
+   "convendría que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "convendría que",
+  "alts": [
+   "sería conveniente que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "es aconsejable que",
+  "alts": [
+   "es recomendable que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "es recomendable que",
+  "alts": [
+   "es aconsejable que"
+  ],
+  "why": "Zelfde vertaling"
+ },
+ {
+  "es": "si yo fuera tú",
+  "alts": [
+   "yo que tú"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "advertir",
+  "alts": [
+   "avisar"
+  ],
+  "why": "Synoniem waarschuwen"
+ },
+ {
+  "es": "prevenir",
+  "alts": [
+   "evitar"
+  ],
+  "why": "Voorkomen = evitar"
+ },
+ {
+  "es": "orientar",
+  "alts": [
+   "guiar"
+  ],
+  "why": "Zelfde vertaling to guide"
+ },
+ {
+  "es": "guiar",
+  "alts": [
+   "orientar"
+  ],
+  "why": "Zelfde vertaling to guide"
+ },
+ {
+  "es": "tomar en cuenta",
+  "alts": [
+   "tener en cuenta"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "estoy haciéndolo",
+  "alts": [
+   "lo estoy haciendo"
+  ],
+  "why": "Andere plaats van het voornaamwoord"
+ },
+ {
+  "es": "se lo estoy explicando",
+  "alts": [
+   "estoy explicándoselo"
+  ],
+  "why": "Andere plaats van het voornaamwoord"
+ },
+ {
+  "es": "tengo que decírselo",
+  "alts": [
+   "se lo tengo que decir"
+  ],
+  "why": "Andere plaats van het voornaamwoord"
+ },
+ {
+  "es": "la costumbre",
+  "alts": [
+   "el hábito"
+  ],
+  "why": "Synoniem gewoonte"
+ },
+ {
+  "es": "terminar los estudios",
+  "alts": [
+   "acabar los estudios"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "fundar una empresa",
+  "alts": [
+   "crear una empresa"
+  ],
+  "why": "Synoniem"
+ },
+ {
+  "es": "pedir prestado",
+  "alts": [
+   "tomar prestado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "envolver",
+  "alts": [
+   "empaquetar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "agradecer",
+  "alts": [
+   "dar las gracias por"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "dejar",
+  "alts": [
+   "prestar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "enseñar",
+  "alts": [
+   "mostrar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el puesto vacante",
+  "alts": [
+   "la vacante"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el salario",
+  "alts": [
+   "el sueldo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el ambiente laboral",
+  "alts": [
+   "el ambiente de trabajo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el ambiente de trabajo",
+  "alts": [
+   "el ambiente laboral"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "renunciar a un trabajo",
+  "alts": [
+   "dimitir"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la baja laboral",
+  "alts": [
+   "la baja médica"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "me gustaría",
+  "alts": [
+   "quisiera"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en tu lugar",
+  "alts": [
+   "yo en tu lugar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "yo que tú",
+  "alts": [
+   "si yo fuera tú"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "malgastar",
+  "alts": [
+   "derrochar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "derrochar",
+  "alts": [
+   "malgastar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el coste de vida",
+  "alts": [
+   "el coste de la vida"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "estar en oferta",
+  "alts": [
+   "estar de oferta"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el interés",
+  "alts": [
+   "los intereses"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la lista de compras",
+  "alts": [
+   "la lista de la compra"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "no creo que",
+  "alts": [
+   "no pienso que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "no pienso que",
+  "alts": [
+   "no creo que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "no es verdad que",
+  "alts": [
+   "no es cierto que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es verdad que",
+  "alts": [
+   "es cierto que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es cierto que",
+  "alts": [
+   "es verdad que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es evidente que",
+  "alts": [
+   "está claro que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "está claro que",
+  "alts": [
+   "es evidente que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "me imagino que",
+  "alts": [
+   "imagino que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el expediente",
+  "alts": [
+   "el expediente académico"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "licenciarse",
+  "alts": [
+   "graduarse"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el trabajo de fin de grado",
+  "alts": [
+   "el TFG"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el idioma materno",
+  "alts": [
+   "la lengua materna"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el dato personal",
+  "alts": [
+   "los datos personales"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "hacer senderismo",
+  "alts": [
+   "ir de senderismo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la energía renovable",
+  "alts": [
+   "las energías renovables"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "las placas solares",
+  "alts": [
+   "los paneles solares"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el trasbordo",
+  "alts": [
+   "el transbordo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la sobreventa",
+  "alts": [
+   "el overbooking"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "olvidarse de",
+  "alts": [
+   "olvidar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "acordarse de",
+  "alts": [
+   "recordar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "ponerse a + infinitivo",
+  "alts": [
+   "empezar a + infinitivo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la casualidad",
+  "alts": [
+   "la coincidencia"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por poco",
+  "alts": [
+   "por los pelos"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por supuesto",
+  "alts": [
+   "claro que sí"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por tanto",
+  "alts": [
+   "por lo tanto"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por adelantado",
+  "alts": [
+   "con antelación",
+   "de antemano"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por lo menos",
+  "alts": [
+   "al menos"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por cierto",
+  "alts": [
+   "a propósito"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "de pronto",
+  "alts": [
+   "de repente"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el vidrio",
+  "alts": [
+   "el cristal"
+  ],
+  "en_new": "glass (material)",
+  "nl_new": "het glas (materiaal)",
+  "why": "glas kan ook drinkglas (vaso/copa) zijn"
+ },
+ {
+  "es": "dar las gracias por",
+  "alts": [
+   "agradecer"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por lo visto",
+  "alts": [
+   "al parecer",
+   "aparentemente"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "al parecer",
+  "alts": [
+   "por lo visto",
+   "aparentemente"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "asemejarse a",
+  "alts": [
+   "parecerse a"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el telediario",
+  "alts": [
+   "el informativo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el/la chismoso/a",
+  "alts": [
+   "el/la cotilla"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el/la cotilla",
+  "alts": [
+   "el/la chismoso/a"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "dicen que",
+  "alts": [
+   "se dice que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "hacer caso omiso de",
+  "alts": [
+   "ignorar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "dimitir",
+  "alts": [
+   "renunciar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el capítulo",
+  "alts": [
+   "el episodio"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "rodar (una película)",
+  "alts": [
+   "filmar (una película)"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la temporada",
+  "en_new": "the season (of a series)",
+  "nl_new": "het seizoen (van een serie)",
+  "why": "season kan ook estación (jaargetijde) zijn"
+ },
+ {
+  "es": "contar que",
+  "alts": [
+   "decir que"
+  ]
+ },
+ {
+  "es": "ser un rollo",
+  "alts": [
+   "ser aburrido"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tomar prestado",
+  "alts": [
+   "pedir prestado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la luna de miel",
+  "alts": [
+   "el viaje de novios"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "¡Chinchín!",
+  "alts": [
+   "¡Salud!"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "¡Salud!",
+  "alts": [
+   "¡Chinchín!"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el mes próximo",
+  "alts": [
+   "el mes que viene"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "próximamente",
+  "alts": [
+   "pronto",
+   "dentro de poco"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "imagino que",
+  "alts": [
+   "me imagino que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "predecir",
+  "alts": [
+   "pronosticar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es necesario que",
+  "alts": [
+   "hace falta que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "hace falta que",
+  "alts": [
+   "es necesario que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es mejor que",
+  "alts": [
+   "más vale que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es posible que",
+  "alts": [
+   "puede que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es fundamental que",
+  "alts": [
+   "es imprescindible que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es imprescindible que",
+  "alts": [
+   "es fundamental que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es indudable que",
+  "alts": [
+   "es innegable que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "es innegable que",
+  "alts": [
+   "es indudable que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "no es cierto que",
+  "alts": [
+   "no es verdad que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "quizás",
+  "alts": [
+   "quizá",
+   "tal vez",
+   "a lo mejor"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tal vez",
+  "alts": [
+   "quizás",
+   "quizá"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a lo mejor",
+  "alts": [
+   "quizás",
+   "quizá",
+   "tal vez"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "igual (coloquial)",
+  "alts": [
+   "a lo mejor",
+   "quizás"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "lo más seguro es que",
+  "alts": [
+   "con toda probabilidad"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "me da que",
+  "alts": [
+   "tengo la sensación de que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tengo la sensación de que",
+  "alts": [
+   "me da que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "si todo va bien",
+  "alts": [
+   "si todo sale bien"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "de ahora en adelante",
+  "alts": [
+   "a partir de ahora",
+   "en lo sucesivo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a día de hoy",
+  "alts": [
+   "hasta la fecha"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "entretanto",
+  "alts": [
+   "mientras tanto"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "llevar a cabo",
+  "alts": [
+   "realizar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "si todo sale bien",
+  "alts": [
+   "si todo va bien"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "siempre que",
+  "alts": [
+   "con tal de que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "con tal de que",
+  "alts": [
+   "siempre que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a menos que",
+  "alts": [
+   "a no ser que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a no ser que",
+  "alts": [
+   "a menos que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "si no",
+  "alts": [
+   "de lo contrario"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "de lo contrario",
+  "alts": [
+   "si no"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "cabezota",
+  "alts": [
+   "testarudo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "quisiera",
+  "alts": [
+   "me gustaría"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "apoyarse",
+  "alts": [
+   "apoyarse mutuamente"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "pedir perdón",
+  "alts": [
+   "disculparse"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "ignorar",
+  "alts": [
+   "hacer caso omiso de"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "yo en tu lugar",
+  "alts": [
+   "en tu lugar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la baja médica",
+  "alts": [
+   "la baja laboral"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "caerse",
+  "alts": [
+   "caer"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "ponerse rojo",
+  "alts": [
+   "ponerse colorado",
+   "sonrojarse",
+   "ruborizarse"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "quedarse embarazada",
+  "alts": [
+   "quedar embarazada"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "romper con alguien",
+  "alts": [
+   "cortar con alguien"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "echar la culpa",
+  "alts": [
+   "culpar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tocar la lotería",
+  "alts": [
+   "ganar la lotería"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "estar agotado",
+  "alts": [
+   "estar exhausto"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la revisión",
+  "alts": [
+   "el chequeo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "encontrarse fatal",
+  "alts": [
+   "sentirse fatal"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "pillar un resfriado",
+  "alts": [
+   "coger un resfriado",
+   "resfriarse"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "ir con retraso",
+  "alts": [
+   "llevar retraso"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "hacerse el sueco",
+  "alts": [
+   "hacerse el tonto"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por los pelos",
+  "alts": [
+   "por poco"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "reprocharse",
+  "alts": [
+   "echarse la culpa"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "echarse la culpa",
+  "alts": [
+   "reprocharse"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "valer la pena",
+  "alts": [
+   "merecer la pena"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "ni en broma",
+  "alts": [
+   "ni hablar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la vacante",
+  "alts": [
+   "el puesto vacante"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en cuanto",
+  "alts": [
+   "tan pronto como",
+   "una vez que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tan pronto como",
+  "alts": [
+   "en cuanto",
+   "una vez que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "una vez que",
+  "alts": [
+   "en cuanto",
+   "tan pronto como"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a medida que",
+  "alts": [
+   "conforme"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "conforme",
+  "alts": [
+   "a medida que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "aplazar",
+  "alts": [
+   "posponer"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "de antemano",
+  "alts": [
+   "con antelación",
+   "por adelantado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en breve",
+  "alts": [
+   "dentro de poco"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a la mayor brevedad",
+  "alts": [
+   "lo antes posible"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el orden del día",
+  "alts": [
+   "la agenda"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el coste de la vida",
+  "alts": [
+   "el coste de vida"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "estar de oferta",
+  "alts": [
+   "estar en oferta"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el chollo",
+  "alts": [
+   "la ganga"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el ticket de compra",
+  "alts": [
+   "el tique",
+   "el tique de compra",
+   "el recibo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "los intereses",
+  "alts": [
+   "el interés"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la trayectoria profesional",
+  "alts": [
+   "la trayectoria"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "estar en paro",
+  "alts": [
+   "estar desempleado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "los beneficios",
+  "alts": [
+   "las ganancias"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "pillar la indirecta",
+  "alts": [
+   "coger la indirecta"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "debería haber estudiado",
+  "alts": [
+   "tendría que haber estudiado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tendría que haber llamado",
+  "alts": [
+   "debería haber llamado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "tendríamos que haber salido antes",
+  "alts": [
+   "deberíamos haber salido antes"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "deberías habérmelo dicho",
+  "alts": [
+   "tendrías que habérmelo dicho"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "debería haberme dado cuenta",
+  "alts": [
+   "tendría que haberme dado cuenta"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en vista de que",
+  "alts": [
+   "dado que",
+   "visto que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "visto que",
+  "alts": [
+   "puesto que",
+   "dado que",
+   "en vista de que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "ya que",
+  "alts": [
+   "puesto que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "puesto que",
+  "alts": [
+   "ya que",
+   "visto que",
+   "dado que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "dado que",
+  "alts": [
+   "en vista de que",
+   "visto que",
+   "puesto que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el motivo",
+  "alts": [
+   "la razón"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la razón",
+  "alts": [
+   "el motivo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "debido a",
+  "alts": [
+   "a causa de"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a causa de",
+  "alts": [
+   "debido a"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por lo tanto",
+  "alts": [
+   "por tanto"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en consecuencia",
+  "alts": [
+   "por consiguiente"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "amplio",
+  "alts": [
+   "espacioso"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "fue construido",
+  "alts": [
+   "se construyó"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "se construyó",
+  "alts": [
+   "fue construido"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "se dice que",
+  "alts": [
+   "dicen que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "sustituir",
+  "alts": [
+   "reemplazar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el expediente académico",
+  "alts": [
+   "el expediente"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "educar",
+  "alts": [
+   "criar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "añorar",
+  "alts": [
+   "echar de menos",
+   "tener nostalgia de"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la lengua materna",
+  "alts": [
+   "el idioma materno"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "pronosticar",
+  "alts": [
+   "predecir"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "refutar",
+  "alts": [
+   "rebatir"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "corroborar",
+  "alts": [
+   "confirmar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "detener",
+  "alts": [
+   "arrestar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la cárcel",
+  "alts": [
+   "la prisión"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "poner una reclamación",
+  "alts": [
+   "presentar una reclamación",
+   "poner una queja"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el portero",
+  "alts": [
+   "el conserje"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a pesar de",
+  "alts": [
+   "pese a"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "pese a",
+  "alts": [
+   "a pesar de"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "de todas formas",
+  "alts": [
+   "de todos modos"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "sea como sea",
+  "alts": [
+   "de todas formas",
+   "de todos modos"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "admitir",
+  "alts": [
+   "reconocer"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la perseverancia",
+  "alts": [
+   "la constancia"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "reemplazar",
+  "alts": [
+   "sustituir"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el puesto de trabajo",
+  "alts": [
+   "el empleo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el informativo",
+  "alts": [
+   "el telediario"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el comunicado",
+  "alts": [
+   "la declaración"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "a los pocos días",
+  "alts": [
+   "unos días después"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "las energías renovables",
+  "alts": [
+   "la energía renovable"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "los paneles solares",
+  "alts": [
+   "las placas solares"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "conservar",
+  "alts": [
+   "preservar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "darse por vencido",
+  "alts": [
+   "rendirse"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el overbooking",
+  "alts": [
+   "la sobreventa"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "la reseña",
+  "alts": [
+   "la crítica"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el disco",
+  "alts": [
+   "el álbum"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "el idioma",
+  "alts": [
+   "la lengua"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "diría que",
+  "alts": [
+   "yo diría que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "yo diría que",
+  "alts": [
+   "diría que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "con toda probabilidad",
+  "alts": [
+   "lo más seguro es que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "acaso",
+  "alts": [
+   "tal vez",
+   "quizás"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "cabe la posibilidad de que",
+  "alts": [
+   "es posible que"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "igual",
+  "alts": [
+   "quizás",
+   "a lo mejor"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "aparentemente",
+  "alts": [
+   "por lo visto",
+   "al parecer"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por consiguiente",
+  "alts": [
+   "en consecuencia"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en cuanto a",
+  "alts": [
+   "en lo que respecta a",
+   "respecto a"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en lo que respecta a",
+  "alts": [
+   "en cuanto a",
+   "respecto a"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en cambio",
+  "alts": [
+   "por el contrario"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por el contrario",
+  "alts": [
+   "en cambio"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "mientras que",
+  "alts": [
+   "mientras"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "rebatir",
+  "alts": [
+   "refutar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "por lo pronto",
+  "alts": [
+   "por ahora"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "en lo sucesivo",
+  "alts": [
+   "de ahora en adelante"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "lo antes posible",
+  "alts": [
+   "a la mayor brevedad"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "disculpe",
+  "alts": [
+   "perdone"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "realizar",
+  "alts": [
+   "llevar a cabo"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "mogollón",
+  "alts": [
+   "un montón"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "un montón",
+  "alts": [
+   "mogollón"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "estar liado",
+  "alts": [
+   "estar ocupado"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "facilitar",
+  "alts": [
+   "proporcionar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "proporcionar",
+  "alts": [
+   "facilitar"
+  ],
+  "why": "synoniem/gangbare variant"
+ },
+ {
+  "es": "hemos",
+  "nl_new": "wij hebben (+ voltooid deelwoord)",
+  "en_new": "we have (+ past participle)"
+ },
+ {
+  "es": "habéis",
+  "nl_new": "jullie hebben (+ voltooid deelwoord)",
+  "en_new": "you (pl.) have (+ past participle)"
+ },
+ {
+  "es": "han",
+  "nl_new": "zij hebben (+ voltooid deelwoord)",
+  "en_new": "they have (+ past participle)"
+ },
+ {
+  "es": "pensar + infinitivo",
+  "alts": [
+   "tener pensado",
+   "planear + infinitivo"
+  ]
+ }
+]
