@@ -17,3 +17,8 @@
 - Tikhulp (HINTS) voor nieuwe woorden in vervangen zinnen: dev/new_word_hints.py.
 - Woordenlijst nagelopen op "goed antwoord fout gerekend": dev/word_alts.py leest dev/word_fixes.json ({es, alts, en_new, nl_new}) en zet alts in EXTRA_ALTS (sleutel = normalizeLenient(es)) en verduidelijkt vertalingen (bv. hoy mismo → "today (this very day)", hemos → "we have (+ past participle)"). Haakjes zijn optioneel bij nakijken, dus de oude vertaling blijft goed. Nieuwe gevallen: toevoegen aan word_fixes.json en opnieuw draaien.
 - Nakijken: "ya" mag voor of na de voltooide tijd (yaVariants); "pensar + infinitivo" e.d. is ook goed zonder "+ infinitivo" (answerVariants).
+- Engels als basistaal = alles Engels (geschreven voor Engelstaligen, geen letterlijke vertaling):
+  - App-teksten: dev/english_ui.py. In JS `L('nl','en')`, in vaste HTML `data-en` / `data-en-ph`, toegepast door applyStaticLang() (bij opstarten, taalkeuze in onboarding en Instellingen). Nieuwe tekst in de app? Altijd via L(...) of data-en.
+  - Uitleg vóór bolletjes: INTRO_EN (les-id -> html) uit dev/en/intros_en.json; verhaalvragen: STORY_Q_EN (NL-vraag + opties -> Engels) uit dev/en/story_questions_en.json, via storyQ(). Beide via dev/english_content.py. Nieuwe intro of verhaalvraag? Voeg de Engelse versie toe aan die json en draai het script opnieuw.
+  - Unit-titels A1/A2 in het Engels: dev/unit_titles_en.py.
+  - Tests: dev/test_english_scan.js (Nederlandse woorden op schermen in EN-modus; Spaanse zinnen geven vals alarm) en dev/test_english_stories.js (alle 283 verhaalvragen hebben een Engelse versie).

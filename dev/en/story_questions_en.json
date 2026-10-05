@@ -3103,5 +3103,1148 @@
    "He doesn't say"
   ],
   "answer_en": "Not yet"
+ },
+ {
+  "question": "Wat is Ana's belangrijkste tegenargument?",
+  "options": [
+   "Ze denkt dat het niet zo simpel is als het lijkt",
+   "Ze houdt niet van reizen",
+   "Ze heeft geen internet thuis",
+   "Haar baas verbiedt het"
+  ],
+  "question_en": "What is Ana's main counterargument?",
+  "options_en": [
+   "She thinks it's not as simple as it seems",
+   "She doesn't like traveling",
+   "She has no internet at home",
+   "Her boss forbids it"
+  ],
+  "answer_en": "She thinks it's not as simple as it seems"
+ },
+ {
+  "question": "Vul aan: 'En mi ______, el trabajo remoto no es la solución para todos.' (mening)",
+  "options": [],
+  "question_en": "Fill in: 'En mi ______, el trabajo remoto no es la solución para todos.' (opinion)",
+  "options_en": [],
+  "answer_en": "opinión"
+ },
+ {
+  "question": "Wie staat er vroeger op?",
+  "options": [
+   "Ana",
+   "Carlos",
+   "Allebei tegelijk",
+   "Geen van beide"
+  ],
+  "question_en": "Who gets up earlier?",
+  "options_en": [
+   "Ana",
+   "Carlos",
+   "Both at the same time",
+   "Neither"
+  ],
+  "answer_en": "Ana"
+ },
+ {
+  "question": "Vul de juiste vorm van \"acostarse\" in bij \"nosotros\": Nosotros nos ______ temprano.",
+  "options": [],
+  "question_en": "Fill in the correct form of \"acostarse\" for \"nosotros\": Nosotros nos ______ temprano.",
+  "options_en": [],
+  "answer_en": "acostamos"
+ },
+ {
+  "question": "Wat doet Carlos eerst na het avondeten?",
+  "options": [
+   "Lezen",
+   "TV kijken",
+   "Slapen"
+  ],
+  "question_en": "What does Carlos do first after dinner?",
+  "options_en": [
+   "Read",
+   "Watch TV",
+   "Sleep"
+  ],
+  "answer_en": "Watch TV"
+ },
+ {
+  "question": "Hoe laat gaat Carlos naar bed?",
+  "options": [
+   "10 uur",
+   "11 uur",
+   "12 uur"
+  ],
+  "question_en": "What time does Carlos go to bed?",
+  "options_en": [
+   "10 o'clock",
+   "11 o'clock",
+   "12 o'clock"
+  ],
+  "answer_en": "11 o'clock"
+ },
+ {
+  "question": "Welke twee hobby''s noemt Carlos?",
+  "options": [
+   "Zwemmen en lezen",
+   "Schilderen en gitaar spelen",
+   "Koken en tuinieren"
+  ],
+  "question_en": "Which two hobbies does Carlos mention?",
+  "options_en": [
+   "Swimming and reading",
+   "Painting and playing guitar",
+   "Cooking and gardening"
+  ],
+  "answer_en": "Painting and playing guitar"
+ },
+ {
+  "question": "Sinds wanneer verzamelt Carlos postzegels?",
+  "options": [
+   "Sinds vorig jaar",
+   "Sinds zijn kindertijd",
+   "Hij verzamelt niks"
+  ],
+  "question_en": "Since when has Carlos been collecting stamps?",
+  "options_en": [
+   "Since last year",
+   "Since childhood",
+   "He doesn't collect anything"
+  ],
+  "answer_en": "Since childhood"
+ },
+ {
+  "question": "Waarom kan Carlos morgen niet afspreken?",
+  "options": [
+   "Hij is ziek",
+   "Hij heeft een afspraak",
+   "Hij is op vakantie"
+  ],
+  "question_en": "Why can't Carlos meet tomorrow?",
+  "options_en": [
+   "He's sick",
+   "He has an appointment",
+   "He's on vacation"
+  ],
+  "answer_en": "He has an appointment"
+ },
+ {
+  "question": "Waar spreken ze uiteindelijk af?",
+  "options": [
+   "Bij Carlos thuis",
+   "In het centrum",
+   "Op kantoor"
+  ],
+  "question_en": "Where do they finally agree to meet?",
+  "options_en": [
+   "At Carlos' place",
+   "Downtown",
+   "At the office"
+  ],
+  "answer_en": "Downtown"
+ },
+ {
+  "question": "Hoe is het weer bij Ana?",
+  "options": [
+   "Llueve y hace frío",
+   "Hace sol y buena temperatura",
+   "Está nevando"
+  ],
+  "question_en": "What's the weather like where Ana is?",
+  "options_en": [
+   "Llueve y hace frío",
+   "Hace sol y buena temperatura",
+   "Está nevando"
+  ],
+  "answer_en": "Hace sol y buena temperatura"
+ },
+ {
+  "question": "Welk seizoen vindt Ana het leukst?",
+  "options": [
+   "La primavera",
+   "El invierno",
+   "El verano"
+  ],
+  "question_en": "Which season does Ana like best?",
+  "options_en": [
+   "La primavera",
+   "El invierno",
+   "El verano"
+  ],
+  "answer_en": "La primavera"
+ },
+ {
+  "question": "Hoe vaak traint Carlos per week?",
+  "options": [
+   "1 keer",
+   "3 keer",
+   "Elke dag"
+  ],
+  "question_en": "How often does Carlos train per week?",
+  "options_en": [
+   "Once",
+   "Three times",
+   "Every day"
+  ],
+  "answer_en": "Three times"
+ },
+ {
+  "question": "Hoe reageerde de trainer na de wedstrijd?",
+  "options": [
+   "Boos",
+   "Blij",
+   "Verdrietig"
+  ],
+  "question_en": "How did the coach react after the match?",
+  "options_en": [
+   "Angry",
+   "Happy",
+   "Sad"
+  ],
+  "answer_en": "Happy"
+ },
+ {
+  "question": "Hoe ver is het station volgens de ober?",
+  "options": [
+   "5 straten",
+   "2 straten",
+   "10 straten"
+  ],
+  "question_en": "How far is the station, according to the waiter?",
+  "options_en": [
+   "5 blocks",
+   "2 blocks",
+   "10 blocks"
+  ],
+  "answer_en": "2 blocks"
+ },
+ {
+  "question": "Waar moet de persoon volgens de ober oversteken?",
+  "options": [
+   "Bij de kerk",
+   "Bij de verkeerslichten",
+   "Bij het park"
+  ],
+  "question_en": "Where should the person cross, according to the waiter?",
+  "options_en": [
+   "At the church",
+   "At the traffic lights",
+   "At the park"
+  ],
+  "answer_en": "At the traffic lights"
+ },
+ {
+  "question": "Wat heeft Carlos in plaats van losse kaartjes?",
+  "options": [
+   "Een maandabonnement",
+   "Niets, hij loopt",
+   "Een fiets"
+  ],
+  "question_en": "What does Carlos have instead of single tickets?",
+  "options_en": [
+   "A monthly pass",
+   "Nothing, he walks",
+   "A bike"
+  ],
+  "answer_en": "A monthly pass"
+ },
+ {
+  "question": "Wat gebeurde er toen Carlos moest overstappen?",
+  "options": [
+   "Hij miste de aansluiting",
+   "Niets, alles ging goed",
+   "Hij kwam te vroeg"
+  ],
+  "question_en": "What happened when Carlos had to change trains?",
+  "options_en": [
+   "He missed the connection",
+   "Nothing, everything went fine",
+   "He arrived too early"
+  ],
+  "answer_en": "He missed the connection"
+ },
+ {
+  "question": "Waar staat het gemeentehuis?",
+  "options": [
+   "Bij het park",
+   "Op het hoofdplein",
+   "Bij het station"
+  ],
+  "question_en": "Where is the town hall?",
+  "options_en": [
+   "Near the park",
+   "On the main square",
+   "Near the station"
+  ],
+  "answer_en": "On the main square"
+ },
+ {
+  "question": "Wanneer is het centrum het drukst?",
+  "options": [
+   "Doordeweeks",
+   "In het weekend",
+   "''s Nachts"
+  ],
+  "question_en": "When is the city center busiest?",
+  "options_en": [
+   "On weekdays",
+   "On the weekend",
+   "At night"
+  ],
+  "answer_en": "On the weekend"
+ },
+ {
+  "question": "Waarheen vertrekt Carlos volgende maand?",
+  "options": [
+   "Barcelona",
+   "Madrid",
+   "Sevilla"
+  ],
+  "question_en": "Where is Carlos leaving for next month?",
+  "options_en": [
+   "Barcelona",
+   "Madrid",
+   "Sevilla"
+  ],
+  "answer_en": "Madrid"
+ },
+ {
+  "question": "Hoe reist Carlos naar Madrid?",
+  "options": [
+   "Per trein",
+   "Per vliegtuig",
+   "Per auto"
+  ],
+  "question_en": "How is Carlos getting to Madrid?",
+  "options_en": [
+   "By train",
+   "By plane",
+   "By car"
+  ],
+  "answer_en": "By plane"
+ },
+ {
+  "question": "Wat voor kamer heeft Carlos geboekt?",
+  "options": [
+   "Met zeezicht",
+   "Zonder ramen",
+   "Met bergzicht"
+  ],
+  "question_en": "What kind of room did Carlos book?",
+  "options_en": [
+   "With a sea view",
+   "Without windows",
+   "With a mountain view"
+  ],
+  "answer_en": "With a sea view"
+ },
+ {
+  "question": "Hoe boekt Carlos meestal zijn reizen?",
+  "options": [
+   "Via een reisbureau",
+   "Rechtstreeks online",
+   "Via een vriend"
+  ],
+  "question_en": "How does Carlos usually book his trips?",
+  "options_en": [
+   "Through a travel agency",
+   "Directly online",
+   "Through a friend"
+  ],
+  "answer_en": "Directly online"
+ },
+ {
+  "question": "Waar heeft Carlos zijn paspoort?",
+  "options": [
+   "In de koffer",
+   "In de handbagage",
+   "Hij is het vergeten"
+  ],
+  "question_en": "Where is Carlos' passport?",
+  "options_en": [
+   "In the suitcase",
+   "In his carry-on",
+   "He forgot it"
+  ],
+  "answer_en": "In his carry-on"
+ },
+ {
+  "question": "Wanneer checkt Carlos zijn bagage in?",
+  "options": [
+   "Na de beveiligingscontrole",
+   "Voor de beveiligingscontrole",
+   "Hij checkt niets in"
+  ],
+  "question_en": "When does Carlos check in his luggage?",
+  "options_en": [
+   "After security",
+   "Before security",
+   "He doesn't check anything in"
+  ],
+  "answer_en": "Before security"
+ },
+ {
+  "question": "Wat is indrukwekkend volgens Ana?",
+  "options": [
+   "De stranden",
+   "De bergen",
+   "De gebouwen"
+  ],
+  "question_en": "What is impressive, according to Ana?",
+  "options_en": [
+   "The beaches",
+   "The mountains",
+   "The buildings"
+  ],
+  "answer_en": "The mountains"
+ },
+ {
+  "question": "Wat gebeurde Carlos in de bergen?",
+  "options": [
+   "Hij verdwaalde",
+   "Hij viel",
+   "Hij werd ziek"
+  ],
+  "question_en": "What happened to Carlos in the mountains?",
+  "options_en": [
+   "He got lost",
+   "He fell",
+   "He got sick"
+  ],
+  "answer_en": "He got lost"
+ },
+ {
+  "question": "Wat vindt Carlos van deze stad?",
+  "options": [
+   "De mooiste van Spanje",
+   "Lelijk",
+   "Saai"
+  ],
+  "question_en": "What does Carlos think of this city?",
+  "options_en": [
+   "The most beautiful in Spain",
+   "Ugly",
+   "Boring"
+  ],
+  "answer_en": "The most beautiful in Spain"
+ },
+ {
+  "question": "Hoe is het nieuwe hotel vergeleken met het vorige?",
+  "options": [
+   "Slechter",
+   "Hetzelfde",
+   "Beter"
+  ],
+  "question_en": "How is the new hotel compared to the previous one?",
+  "options_en": [
+   "Worse",
+   "The same",
+   "Better"
+  ],
+  "answer_en": "Better"
+ },
+ {
+  "question": "Wat is er vandaag in de winkel?",
+  "options": [
+   "Niks bijzonders",
+   "Uitverkoop",
+   "Ze zijn gesloten"
+  ],
+  "question_en": "What is going on at the store today?",
+  "options_en": [
+   "Nothing special",
+   "A sale",
+   "It's closed"
+  ],
+  "answer_en": "A sale"
+ },
+ {
+  "question": "Van welk materiaal is de jurk?",
+  "options": [
+   "Wol",
+   "Katoen",
+   "Zijde"
+  ],
+  "question_en": "What is the dress made of?",
+  "options_en": [
+   "Wool",
+   "Cotton",
+   "Silk"
+  ],
+  "answer_en": "Cotton"
+ },
+ {
+  "question": "In welk gangpad koopt Carlos fruit?",
+  "options": [
+   "Gangpad 1",
+   "Gangpad 3",
+   "Bij de kassa"
+  ],
+  "question_en": "In which aisle does Carlos buy fruit?",
+  "options_en": [
+   "Aisle 1",
+   "Aisle 3",
+   "At the checkout"
+  ],
+  "answer_en": "Aisle 3"
+ },
+ {
+  "question": "Wat neemt Carlos mee naar de supermarkt?",
+  "options": [
+   "Een herbruikbare tas",
+   "Geld",
+   "Niets bijzonders"
+  ],
+  "question_en": "What does Carlos bring to the supermarket?",
+  "options_en": [
+   "A reusable bag",
+   "Money",
+   "Nothing special"
+  ],
+  "answer_en": "A reusable bag"
+ },
+ {
+  "question": "Wat vraagt Carlos om te kopen naast groenten?",
+  "options": [
+   "Seizoensfruit",
+   "Vlees",
+   "Brood"
+  ],
+  "question_en": "What does Carlos ask to buy besides vegetables?",
+  "options_en": [
+   "Seasonal fruit",
+   "Meat",
+   "Bread"
+  ],
+  "answer_en": "Seasonal fruit"
+ },
+ {
+  "question": "Waar koopt Carlos brood?",
+  "options": [
+   "In de supermarkt",
+   "Bij de bakkerij op de markt",
+   "Thuis"
+  ],
+  "question_en": "Where does Carlos buy bread?",
+  "options_en": [
+   "At the supermarket",
+   "At the bakery at the market",
+   "At home"
+  ],
+  "answer_en": "At the bakery at the market"
+ },
+ {
+  "question": "Waar zit het boek?",
+  "options": [
+   "In de auto",
+   "In de rugzak",
+   "Op tafel"
+  ],
+  "question_en": "Where is the book?",
+  "options_en": [
+   "In the car",
+   "In the backpack",
+   "On the table"
+  ],
+  "answer_en": "In the backpack"
+ },
+ {
+  "question": "Wat doet Carlos met zijn vrienden over het boek?",
+  "options": [
+   "Hij schrijft hen erover",
+   "Hij zegt niks",
+   "Hij belt hen niet"
+  ],
+  "question_en": "What does Carlos do with his friends about the book?",
+  "options_en": [
+   "He texts them about it",
+   "He says nothing",
+   "He doesn't call them"
+  ],
+  "answer_en": "He texts them about it"
+ },
+ {
+  "question": "Wat bestelt Ana als hoofdgerecht?",
+  "options": [
+   "Soep",
+   "Vis",
+   "Vlees"
+  ],
+  "question_en": "What does Ana order as a main course?",
+  "options_en": [
+   "Soup",
+   "Fish",
+   "Meat"
+  ],
+  "answer_en": "Fish"
+ },
+ {
+  "question": "Waarom vraagt Carlos naar vegetarische opties?",
+  "options": [
+   "Hij is allergisch",
+   "Hij is vegetariër",
+   "Hij houdt niet van vis"
+  ],
+  "question_en": "Why does Carlos ask about vegetarian options?",
+  "options_en": [
+   "He's allergic",
+   "He's a vegetarian",
+   "He doesn't like fish"
+  ],
+  "answer_en": "He's a vegetarian"
+ },
+ {
+  "question": "Hoe betaalt Carlos?",
+  "options": [
+   "Contant",
+   "Met kaart",
+   "Hij betaalt niet"
+  ],
+  "question_en": "How does Carlos pay?",
+  "options_en": [
+   "Cash",
+   "By card",
+   "He doesn't pay"
+  ],
+  "answer_en": "By card"
+ },
+ {
+  "question": "Wat vinden ze van de rekening?",
+  "options": [
+   "Er zit een fout in",
+   "Alles klopt perfect",
+   "Het is te weinig"
+  ],
+  "question_en": "What do they think of the bill?",
+  "options_en": [
+   "There's a mistake in it",
+   "Everything is perfectly right",
+   "It's too little"
+  ],
+  "answer_en": "There's a mistake in it"
+ },
+ {
+  "question": "Waar gaat Carlos na de apotheek naartoe?",
+  "options": [
+   "Naar de kapper",
+   "Naar het postkantoor",
+   "Naar huis"
+  ],
+  "question_en": "Where is Carlos going after the pharmacy?",
+  "options_en": [
+   "To the hairdresser",
+   "To the post office",
+   "Home"
+  ],
+  "answer_en": "To the post office"
+ },
+ {
+  "question": "Wat moet Carlos laten repareren?",
+  "options": [
+   "Zijn fiets",
+   "Zijn schoenen",
+   "Zijn telefoon"
+  ],
+  "question_en": "What does Carlos need to get repaired?",
+  "options_en": [
+   "His bike",
+   "His shoes",
+   "His phone"
+  ],
+  "answer_en": "His shoes"
+ },
+ {
+  "question": "Op welke verdieping woont Carlos?",
+  "options": [
+   "Eerste",
+   "Tweede",
+   "Derde"
+  ],
+  "question_en": "Which floor does Carlos live on?",
+  "options_en": [
+   "First",
+   "Second",
+   "Third"
+  ],
+  "answer_en": "Second"
+ },
+ {
+  "question": "Wat heeft Carlos in plaats van een garage?",
+  "options": [
+   "Niets",
+   "Een kelder",
+   "Een tuin"
+  ],
+  "question_en": "What does Carlos have instead of a garage?",
+  "options_en": [
+   "Nothing",
+   "A basement",
+   "A garden"
+  ],
+  "answer_en": "A basement"
+ },
+ {
+  "question": "Wat is Ana onlangs nieuws?",
+  "options": [
+   "Een boekenkast",
+   "Een bed",
+   "Een lamp"
+  ],
+  "question_en": "What did Ana recently get that's new?",
+  "options_en": [
+   "A bookcase",
+   "A bed",
+   "A lamp"
+  ],
+  "answer_en": "A bookcase"
+ },
+ {
+  "question": "Waarvoor decoreert Ana het huis ook?",
+  "options": [
+   "Verjaardagen",
+   "Kerst",
+   "Ze doet dat nooit"
+  ],
+  "question_en": "What else does Ana decorate the house for?",
+  "options_en": [
+   "Birthdays",
+   "Christmas",
+   "She never does"
+  ],
+  "answer_en": "Christmas"
+ },
+ {
+  "question": "Welke twee taken doet Carlos?",
+  "options": [
+   "Afwassen en stofzuigen",
+   "Strijken en koken",
+   "Tuinieren en wassen"
+  ],
+  "question_en": "Which two chores does Carlos do?",
+  "options_en": [
+   "Washing dishes and vacuuming",
+   "Ironing and cooking",
+   "Gardening and doing laundry"
+  ],
+  "answer_en": "Washing dishes and vacuuming"
+ },
+ {
+  "question": "Wat doet Carlos op zondag?",
+  "options": [
+   "Hij wast de kleren",
+   "Hij geeft de planten water",
+   "Hij stofzuigt"
+  ],
+  "question_en": "What does Carlos do on Sundays?",
+  "options_en": [
+   "He does the laundry",
+   "He waters the plants",
+   "He vacuums"
+  ],
+  "answer_en": "He waters the plants"
+ },
+ {
+  "question": "Wat doet Carlos NIET pijn?",
+  "options": [
+   "Hoofd",
+   "Maag",
+   "Oren"
+  ],
+  "question_en": "What does NOT hurt on Carlos?",
+  "options_en": [
+   "Head",
+   "Stomach",
+   "Ears"
+  ],
+  "answer_en": "Ears"
+ },
+ {
+  "question": "Wat gaat Carlos doen?",
+  "options": [
+   "Naar bed gaan",
+   "Een afspraak maken bij de dokter",
+   "Niets"
+  ],
+  "question_en": "What is Carlos going to do?",
+  "options_en": [
+   "Go to bed",
+   "Make a doctor's appointment",
+   "Nothing"
+  ],
+  "answer_en": "Make a doctor's appointment"
+ },
+ {
+  "question": "Wat heeft Carlos naast koorts?",
+  "options": [
+   "Hoesten",
+   "Rugpijn",
+   "Hoofdpijn"
+  ],
+  "question_en": "What does Carlos have besides a fever?",
+  "options_en": [
+   "A cough",
+   "Back pain",
+   "A headache"
+  ],
+  "answer_en": "A cough"
+ },
+ {
+  "question": "Wat neemt Carlos elke ochtend?",
+  "options": [
+   "Een pil",
+   "Siroop",
+   "Niets"
+  ],
+  "question_en": "What does Carlos take every morning?",
+  "options_en": [
+   "A pill",
+   "Syrup",
+   "Nothing"
+  ],
+  "answer_en": "A pill"
+ },
+ {
+  "question": "Wat zijn Carlos zijn symptomen?",
+  "options": [
+   "Buikpijn en hoesten",
+   "Hoofdpijn en koorts",
+   "Rugpijn"
+  ],
+  "question_en": "What are Carlos' symptoms?",
+  "options_en": [
+   "Stomachache and a cough",
+   "Headache and fever",
+   "Back pain"
+  ],
+  "answer_en": "Headache and fever"
+ },
+ {
+  "question": "Hoe ernstig is het volgens de dokter?",
+  "options": [
+   "Heel ernstig",
+   "Mild",
+   "Hij weet het niet"
+  ],
+  "question_en": "How serious is it, according to the doctor?",
+  "options_en": [
+   "Very serious",
+   "Mild",
+   "He doesn't know"
+  ],
+  "answer_en": "Mild"
+ },
+ {
+  "question": "Hoe vaak is Carlos in Portugal geweest?",
+  "options": [
+   "Nooit",
+   "Eén keer",
+   "Twee keer"
+  ],
+  "question_en": "How many times has Carlos been to Portugal?",
+  "options_en": [
+   "Never",
+   "Once",
+   "Twice"
+  ],
+  "answer_en": "Twice"
+ },
+ {
+  "question": "Wie is klaar met het project?",
+  "options": [
+   "Alleen Ana",
+   "Alleen Carlos",
+   "Allebei nog niet"
+  ],
+  "question_en": "Who has finished the project?",
+  "options_en": [
+   "Only Ana",
+   "Only Carlos",
+   "Neither of them yet"
+  ],
+  "answer_en": "Only Carlos"
+ },
+ {
+  "question": "Wat heeft Carlos vandaag geschreven?",
+  "options": [
+   "Een e-mail",
+   "Een brief",
+   "Een boek"
+  ],
+  "question_en": "What did Carlos write today?",
+  "options_en": [
+   "An email",
+   "A letter",
+   "A book"
+  ],
+  "answer_en": "A letter"
+ },
+ {
+  "question": "Wat is er in de keuken gebeurd?",
+  "options": [
+   "Er is een glas gebroken",
+   "Niets",
+   "Er brandde iets aan"
+  ],
+  "question_en": "What happened in the kitchen?",
+  "options_en": [
+   "A glass broke",
+   "Nothing",
+   "Something burned"
+  ],
+  "answer_en": "A glass broke"
+ },
+ {
+  "question": "Hoe gaat het project volgens hen?",
+  "options": [
+   "Slecht",
+   "Goed tot nu toe",
+   "Ze weten het niet"
+  ],
+  "question_en": "How is the project going, according to them?",
+  "options_en": [
+   "Badly",
+   "Well so far",
+   "They don't know"
+  ],
+  "answer_en": "Well so far"
+ },
+ {
+  "question": "Wat gaat Carlos vanavond doen?",
+  "options": [
+   "Thuis blijven",
+   "Buiten de deur eten",
+   "Werken"
+  ],
+  "question_en": "What is Carlos going to do tonight?",
+  "options_en": [
+   "Stay home",
+   "Eat out",
+   "Work"
+  ],
+  "answer_en": "Eat out"
+ },
+ {
+  "question": "Wat heeft Ana bereikt?",
+  "options": [
+   "Een nieuwe baan",
+   "De Spaanse cursus afgemaakt",
+   "Een prijs gewonnen"
+  ],
+  "question_en": "What has Ana achieved?",
+  "options_en": [
+   "A new job",
+   "Finished the Spanish course",
+   "Won a prize"
+  ],
+  "answer_en": "Finished the Spanish course"
+ },
+ {
+  "question": "Waardoor is Ana verbeterd?",
+  "options": [
+   "Door te reizen",
+   "Door dagelijks te oefenen",
+   "Door televisie te kijken"
+  ],
+  "question_en": "How did Ana improve?",
+  "options_en": [
+   "By traveling",
+   "By practicing every day",
+   "By watching TV"
+  ],
+  "answer_en": "By practicing every day"
+ },
+ {
+  "question": "Met wie woonde Carlos als kind?",
+  "options": [
+   "Met zijn ouders",
+   "Met zijn grootouders",
+   "Alleen"
+  ],
+  "question_en": "Who did Carlos live with as a child?",
+  "options_en": [
+   "His parents",
+   "His grandparents",
+   "Alone"
+  ],
+  "answer_en": "His grandparents"
+ },
+ {
+  "question": "Waar was Carlos als kind bang voor?",
+  "options": [
+   "Honden",
+   "Het donker",
+   "Water"
+  ],
+  "question_en": "What was Carlos afraid of as a child?",
+  "options_en": [
+   "Dogs",
+   "The dark",
+   "Water"
+  ],
+  "answer_en": "The dark"
+ },
+ {
+  "question": "Wat gebruikte men vroeger meer dan nu?",
+  "options": [
+   "Internet",
+   "Brieven",
+   "Telefoons"
+  ],
+  "question_en": "What did people use more in the past than now?",
+  "options_en": [
+   "The internet",
+   "Letters",
+   "Phones"
+  ],
+  "answer_en": "Letters"
+ },
+ {
+  "question": "Wat is er NIET veranderd volgens hen?",
+  "options": [
+   "De wijk",
+   "Het park",
+   "De mensen"
+  ],
+  "question_en": "What has NOT changed, according to them?",
+  "options_en": [
+   "The neighborhood",
+   "The park",
+   "The people"
+  ],
+  "answer_en": "The park"
+ },
+ {
+  "question": "Wat studeerde de opa van Carlos?",
+  "options": [
+   "Rechten",
+   "Geneeskunde",
+   "Kunst"
+  ],
+  "question_en": "What did Carlos' grandfather study?",
+  "options_en": [
+   "Law",
+   "Medicine",
+   "Art"
+  ],
+  "answer_en": "Medicine"
+ },
+ {
+  "question": "Op welke leeftijd trouwde de opa?",
+  "options": [
+   "20",
+   "25",
+   "30"
+  ],
+  "question_en": "How old was the grandfather when he got married?",
+  "options_en": [
+   "20",
+   "25",
+   "30"
+  ],
+  "answer_en": "25"
+ },
+ {
+  "question": "Welke gebeurtenis was onvergetelijk voor Carlos?",
+  "options": [
+   "Zijn bruiloft",
+   "De geboorte van zijn dochter",
+   "Zijn afstuderen"
+  ],
+  "question_en": "Which event was unforgettable for Carlos?",
+  "options_en": [
+   "His wedding",
+   "The birth of his daughter",
+   "His graduation"
+  ],
+  "answer_en": "The birth of his daughter"
+ },
+ {
+  "question": "Wanneer vond de bruiloft van Carlos plaats?",
+  "options": [
+   "Januari",
+   "Juni",
+   "December"
+  ],
+  "question_en": "When did Carlos' wedding take place?",
+  "options_en": [
+   "January",
+   "June",
+   "December"
+  ],
+  "answer_en": "June"
+ },
+ {
+  "question": "Waarom gebruikt de spreker hier \"empezó\" (indefinido)?",
+  "options": [
+   "Het is een gewoonte",
+   "Het is een afgeronde, onderbrekende actie",
+   "Het is een beschrijving"
+  ],
+  "question_en": "Why does the speaker use \"empezó\" (indefinido) here?",
+  "options_en": [
+   "It's a habit",
+   "It's a completed, interrupting action",
+   "It's a description"
+  ],
+  "answer_en": "It's a completed, interrupting action"
+ },
+ {
+  "question": "Wat gebeurde er plotseling terwijl Carlos speelde?",
+  "options": [
+   "Hij brak zijn been",
+   "Hij verloor de wedstrijd",
+   "Hij werd moe"
+  ],
+  "question_en": "What suddenly happened while Carlos was playing?",
+  "options_en": [
+   "He broke his leg",
+   "He lost the match",
+   "He got tired"
+  ],
+  "answer_en": "He broke his leg"
+ },
+ {
+  "question": "Wat is Ana aan het doen?",
+  "options": [
+   "Koken",
+   "Werken",
+   "Slapen"
+  ],
+  "question_en": "What is Ana doing?",
+  "options_en": [
+   "Cooking",
+   "Working",
+   "Sleeping"
+  ],
+  "answer_en": "Cooking"
+ },
+ {
+  "question": "Waarom is Carlos nog aan het werk?",
+  "options": [
+   "Hij werkt deze week veel",
+   "Hij heeft vrij",
+   "Het regent"
+  ],
+  "question_en": "Why is Carlos still working?",
+  "options_en": [
+   "He's working a lot this week",
+   "He has the day off",
+   "It's raining"
+  ],
+  "answer_en": "He's working a lot this week"
+ },
+ {
+  "question": "Wat doet Ana's hond?",
+  "options": [
+   "Hij eet haar brood op",
+   "Hij slaapt",
+   "Hij is buiten"
+  ],
+  "question_en": "What is Ana's dog doing?",
+  "options_en": [
+   "He's eating her bread",
+   "He's sleeping",
+   "He's outside"
+  ],
+  "answer_en": "He's eating her bread"
  }
 ]
