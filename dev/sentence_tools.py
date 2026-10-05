@@ -44,10 +44,10 @@ def replace_sentences(changes, path=PATH):
         if new_lit in line:
             skipped += 1
             continue
-        if ('[' + json.dumps(new[0], ensure_ascii=False) + ',') in line and ('[' + json.dumps(old, ensure_ascii=False) + ',') not in line:
-            skipped += 1
-            continue
         k = line.find('[' + json.dumps(old, ensure_ascii=False) + ',')
+        if k < 0:
+            # oude zin al vervangen: werk de nieuwe zin bij (bv. extra alts)
+            k = line.find('[' + json.dumps(new[0], ensure_ascii=False) + ',')
         assert k >= 0, 'zin niet gevonden in ' + lid + ': ' + old
         e = _array_end(line, k)
         line = line[:k] + new_lit + line[e:]
