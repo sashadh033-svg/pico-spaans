@@ -13271,6 +13271,15 @@ function slashOptions(tok){
   });
   return opts;
 }
+// "ya" mag bij de voltooide tijd vooraan of achteraan: "¿Has comido ya?" = "¿Ya has comido?"
+function yaVariants(s){
+  const n = normalize(s), out = [];
+  const HA = '(?:(?:me|te|se|lo|la|le|nos|os|les|los|las) )*(?:he|has|ha|hemos|habéis|han) ';
+  let m;
+  if((m = n.match(new RegExp('^(' + HA + '.*) ya$')))) out.push('ya ' + m[1]);
+  if((m = n.match(new RegExp('^ya (' + HA + '.*)$')))) out.push(m[1] + ' ya');
+  return out;
+}
 function answerVariants(s){
   s = String(s);
   const bases = new Set([s, s.replace(/\s*\([^)]*\)\s*/g,' ').trim(), s.replace(/[()]/g,'')]);
@@ -13285,6 +13294,7 @@ function answerVariants(s){
   const out = new Set();
   bases.forEach(b=>{
     out.add(b);
+    yaVariants(b).forEach(v=>out.add(v));
     if(b.indexOf('/')===-1) return;
     let combos = [''];
     b.split(/\s+/).forEach(tok=>{
