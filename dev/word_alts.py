@@ -25,6 +25,7 @@ def main():
     a = c.index(head) + len(head)
     b = c.index(';\n', a)
     alts = json.loads(c[a:b])
+    c = c[:a] + '@@EXTRA_ALTS@@' + c[b:]
     n_alt = n_gloss = 0
     for f in fixes:
         es = f['es']
@@ -58,7 +59,7 @@ def main():
                 n_alt += 1
         if not cur:
             del alts[key]
-    c = c[:a] + json.dumps(alts, ensure_ascii=False, separators=(',', ':')) + c[b:]
+    c = c.replace('@@EXTRA_ALTS@@', json.dumps(alts, ensure_ascii=False, separators=(',', ':')))
     open(PATH, 'w', encoding='utf-8').write(c)
     print(n_alt, 'alts toegevoegd,', n_gloss, 'vertalingen aangepast')
 
