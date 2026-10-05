@@ -23,3 +23,4 @@
   - Unit-titels A1/A2 in het Engels: dev/unit_titles_en.py.
   - Tests: dev/test_english_scan.js (Nederlandse woorden op schermen in EN-modus; Spaanse zinnen geven vals alarm) en dev/test_english_stories.js (alle 283 verhaalvragen hebben een Engelse versie).
 - Perfecto-zinnen met Engelse verleden tijd: dev/perfecto_alts.py. Vóór A2 unit 6 staat het Engels in de voltooide tijd ("I've overslept today"); daarna telt ook de indefinido-versie als goed (alts).
+- Zinnen aan bolletjes koppelen (buildNodeGroups/wordMatcher): werkwoorden herkent de app nu ook in indefinido, imperfecto, voltooid deelwoord en gerundio (verbFormTokens). Zo komt "Hoy me he quedado dormido" pas ná het bolletje met "quedarse dormido". Het aantal bolletjes verandert niet.
