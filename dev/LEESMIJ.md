@@ -15,3 +15,5 @@
 - Volgorde B1: subjuntivo unit 3, condicional unit 12, se impersonal unit 20, pluscuamperfecto unit 22, estilo indirecto unit 26/28, futuro unit 33. Hubiera, cuando + subjuntivo en 'se me ha...' horen in B2.
 - test_stories_lv.js meldt 'option not found' bij typvragen in verhaaltjes (a2-u1, b1-u1): beperking van de test, geen fout in de app.
 - Tikhulp (HINTS) voor nieuwe woorden in vervangen zinnen: dev/new_word_hints.py.
+- Woordenlijst nagelopen op "goed antwoord fout gerekend": dev/word_alts.py leest dev/word_fixes.json ({es, alts, en_new, nl_new}) en zet alts in EXTRA_ALTS (sleutel = normalizeLenient(es)) en verduidelijkt vertalingen (bv. hoy mismo → "today (this very day)", hemos → "we have (+ past participle)"). Haakjes zijn optioneel bij nakijken, dus de oude vertaling blijft goed. Nieuwe gevallen: toevoegen aan word_fixes.json en opnieuw draaien.
+- Nakijken: "ya" mag voor of na de voltooide tijd (yaVariants); "pensar + infinitivo" e.d. is ook goed zonder "+ infinitivo" (answerVariants).
