@@ -12179,15 +12179,26 @@ function buildNodeGroupsRaw(unit){
     while(k < n-1 && sentBuckets[k].length >= cap) k++;
     sentBuckets[k].push(x);
   });
-  const introShown = new Set();
+  // Grammatica-intro tonen bij het eerste bolletje waar hij over gaat: een zin uit die les, of een woord uit
+  // die les dat in de uitleg zelf genoemd wordt (bv. 'tengo' bij de uitleg over tener). Zo komt 'Me lavo las manos'
+  // pas bij de zinnen over lichaamsdelen, niet al bij het bolletje waar alleen de eerste woorden van die les staan.
+  const introAt = new Map();
+  newLessons.filter(l=>l.intro).forEach(l=>{
+    const txt = ' ' + normalizeLenient(String(l.intro).replace(/<\/?(b|i|em|strong|u|span)\b[^>]*>/g,'').replace(/<[^>]+>/g,' ').replace(/[—–:;()"«»]/g,' ')) + ' ';
+    let at = -1;
+    for(let k=0;k<n && at<0;k++){
+      if(sentBuckets[k].some(x=>x.lesson===l)) at = k;
+      else if(part(words,k).some(x=> x.lesson===l && normalizeLenient(x.item[0]).length>=3 && txt.indexOf(' '+normalizeLenient(x.item[0])+' ')>-1)) at = k;
+    }
+    if(at<0) for(let k=0;k<n && at<0;k++) if(part(words,k).some(x=>x.lesson===l)) at = k;
+    introAt.set(l, at);
+  });
   for(let k=0;k<n;k++){
     const wch = part(words,k), sch = sentBuckets[k];
     const srcs = [];
     [...wch, ...sch].forEach(x=>{ if(!srcs.includes(x.lesson)) srcs.push(x.lesson); });
     srcs.sort((a,b)=> newLessons.indexOf(a) - newLessons.indexOf(b));
-    // grammatica-intro tonen bij het eerste bolletje waarin de les met die intro begint
-    const intros = srcs.filter(l=> l.intro && !introShown.has(l.id));
-    intros.forEach(l=> introShown.add(l.id));
+    const intros = newLessons.filter(l=> l.intro && introAt.get(l)===k);
     const first = srcs[0] || newLessons[0];
     const virtual = {
       id: unit.id+'-b'+(k+1), kind:'new', isBubble:true,
