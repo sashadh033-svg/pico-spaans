@@ -13566,6 +13566,20 @@ function checkAnswer(){
   if(!correct && !typo && TYPO_TYPES.includes(it.type)){
     typo = [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants).some(cnd => isTypo(given, cnd, it.dir==='es-to-trans'));
   }
+  // Woord goed, maar het lidwoord vergeten ("cereales" i.p.v. "los cereales") -> oranje met tip; een verkeerd lidwoord blijft fout
+  if(!correct && !typo && it.type==='type' && it.dir!=='es-to-trans'){
+    const ART = /^(el|la|los|las|un|una|unos|unas)\s+/;
+    const g = normalizeLenient(given);
+    const hit = [exState.currentCorrect, ...(it.alts||[]), ...extra].flatMap(answerVariants).find(cnd=>{
+      const n = normalizeLenient(cnd); if(!ART.test(n)) return false;
+      const bare = n.replace(ART,''); return g === bare || isTypo(given, bare, false);
+    });
+    if(hit){
+      typo = true;
+      exState.lastTitle = L('Bijna goed! Vergeet het lidwoord niet ✏️','Almost! Don\'t forget the article ✏️');
+      exState.lastTip = L('Leer het lidwoord altijd mee, dan weet je of het woord mannelijk of vrouwelijk is.','Always learn the article with the word, so you know if it\'s masculine or feminine.');
+    }
+  }
   if(correct || typo) exState.correct++;
   else {
     if(it.type==='mc' || it.type==='type' || it.type==='listen'){
