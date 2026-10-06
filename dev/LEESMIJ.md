@@ -28,3 +28,4 @@
 - A2-woordenlijst: 46 'woorden' die gewone zinnetjes waren (tomar café, salir de casa, leer un libro...) weggehaald; tomar en coger los toegevoegd: dev/remove_phrase_words.py + dev/phrase_words_a2.json. Aantal bolletjes per unit gelijk (zinnen bepalen het aantal).
 - Ook B1 (31) en B2 (14) opgeschoond met hetzelfde script (dev/phrase_words_b1.json, dev/phrase_words_b2.json).
 - Nakijken: woord goed maar lidwoord vergeten (cereales i.p.v. los cereales) = oranje met tip; verkeerd lidwoord blijft fout. Alleen bij 'type' richting Spaans (richting NL/EN mocht het lidwoord al weg).
+- Uitleg (intro) verschijnt bij het eerste bolletje met een zin uit die les, of een woord uit die les dat in de uitleg genoemd wordt (introAt in buildNodeGroupsRaw). Zo staat 'Me lavo las manos' (A2 u1) bij de zinnen over lichaamsdelen en 'Meervoud' (A1 u2) bij de meervoudszinnen.
