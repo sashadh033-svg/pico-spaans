@@ -4111,5 +4111,23 @@
   "nl_new": "vroege vogel / vroeg opstaand",
   "en_new": "early riser / early bird",
   "why": "zelfstandig naamwoord in de zinnen (\"Mi padre es muy madrugador\")"
+ },
+ {
+  "es": "la tarea doméstica",
+  "alts_en": [
+   "the housework",
+   "housework",
+   "the chore",
+   "chore",
+   "the household task"
+  ],
+  "alts_nl": [
+   "het huishouden",
+   "huishouden",
+   "het huishoudelijk werk",
+   "huishoudelijk werk",
+   "de klus"
+  ],
+  "why": "housework = goede vertaling"
  }
 ]

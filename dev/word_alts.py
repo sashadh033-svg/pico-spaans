@@ -1,5 +1,6 @@
 # Woordenlijst: extra goede Spaanse antwoorden (EXTRA_ALTS) en duidelijkere vertalingen.
-# Bron: dev/word_fixes.json  [{es, alts?, en_new?, nl_new?, why}]
+# Bron: dev/word_fixes.json  [{es, alts?, en_new?, nl_new?, alts_en?, alts_nl?, why}]
+# alts = goede Spaanse antwoorden; alts_en/alts_nl = goede vertalingen bij Spaans -> Engels/Nederlands
 # Gebruik: python3 dev/word_alts.py   (idempotent)
 import json, os, re, unicodedata
 
@@ -50,6 +51,17 @@ def main():
                 return '[' + j(es) + ', ' + j(parts[0]) + ', ' + j(parts[1]) + ']'
             c, k = pat.subn(rep, c)
             assert k > 0, 'woord niet gevonden: ' + es
+        # extra goede vertalingen in je eigen taal (richting Spaans -> NL/EN); sleutel = de huidige vertaling
+        for lang, idx in (('alts_nl', 1), ('alts_en', 2)):
+            if not f.get(lang):
+                continue
+            m = re.search(r'\[' + re.escape(j(es)) + r', ("(?:[^"\\]|\\.)*"), ("(?:[^"\\]|\\.)*")\]', c)
+            assert m, 'woord niet gevonden: ' + es
+            gk = normalize_lenient(json.loads(m.group(idx)))
+            cur = alts.setdefault(gk, [])
+            for x in f[lang]:
+                if x not in cur and normalize_lenient(x) != gk:
+                    cur.append(x); n_alt += 1
         # extra goede Spaanse antwoorden
         key = normalize_lenient(es)
         cur = alts.setdefault(key, [])
