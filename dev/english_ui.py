@@ -276,6 +276,9 @@ r2('"reden": "één korte zin in het Nederlands"}`;', '"reden": "één korte zin
 r2("btn.textContent = 'Pico kijkt mee...';", "btn.textContent = " + LJ('Pico kijkt mee...', 'Pico is checking...') + ";")
 r2("btn.textContent = 'Pico denkt na...';", "btn.textContent = " + LJ('Pico denkt na...', 'Pico is thinking...') + ";")
 
+r2("badgeText = it.type==='ai-type' ? L('⌨️ Typ het antwoord','⌨️ Type the answer') : L('⌨️ Typ de Spaanse vertaling','⌨️ Type it in Spanish');",
+   "badgeText = it.type==='ai-type' ? L('⌨️ Typ het antwoord','⌨️ Type the answer') : (it.dir==='es-to-trans' ? L('⌨️ Typ de vertaling','⌨️ Type the translation') : L('⌨️ Typ de Spaanse vertaling','⌨️ Type it in Spanish'));")
+
 def main2():
     c = open(PATH, encoding='utf-8').read()
     done = 0
