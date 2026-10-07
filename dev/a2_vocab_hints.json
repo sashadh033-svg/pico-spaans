@@ -1,0 +1,551 @@
+{
+ "¿Cuál es tu pasatiempo favorito?": [
+  [
+   "pasatiempo",
+   "hobby",
+   "hobby",
+   "hobby",
+   "hobby"
+  ]
+ ],
+ "No, está a dos cuadras.": [
+  [
+   "cuadras",
+   "straten",
+   "blocks",
+   "blokken/straten (a dos cuadras = twee straten verderop)",
+   "blocks (a dos cuadras = two blocks away)"
+  ]
+ ],
+ "¿El centro es muy concurrido entonces?": [
+  [
+   "concurrido",
+   "druk",
+   "crowded",
+   "druk, veel mensen",
+   "crowded, busy"
+  ]
+ ],
+ "¿Es un lugar pintoresco para sacar fotos?": [
+  [
+   "pintoresco",
+   "pittoreske",
+   "picturesque",
+   "pittoresk, schilderachtig",
+   "picturesque"
+  ]
+ ],
+ "Perfecto, también traigo mi bolsa reutilizable.": [
+  [
+   "reutilizable",
+   "herbruikbare",
+   "reusable",
+   "herbruikbaar",
+   "reusable"
+  ]
+ ],
+ "Este queso artesanal parece delicioso.": [
+  [
+   "artesanal",
+   "ambachtelijke",
+   "artisanal",
+   "ambachtelijk",
+   "artisanal, handmade"
+  ]
+ ],
+ "El zapatero está cerca de la lavandería.": [
+  [
+   "zapatero",
+   "schoenmaker",
+   "shoemaker",
+   "schoenmaker",
+   "shoemaker"
+  ]
+ ],
+ "¿Ofrecen servicio a domicilio?": [
+  [
+   "domicilio",
+   "huis",
+   "home",
+   "huis (a domicilio = aan huis)",
+   "home (a domicilio = at home)"
+  ]
+ ],
+ "No, pero tenemos un sótano espacioso.": [
+  [
+   "espacioso",
+   "ruime",
+   "spacious",
+   "ruim",
+   "spacious"
+  ]
+ ],
+ "Yo friego los platos y paso la aspiradora.": [
+  [
+   "aspiradora",
+   "stofzuig",
+   "vacuum",
+   "stofzuiger (pasar la aspiradora = stofzuigen)",
+   "vacuum cleaner (pasar la aspiradora = to vacuum)"
+  ]
+ ],
+ "No, por suerte es algo leve. Le receto unas pastillas.": [
+  [
+   "receto",
+   "schrijf",
+   "prescribe",
+   "voorschrijven (recetar)",
+   "prescribe (recetar)"
+  ]
+ ],
+ "Tenía miedo de la oscuridad. Soñaba con ser piloto.": [
+  [
+   "Soñaba con",
+   "droomde ervan",
+   "dream of",
+   "droomde van (soñar con)",
+   "used to dream of (soñar con)"
+  ]
+ ],
+ "Es verdad, la vida era más simple.": [
+  [
+   "simple",
+   "simpeler",
+   "simpler",
+   "simpel, eenvoudig",
+   "simple"
+  ]
+ ],
+ "No, pero tuvo una trayectoria profesional impresionante.": [
+  [
+   "trayectoria",
+   "loopbaan",
+   "career",
+   "loopbaan, traject",
+   "career path"
+  ]
+ ],
+ "Hoy estoy agobiado con tanto trabajo.": [
+  [
+   "agobiado",
+   "overweldigd",
+   "overwhelmed",
+   "overweldigd, gestrest",
+   "overwhelmed, stressed"
+  ]
+ ],
+ "Se independizó a los veinte años.": [
+  [
+   "independizó",
+   "zelfstandig",
+   "independent",
+   "zelfstandig worden (independizarse)",
+   "became independent (independizarse)"
+  ]
+ ],
+ "El reencuentro familiar fue muy emotivo.": [
+  [
+   "reencuentro",
+   "familiereünie",
+   "reunion",
+   "weerzien, reünie",
+   "reunion"
+  ]
+ ],
+ "Es aconsejable que reserves con antelación.": [
+  [
+   "antelación",
+   "van tevoren",
+   "in advance",
+   "vooraf (con antelación = van tevoren)",
+   "in advance (con antelación)"
+  ]
+ ],
+ "Si necesitas dinero, te lo presto.": [
+  [
+   "presto",
+   "leen",
+   "lend",
+   "ik leen uit (prestar)",
+   "I lend (prestar)"
+  ]
+ ],
+ "Guardo mis tarjetas en el billetero.": [
+  [
+   "billetero",
+   "portemonnee",
+   "wallet",
+   "portemonnee",
+   "wallet"
+  ]
+ ],
+ "Necesito calderilla para el autobús.": [
+  [
+   "calderilla",
+   "kleingeld",
+   "small change",
+   "kleingeld",
+   "small change"
+  ]
+ ],
+ "Hay un recargo si pagas con tarjeta.": [
+  [
+   "recargo",
+   "toeslag",
+   "surcharge",
+   "toeslag",
+   "surcharge"
+  ]
+ ],
+ "Compré este abrigo y fue una ganga.": [
+  [
+   "ganga",
+   "koopje",
+   "bargain",
+   "koopje",
+   "bargain"
+  ]
+ ],
+ "Voy a sacar dinero del cajero automático.": [
+  [
+   "cajero",
+   "geldautomaat",
+   "ATM",
+   "geldautomaat (cajero automático)",
+   "ATM (cajero automático)"
+  ]
+ ],
+ "Estamos ahorrando para el viaje de verano.": [
+  [
+   "ahorrando",
+   "sparen",
+   "saving",
+   "aan het sparen (ahorrar)",
+   "saving (ahorrar)"
+  ]
+ ],
+ "Estamos ahorrando poco a poco para el coche.": [
+  [
+   "ahorrando",
+   "sparen",
+   "saving",
+   "aan het sparen (ahorrar)",
+   "saving (ahorrar)"
+  ]
+ ],
+ "Estoy haciendo la licenciatura en Derecho.": [
+  [
+   "licenciatura",
+   "universitaire opleiding",
+   "law degree",
+   "universitaire opleiding (bachelor)",
+   "university degree"
+  ]
+ ],
+ "Con este certificado de idiomas podría trabajar en España.": [
+  [
+   "certificado",
+   "taalcertificaat",
+   "certificate",
+   "certificaat",
+   "certificate"
+  ]
+ ],
+ "Ese volcán tiene casi tres mil metros.": [
+  [
+   "volcán",
+   "vulkaan",
+   "volcano",
+   "vulkaan",
+   "volcano"
+  ]
+ ],
+ "Esta cabaña está en medio de la nada.": [
+  [
+   "cabaña",
+   "hut",
+   "cabin",
+   "hut",
+   "cabin"
+  ]
+ ],
+ "Pagamos la reserva por adelantado.": [
+  [
+   "adelantado",
+   "vooraf",
+   "in advance",
+   "vooraf (por adelantado)",
+   "in advance (por adelantado)"
+  ]
+ ],
+ "Cuanto más practico, más mejoro.": [
+  [
+   "Cuanto más",
+   "Hoe meer",
+   "The more",
+   "hoe meer ... hoe meer",
+   "the more ... the more"
+  ]
+ ],
+ "Me enteré de que se habían separado.": [
+  [
+   "enteré",
+   "kwam erachter",
+   "found out",
+   "ik kwam erachter (enterarse)",
+   "I found out (enterarse)"
+  ]
+ ],
+ "El jefe mandó que se hiciera el informe hoy mismo.": [
+  [
+   "mandó",
+   "beval",
+   "ordered",
+   "beval (mandar)",
+   "ordered (mandar)"
+  ]
+ ],
+ "Es mejor reservar mesa con antelación.": [
+  [
+   "antelación",
+   "van tevoren",
+   "in advance",
+   "vooraf (con antelación = van tevoren)",
+   "in advance (con antelación)"
+  ]
+ ],
+ "El cronograma es muy ajustado.": [
+  [
+   "ajustado",
+   "krap",
+   "tight",
+   "krap, strak",
+   "tight"
+  ]
+ ],
+ "No tenemos un plan fijo; lo decidimos sobre la marcha.": [
+  [
+   "fijo",
+   "vast",
+   "fixed",
+   "vast",
+   "fixed"
+  ]
+ ],
+ "Es joven, pero tiene la cabeza bien amueblada.": [
+  [
+   "amueblada",
+   "",
+   "",
+   "verstandig (bien amueblada = verstandig, 'goed ingericht')",
+   "sensible (bien amueblada = 'well furnished')"
+  ]
+ ],
+ "Si hubiéramos reservado con antelación, habríamos pagado menos.": [
+  [
+   "antelación",
+   "van tevoren",
+   "in advance",
+   "vooraf (con antelación = van tevoren)",
+   "in advance (con antelación)"
+  ]
+ ],
+ "Tiene una trayectoria profesional impresionante.": [
+  [
+   "trayectoria",
+   "loopbaan",
+   "career",
+   "loopbaan, traject",
+   "career path"
+  ]
+ ],
+ "Es una emprendedora nata: ya ha fundado tres empresas.": [
+  [
+   "fundado",
+   "opgericht",
+   "founded",
+   "opgericht (fundar)",
+   "founded (fundar)"
+  ]
+ ],
+ "El convenio fija las vacaciones y el horario de los trabajadores.": [
+  [
+   "fija",
+   "legt",
+   "sets",
+   "legt vast (fijar)",
+   "sets (fijar)"
+  ]
+ ],
+ "Cuando tenga tiempo, ordenaré el trastero.": [
+  [
+   "trastero",
+   "berging",
+   "storage room",
+   "berging",
+   "storage room"
+  ]
+ ],
+ "Le envío el presupuesto; se lo mando como archivo adjunto.": [
+  [
+   "mando",
+   "stuur",
+   "sending",
+   "stuur (mandar)",
+   "send (mandar)"
+  ]
+ ],
+ "En el extracto del banco aparece un cargo que no reconozco.": [
+  [
+   "cargo",
+   "afschrijving",
+   "charge",
+   "afschrijving",
+   "charge"
+  ]
+ ],
+ "Los vecinos dejan los zapatos en el rellano.": [
+  [
+   "rellano",
+   "overloop",
+   "landing",
+   "overloop",
+   "landing"
+  ]
+ ],
+ "Desde que hicieron el carril bici, voy al trabajo en bicicleta.": [
+  [
+   "carril",
+   "fietspad",
+   "cycle lane",
+   "baan (carril bici = fietspad)",
+   "lane (carril bici = cycle lane)"
+  ]
+ ],
+ "El acueducto de Segovia fue construido por los romanos.": [
+  [
+   "acueducto",
+   "aquaduct",
+   "aqueduct",
+   "aquaduct",
+   "aqueduct"
+  ]
+ ],
+ "La empresa fue fundada en 1920 por dos hermanos.": [
+  [
+   "fundada",
+   "opgericht",
+   "founded",
+   "opgericht (fundar)",
+   "founded (fundar)"
+  ]
+ ],
+ "El correo basura me llena la bandeja de entrada.": [
+  [
+   "bandeja",
+   "inbox",
+   "inbox",
+   "bak (bandeja de entrada = inbox)",
+   "tray (bandeja de entrada = inbox)"
+  ]
+ ],
+ "Nos advirtió que la carretera estaba cortada.": [
+  [
+   "cortada",
+   "afgesloten",
+   "closed",
+   "afgesloten",
+   "closed"
+  ]
+ ],
+ "El deshielo de los polos hace subir el nivel del mar.": [
+  [
+   "deshielo",
+   "smelten",
+   "melting",
+   "dooi, het smelten",
+   "thaw, melting"
+  ]
+ ],
+ "Me he comprado un coche eléctrico de segunda mano y lo cargo en casa.": [
+  [
+   "cargo",
+   "laad",
+   "charge",
+   "ik laad op (cargar)",
+   "I charge (cargar)"
+  ]
+ ],
+ "La UE quiere alcanzar la neutralidad climática en 2050.": [
+  [
+   "alcanzar",
+   "",
+   "reach",
+   "bereiken",
+   "reach"
+  ]
+ ],
+ "Los osos hibernan en cuevas durante el invierno.": [
+  [
+   "cuevas",
+   "grotten",
+   "caves",
+   "grotten",
+   "caves"
+  ]
+ ],
+ "En el funeral rompió a llorar.": [
+  [
+   "funeral",
+   "begrafenis",
+   "funeral",
+   "begrafenis",
+   "funeral"
+  ]
+ ],
+ "El mochilero compró un souvenir en cada ciudad.": [
+  [
+   "mochilero",
+   "rugzaktoerist",
+   "backpacker",
+   "rugzaktoerist",
+   "backpacker"
+  ]
+ ],
+ "A principios del siglo XX, mucha gente emigró a América.": [
+  [
+   "emigró",
+   "emigreerden",
+   "emigrated",
+   "emigreerde (emigrar)",
+   "emigrated (emigrar)"
+  ]
+ ],
+ "Los hinchas viajaron mil kilómetros para ver el partido.": [
+  [
+   "hinchas",
+   "supporters",
+   "fans",
+   "supporters, fans",
+   "fans"
+  ]
+ ],
+ "El delantero marcó dos goles en la primera parte.": [
+  [
+   "delantero",
+   "spits",
+   "striker",
+   "spits, aanvaller",
+   "striker"
+  ]
+ ],
+ "En una carta formal, trata al destinatario de usted.": [
+  [
+   "destinatario",
+   "ontvanger",
+   "recipient",
+   "ontvanger",
+   "recipient"
+  ]
+ ]
+}
