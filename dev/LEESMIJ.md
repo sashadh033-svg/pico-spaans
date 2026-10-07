@@ -30,3 +30,4 @@
 - Nakijken: woord goed maar lidwoord vergeten (cereales i.p.v. los cereales) = oranje met tip; verkeerd lidwoord blijft fout. Alleen bij 'type' richting Spaans (richting NL/EN mocht het lidwoord al weg).
 - Uitleg (intro) verschijnt bij het eerste bolletje met een zin uit die les, of een woord uit die les dat in de uitleg genoemd wordt (introAt in buildNodeGroupsRaw). Zo staat 'Me lavo las manos' (A2 u1) bij de zinnen over lichaamsdelen en 'Meervoud' (A1 u2) bij de meervoudszinnen.
 - Losse vervoegde vormen van al bekende werkwoorden uit thema-units gehaald (a2-u1 os despertáis/se despiertan, a2-u2 se acuesta/nos acostamos/os acostáis/se acuestan, a2-u27 recomendó/explicó) via dev/phrase_words_a2.json. Vervoegingen in grammatica-units (tener, ir, gustar, probarse, sentirse, condicional, futuro, subjuntivo...) blijven: daar zijn ze de lesstof.
+- Kleine losse fixes n.a.v. screenshots (zinnen/woorden): dev/misc_fixes.py (bv. 'me despeja' ≠ 'me despierta').
