@@ -92,7 +92,8 @@ def run():
     hints = json.loads(raw.rstrip(';'))
     added = 0
     for sent, hs in H.items():
-        assert sent in c, 'zin staat niet (meer) in de cursus: ' + sent
+        if sent not in c:
+            continue  # zin is later vervangen (bv. dev/a2_vocab.py)
         cur = hints.setdefault(sent, [])
         for h in hs:
             if not any(x[0] == h[0] for x in cur):

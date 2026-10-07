@@ -37,4 +37,5 @@ Ga zuinig om met usage: bij grote klussen eerst de omvang schatten en kort voorl
 ## Open ideeën / mogelijke volgende stappen
 - Gedaan (okt 2026): B1/B2-uitleg in thema-units, verhaaltje a1-u17p, A1–B2 nagelopen op te vroege grammatica (zinnen én verhaaltjes), geleerde vormen laten terugkomen door de hele cursus, plaatjes naar `img/`, voornaamwoorden (spiekbriefje, Kluis-knop, meer oefenzinnen). Zie `dev/LEESMIJ.md`.
 - Bij nieuwe inhoud: houd de volgorde aan (zie LEESMIJ) en laat geleerde vormen terugkomen; vervang zinnen in plaats van toevoegen.
+- A2 is in okt 2026 lichter gemaakt (982 i.p.v. 1.386 woorden). De zware versie is bewaard op branch `archief/a2-zware-versie`; gebruik die als bron als Sasha de extra woorden/zinnen later terug wil (bv. in B1 of als extra oefenstof).
 - Mogelijk: nieuwe personages/achtergronden in `img/` voor A2 en verder (nu alleen A1).

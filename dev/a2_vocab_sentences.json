@@ -1,0 +1,2825 @@
+[
+ {
+  "lesson": "a2-u1-l2",
+  "old": "Mi hijo desayuna un cruasán.",
+  "new": [
+   "Mi hijo desayuna tostadas y zumo de naranja.",
+   "Mijn zoon ontbijt met toast en sinaasappelsap.",
+   "My son has toast and orange juice for breakfast."
+  ]
+ },
+ {
+  "lesson": "a2-u1-l3",
+  "old": "Mi hermana se pone perfume y laca.",
+  "new": [
+   "Mi hermana se pone perfume y desodorante.",
+   "Mijn zus doet parfum en deodorant op.",
+   "My sister puts on perfume and deodorant."
+  ]
+ },
+ {
+  "lesson": "a2-u1-l4",
+  "old": "A las once tomo un tentempié.",
+  "new": [
+   "A las once tomo un café solo.",
+   "Om elf uur drink ik een zwarte koffie.",
+   "At eleven I have a black coffee.",
+   [
+    "A las once me tomo un café solo."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u2-l1",
+  "old": "Mi madre lleva un delantal en la cocina.",
+  "new": [
+   "Mi madre pone la mesa en la cocina.",
+   "Mijn moeder dekt de tafel in de keuken.",
+   "My mother sets the table in the kitchen."
+  ]
+ },
+ {
+  "lesson": "a2-u3-l1",
+  "old": "Pinto con acuarela los domingos.",
+  "new": [
+   "Dibujo en casa los domingos.",
+   "Op zondag teken ik thuis.",
+   "On Sundays I draw at home.",
+   [
+    "Los domingos dibujo en casa."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u3-l1",
+  "old": "Canto en un coro los jueves.",
+  "new": [
+   "Canto con mis amigos los jueves.",
+   "Op donderdag zing ik met mijn vrienden.",
+   "On Thursdays I sing with my friends.",
+   [
+    "Los jueves canto con mis amigos."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u3-l1",
+  "old": "Mi hermano toca el violín muy bien.",
+  "new": [
+   "Mi hermano toca el piano muy bien.",
+   "Mijn broer speelt heel goed piano.",
+   "My brother plays the piano very well.",
+   [
+    "Mi hermano toca muy bien el piano."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u3-l2",
+  "old": "Mi abuela hace ganchillo en casa.",
+  "new": [
+   "Mi abuela lee novelas en casa.",
+   "Mijn oma leest thuis romans.",
+   "My grandmother reads novels at home."
+  ]
+ },
+ {
+  "lesson": "a2-u3-l2",
+  "old": "Con los niños hacemos manualidades.",
+  "new": [
+   "Con los niños dibujamos y pintamos.",
+   "Met de kinderen tekenen en schilderen we.",
+   "We draw and paint with the children.",
+   [
+    "Dibujamos y pintamos con los niños."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u3-l2",
+  "old": "Los sábados hago bricolaje con mi padre.",
+  "new": [
+   "Los sábados hago jardinería con mi padre.",
+   "Op zaterdag doe ik met mijn vader aan tuinieren.",
+   "On Saturdays I do gardening with my father."
+  ]
+ },
+ {
+  "lesson": "a2-u3-l3",
+  "old": "¿Cuál es tu pasatiempo favorito?",
+  "new": [
+   "¿Cuál es tu afición favorita?",
+   "Wat is jouw favoriete hobby?",
+   "What's your favourite hobby?"
+  ]
+ },
+ {
+  "lesson": "a2-u3-l3",
+  "old": "Dedico poco tiempo a mis hobbies.",
+  "new": [
+   "Voy a un curso de baile.",
+   "Ik ga naar een danscursus.",
+   "I go to a dance class."
+  ]
+ },
+ {
+  "lesson": "a2-u3-l3",
+  "old": "Este juego es muy entretenido.",
+  "new": [
+   "Este juego es muy divertido.",
+   "Dit spel is erg leuk.",
+   "This game is a lot of fun."
+  ]
+ },
+ {
+  "lesson": "a2-u4-l1",
+  "old": "Mañana hay una quedada con los compañeros.",
+  "new": [
+   "Mañana quedo con los compañeros.",
+   "Morgen spreek ik af met de collega's.",
+   "Tomorrow I'm meeting up with my colleagues."
+  ]
+ },
+ {
+  "lesson": "a2-u4-l2",
+  "old": "He tenido que posponer la reunión.",
+  "new": [
+   "He tenido que cancelar la reunión.",
+   "Ik heb de vergadering moeten annuleren.",
+   "I had to cancel the meeting.",
+   [
+    "Tengo que cancelar la reunión."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u4-l3",
+  "old": "Estoy agobiado con tantas citas.",
+  "new": [
+   "Tengo muchas citas y estoy cansado.",
+   "Ik heb veel afspraken en ben moe.",
+   "I have a lot of appointments and I'm tired."
+  ]
+ },
+ {
+  "lesson": "a2-u4-l3",
+  "old": "Aviso con antelación si llego tarde.",
+  "new": [
+   "Aviso si llego tarde.",
+   "Ik laat het weten als ik te laat kom.",
+   "I let you know if I'm late.",
+   [
+    "Aviso si voy a llegar tarde."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u4-l3",
+  "old": "Mi agenda está muy ajustada.",
+  "new": [
+   "Tengo un hueco el martes.",
+   "Ik heb dinsdag een gaatje.",
+   "I have a gap on Tuesday.",
+   [
+    "El martes tengo un hueco."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u4-l3",
+  "old": "¿Qué franja horaria te viene mejor?",
+  "new": [
+   "¿Qué día te viene bien?",
+   "Welke dag komt jou goed uit?",
+   "Which day suits you?"
+  ]
+ },
+ {
+  "lesson": "a2-u4-l4",
+  "old": "Ana es impuntual; por eso pongo un recordatorio.",
+  "new": [
+   "Ana no es puntual y siempre llega tarde.",
+   "Ana is niet stipt en komt altijd te laat.",
+   "Ana isn't punctual and is always late."
+  ]
+ },
+ {
+  "lesson": "a2-u4-l4",
+  "old": "Acordamos la hora y fijamos el lugar.",
+  "new": [
+   "Confirmamos la hora y el sitio.",
+   "We bevestigen de tijd en de plek.",
+   "We confirm the time and the place."
+  ]
+ },
+ {
+  "lesson": "a2-u4-l4",
+  "old": "Tengo un compromiso el sábado; no puedo quedar.",
+  "new": [
+   "El sábado no estoy disponible; no puedo quedar.",
+   "Zaterdag ben ik niet beschikbaar; ik kan niet afspreken.",
+   "I'm not available on Saturday; I can't meet up."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l1",
+  "old": "Según el pronóstico, mañana hay chubascos.",
+  "new": [
+   "Mañana va a llover mucho.",
+   "Morgen gaat het veel regenen.",
+   "It's going to rain a lot tomorrow."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l1",
+  "old": "Hoy llovizna todo el día.",
+  "new": [
+   "Hoy llueve todo el día.",
+   "Vandaag regent het de hele dag.",
+   "It rains all day today."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l2",
+  "old": "En primavera florecen los árboles.",
+  "new": [
+   "En primavera hace buen tiempo.",
+   "In de lente is het mooi weer.",
+   "In spring the weather is nice."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l2",
+  "old": "En invierno hay escarcha por la mañana.",
+  "new": [
+   "En invierno hay niebla por la mañana.",
+   "In de winter is er 's ochtends mist.",
+   "In winter there is fog in the morning.",
+   [
+    "Por la mañana hay niebla en invierno."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u5-l2",
+  "old": "En primavera llega el deshielo.",
+  "new": [
+   "En primavera el clima es templado.",
+   "In de lente is het klimaat zacht.",
+   "In spring the climate is mild."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l2",
+  "old": "En otoño llega la cosecha.",
+  "new": [
+   "En otoño caen las hojas.",
+   "In de herfst vallen de bladeren.",
+   "In autumn the leaves fall."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l3",
+  "old": "Un huracán llega a la costa.",
+  "new": [
+   "Hay una tormenta fuerte en la playa.",
+   "Er is een zware storm op het strand.",
+   "There's a strong storm on the beach."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l3",
+  "old": "Después de la lluvia sale el arcoíris.",
+  "new": [
+   "Después de la lluvia sale el sol.",
+   "Na de regen komt de zon tevoorschijn.",
+   "After the rain the sun comes out."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l3",
+  "old": "Hoy ha caído granizo.",
+  "new": [
+   "Hoy hay relámpagos y truenos.",
+   "Vandaag is er bliksem en donder.",
+   "Today there is lightning and thunder."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l3",
+  "old": "Hay una ventisca en la montaña.",
+  "new": [
+   "Hay nieve y hace mucho viento.",
+   "Er ligt sneeuw en het waait hard.",
+   "There's snow and it's very windy."
+  ]
+ },
+ {
+  "lesson": "a2-u5-l3",
+  "old": "Esta tarde ha caído un aguacero.",
+  "new": [
+   "Esta tarde ha llovido mucho.",
+   "Vanmiddag heeft het veel geregend.",
+   "It has rained a lot this afternoon."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l1",
+  "old": "Juego al pádel con mis amigos.",
+  "new": [
+   "Juego al tenis con mis amigos.",
+   "Ik tennis met mijn vrienden.",
+   "I play tennis with my friends."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l2",
+  "old": "Empatamos uno a uno.",
+  "new": [
+   "Ayer marcamos un gol.",
+   "Gisteren scoorden we een doelpunt.",
+   "Yesterday we scored a goal."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l2",
+  "old": "Es el mejor delantero de la liga.",
+  "new": [
+   "Es un buen jugador de la liga.",
+   "Hij is een goede speler in de competitie.",
+   "He's a good player in the league."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l2",
+  "old": "El hincha espera detrás de la portería.",
+  "new": [
+   "El entrenador habla con los jugadores.",
+   "De trainer praat met de spelers.",
+   "The coach talks to the players."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l2",
+  "old": "Los hinchas cantan en el estadio.",
+  "new": [
+   "Los jugadores cantan en el vestuario.",
+   "De spelers zingen in de kleedkamer.",
+   "The players sing in the changing room."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l4",
+  "old": "Entreno con la raqueta y hago muchos ejercicios.",
+  "new": [
+   "Corro en la pista y hago muchos ejercicios.",
+   "Ik ren op de baan en doe veel oefeningen.",
+   "I run on the track and do lots of exercises."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l4",
+  "old": "Entreno con pesas en el gimnasio.",
+  "new": [
+   "Voy al gimnasio con mi entrenador.",
+   "Ik ga naar de sportschool met mijn trainer.",
+   "I go to the gym with my trainer."
+  ]
+ },
+ {
+  "lesson": "a2-u6-l4",
+  "old": "Llevo un chándal para entrenar.",
+  "new": [
+   "Llevo zapatillas de deporte para entrenar.",
+   "Ik draag sportschoenen om te trainen.",
+   "I wear trainers to work out."
+  ]
+ },
+ {
+  "lesson": "a2-u7-l1",
+  "old": "Sigue por el carril de la derecha.",
+  "new": [
+   "En la rotonda, gira a mano derecha.",
+   "Sla bij de rotonde rechtsaf.",
+   "At the roundabout, turn right.",
+   [
+    "En la rotonda, gira a la derecha."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u7-l2",
+  "old": "En la bifurcación, sigue por la derecha.",
+  "new": [
+   "En el cruce, gira a mano izquierda.",
+   "Sla bij het kruispunt linksaf.",
+   "At the crossing, turn left.",
+   [
+    "En el cruce, gira a la izquierda."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u7-l3",
+  "old": "Está a dos cuadras de aquí.",
+  "new": [
+   "Está a diez minutos andando.",
+   "Het is tien minuten lopen.",
+   "It's a ten-minute walk.",
+   [
+    "Está a diez minutos a pie."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u7-l3",
+  "old": "Hay un atajo detrás de la estación.",
+  "new": [
+   "Hay un túnel junto a la estación.",
+   "Er is een tunnel naast het station.",
+   "There's a tunnel next to the station.",
+   [
+    "Junto a la estación hay un túnel."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u7-l4",
+  "old": "La circunvalación está fuera de la ciudad.",
+  "new": [
+   "La rotonda está cerca de la estación.",
+   "De rotonde ligt dicht bij het station.",
+   "The roundabout is close to the station."
+  ]
+ },
+ {
+  "lesson": "a2-u7-l4",
+  "old": "Ayer pagué el peaje y seguí por la circunvalación.",
+  "new": [
+   "Ayer me perdí y pregunté el camino.",
+   "Gisteren raakte ik verdwaald en vroeg ik de weg.",
+   "Yesterday I got lost and asked the way."
+  ]
+ },
+ {
+  "lesson": "a2-u7-l4",
+  "old": "Hay un desvío; damos la vuelta.",
+  "new": [
+   "Estamos perdidos; damos la vuelta.",
+   "We zijn verdwaald; we keren om.",
+   "We're lost; we turn around."
+  ]
+ },
+ {
+  "lesson": "a2-u7-l4",
+  "old": "Los peatones giran hacia el callejón.",
+  "new": [
+   "Los peatones giran hacia la plaza.",
+   "De voetgangers slaan af richting het plein.",
+   "The pedestrians turn towards the square."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l1",
+  "old": "Paso por el torniquete con mi tarjeta.",
+  "new": [
+   "Compro un billete en la taquilla del metro.",
+   "Ik koop een kaartje bij het loket van de metro.",
+   "I buy a ticket at the metro ticket office."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l1",
+  "old": "Volvemos a casa en el autobús nocturno.",
+  "new": [
+   "Volvemos a casa en el tranvía.",
+   "We gaan met de tram naar huis.",
+   "We go home by tram."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l1",
+  "old": "El cercanías tarda veinte minutos.",
+  "new": [
+   "El trayecto dura veinte minutos.",
+   "De rit duurt twintig minuten.",
+   "The journey takes twenty minutes."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l1",
+  "old": "Recargo la tarjeta de transporte.",
+  "new": [
+   "Compro un billete sencillo en la estación.",
+   "Ik koop een enkele reis op het station.",
+   "I buy a single ticket at the station."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l3",
+  "old": "El revisor me puso una multa.",
+  "new": [
+   "El tren sale del andén dos.",
+   "De trein vertrekt van spoor twee.",
+   "The train leaves from platform two."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l4",
+  "old": "Validamos el billete antes de subir al tren.",
+  "new": [
+   "Compro un billete de ida y vuelta.",
+   "Ik koop een retourkaartje.",
+   "I buy a return ticket."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l4",
+  "old": "El maquinista es muy simpático.",
+  "new": [
+   "El taxista es muy simpático.",
+   "De taxichauffeur is heel aardig.",
+   "The taxi driver is very friendly."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l4",
+  "old": "La frecuencia de los trenes es de diez minutos.",
+  "new": [
+   "El tren sale cada diez minutos.",
+   "De trein vertrekt elke tien minuten.",
+   "The train leaves every ten minutes."
+  ]
+ },
+ {
+  "lesson": "a2-u8-l4",
+  "old": "El tren sale por la vía cuatro; el autocar, de la terminal.",
+  "new": [
+   "El tren sale de la vía cuatro.",
+   "De trein vertrekt van spoor vier.",
+   "The train leaves from track four.",
+   [
+    "El tren sale por la vía cuatro."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u9-l1",
+  "old": "Estoy comprando el periódico en el quiosco.",
+  "new": [
+   "Estoy comprando un libro en la librería.",
+   "Ik ben een boek aan het kopen in de boekhandel.",
+   "I'm buying a book at the bookshop."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l1",
+  "old": "Hay una farola delante de mi casa.",
+  "new": [
+   "Hay una fuente delante de mi casa.",
+   "Er is een fontein voor mijn huis.",
+   "There's a fountain in front of my house."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l2",
+  "old": "Los niños juegan en el polideportivo.",
+  "new": [
+   "Los niños juegan en la calle peatonal.",
+   "De kinderen spelen in de voetgangersstraat.",
+   "The children play in the pedestrian street."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l2",
+  "old": "Hay una galería de arte en mi calle.",
+  "new": [
+   "Hay un teatro en mi barrio.",
+   "Er is een theater in mijn wijk.",
+   "There's a theatre in my neighbourhood."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l2",
+  "old": "Hoy he visitado el jardín botánico.",
+  "new": [
+   "Hoy he visitado la catedral.",
+   "Vandaag heb ik de kathedraal bezocht.",
+   "Today I've visited the cathedral."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l2",
+  "old": "El acuario abre a las diez.",
+  "new": [
+   "El cine abre a las diez.",
+   "De bioscoop gaat om tien uur open.",
+   "The cinema opens at ten."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l3",
+  "old": "El centro es muy concurrido.",
+  "new": [
+   "El centro es muy animado.",
+   "Het centrum is erg levendig.",
+   "The centre is very lively."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l3",
+  "old": "El mercado está concurrido por la mañana.",
+  "new": [
+   "El mercado es muy ruidoso por la mañana.",
+   "De markt is 's ochtends heel luidruchtig.",
+   "The market is very noisy in the morning.",
+   [
+    "Por la mañana el mercado es muy ruidoso."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u9-l4",
+  "old": "El año pasado conocimos el acueducto de Segovia.",
+  "new": [
+   "El año pasado conocimos el palacio de Madrid.",
+   "Vorig jaar leerden we het paleis van Madrid kennen.",
+   "Last year we visited the palace in Madrid."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l4",
+  "old": "Mis padres conocen la muralla y la torre.",
+  "new": [
+   "Mis padres conocen la estatua y la torre.",
+   "Mijn ouders kennen het standbeeld en de toren.",
+   "My parents know the statue and the tower."
+  ]
+ },
+ {
+  "lesson": "a2-u9-l4",
+  "old": "¿Sabes dónde está el faro?",
+  "new": [
+   "¿Sabes dónde está la comisaría?",
+   "Weet je waar het politiebureau is?",
+   "Do you know where the police station is?"
+  ]
+ },
+ {
+  "lesson": "a2-u10-l2",
+  "old": "Cocino en casa para ahorrar.",
+  "new": [
+   "Estudio todos los días para aprender.",
+   "Ik studeer elke dag om te leren.",
+   "I study every day in order to learn."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l1",
+  "old": "La suite es más cara que la habitación doble.",
+  "new": [
+   "La habitación doble cuesta cien euros por noche.",
+   "De tweepersoonskamer kost honderd euro per nacht.",
+   "The double room costs a hundred euros per night."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l2",
+  "old": "Este vuelo es una ganga.",
+  "new": [
+   "Este vuelo es barato.",
+   "Deze vlucht is goedkoop.",
+   "This flight is cheap."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l3",
+  "old": "La reserva tiene cancelación gratuita.",
+  "new": [
+   "Puedo cancelar la reserva gratis.",
+   "Ik kan de reservering gratis annuleren.",
+   "I can cancel the booking for free.",
+   [
+    "Puedo cancelar gratis la reserva."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u11-l3",
+  "old": "Pedí el reembolso del billete.",
+  "new": [
+   "Compré un seguro de viaje.",
+   "Ik heb een reisverzekering gekocht.",
+   "I bought travel insurance."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l3",
+  "old": "Hay que dejar un depósito.",
+  "new": [
+   "Pago con tarjeta de crédito.",
+   "Ik betaal met een creditcard.",
+   "I pay by credit card."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l4",
+  "old": "Reservamos un bungaló para el verano.",
+  "new": [
+   "Reservamos un apartamento para el verano.",
+   "We boeken een appartement voor de zomer.",
+   "We book an apartment for the summer."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l4",
+  "old": "Los huéspedes piden la llave en la recepción.",
+  "new": [
+   "Pido la llave en la recepción.",
+   "Ik vraag de sleutel bij de receptie.",
+   "I ask for the key at reception."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l4",
+  "old": "Mi hermana reservó un hostal con pensión completa.",
+  "new": [
+   "Mi hermana reservó un hostal con desayuno.",
+   "Mijn zus boekte een pension met ontbijt.",
+   "My sister booked a hostel with breakfast."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l4",
+  "old": "Reservo en la página web y leo el folleto del camping.",
+  "new": [
+   "Reservo en la página web de la agencia de viajes.",
+   "Ik boek op de website van het reisbureau.",
+   "I book on the travel agency's website."
+  ]
+ },
+ {
+  "lesson": "a2-u11-l4",
+  "old": "¿Hay suplemento para la visita guiada?",
+  "new": [
+   "¿Hay descuento para los niños?",
+   "Is er korting voor kinderen?",
+   "Is there a discount for children?",
+   [
+    "¿Hay descuento para niños?"
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u12-l1",
+  "old": "El neceser va en el equipaje de mano.",
+  "new": [
+   "El pasaporte va en el equipaje de mano.",
+   "Het paspoort gaat in de handbagage.",
+   "The passport goes in the hand luggage."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l1",
+  "old": "Tengo que pagar por sobrepeso.",
+  "new": [
+   "El peso máximo es veinte kilos.",
+   "Het maximumgewicht is twintig kilo.",
+   "The maximum weight is twenty kilos."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l1",
+  "old": "Tengo que facturar el equipaje.",
+  "new": [
+   "Dejo la maleta en el mostrador.",
+   "Ik laat de koffer bij de balie.",
+   "I leave the suitcase at the counter."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l2",
+  "old": "El código QR está en mi móvil.",
+  "new": [
+   "La tarjeta de embarque está en mi móvil.",
+   "Mijn instapkaart staat op mijn telefoon.",
+   "My boarding pass is on my phone."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l3",
+  "old": "Hay turbulencias; el piloto habla por el altavoz.",
+  "new": [
+   "El piloto habla con los pasajeros.",
+   "De piloot praat met de passagiers.",
+   "The pilot talks to the passengers."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l4",
+  "old": "¿Ya facturaste el equipaje?",
+  "new": [
+   "¿Ya tienes el visado?",
+   "Heb je het visum al?",
+   "Do you have the visa yet?"
+  ]
+ },
+ {
+  "lesson": "a2-u12-l4",
+  "old": "Facturo la maleta con un candado y una etiqueta.",
+  "new": [
+   "Cierro la mochila con la cremallera.",
+   "Ik sluit de rugzak met de rits.",
+   "I close the backpack with the zip."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l4",
+  "old": "En la recogida de equipajes, la cinta transportadora está parada.",
+  "new": [
+   "En el control de seguridad necesito el pasaporte.",
+   "Bij de beveiligingscontrole heb ik mijn paspoort nodig.",
+   "At security I need my passport."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l4",
+  "old": "Necesito un adaptador y un cargador.",
+  "new": [
+   "Necesito un cargador para el móvil.",
+   "Ik heb een oplader voor mijn telefoon nodig.",
+   "I need a charger for my phone."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l1",
+  "old": "Los mochileros viajan con poco dinero.",
+  "new": [
+   "Los viajeros exploran la costa con una guía turística.",
+   "De reizigers verkennen de kust met een reisgids.",
+   "The travellers explore the coast with a guidebook."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l2",
+  "old": "Desde el mirador hay unas vistas increíbles.",
+  "new": [
+   "Desde la cima hay unas vistas impresionantes.",
+   "Vanaf de top is het uitzicht indrukwekkend.",
+   "From the top there are impressive views."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l2",
+  "old": "Es un pueblo pintoresco.",
+  "new": [
+   "Es un pueblo auténtico y precioso.",
+   "Het is een authentiek en prachtig dorp.",
+   "It's an authentic and beautiful village."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l3",
+  "old": "Encontramos un rincón precioso.",
+  "new": [
+   "Encontramos un lugar precioso.",
+   "We vonden een prachtige plek.",
+   "We found a beautiful place."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "Canarias es un archipiélago.",
+  "new": [
+   "Canarias tiene una costa preciosa.",
+   "De Canarische Eilanden hebben een prachtige kust.",
+   "The Canary Islands have a beautiful coast."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "Descubrimos una cala tranquila junto al acantilado.",
+  "new": [
+   "Descubrimos un sendero tranquilo junto al valle.",
+   "We ontdekten een rustig pad naast de vallei.",
+   "We discovered a quiet path next to the valley."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "Ayer descubrí una tienda de artesanía muy bonita.",
+  "new": [
+   "Ayer descubrí una tienda de recuerdos muy bonita.",
+   "Gisteren ontdekte ik een heel mooie souvenirwinkel.",
+   "Yesterday I discovered a very nice souvenir shop."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "¿Descubriste el volcán de la isla?",
+  "new": [
+   "¿Descubriste las ruinas de la isla?",
+   "Heb je de ruïnes van het eiland ontdekt?",
+   "Did you discover the ruins on the island?"
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "Mi padre descubrió esta aldea hace años.",
+  "new": [
+   "Mi padre descubrió este valle hace años.",
+   "Mijn vader ontdekte deze vallei jaren geleden.",
+   "My father discovered this valley years ago."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "Descubrieron una cueva antigua.",
+  "new": [
+   "Descubrieron una ruta nueva por la costa.",
+   "Ze ontdekten een nieuwe route langs de kust.",
+   "They discovered a new route along the coast."
+  ]
+ },
+ {
+  "lesson": "a2-u13-l4",
+  "old": "¿Conoces la leyenda de las ruinas?",
+  "new": [
+   "¿Conoces un lugar único para el atardecer?",
+   "Ken je een unieke plek voor de zonsondergang?",
+   "Do you know a unique place for the sunset?"
+  ]
+ },
+ {
+  "lesson": "a2-u14-l4",
+  "old": "Cuanto más leo, más me gusta.",
+  "new": [
+   "Este restaurante es peor que el otro.",
+   "Dit restaurant is slechter dan het andere.",
+   "This restaurant is worse than the other one."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l1",
+  "old": "La dependienta es muy amable.",
+  "new": [
+   "El escaparate de la tienda es muy bonito.",
+   "De etalage van de winkel is heel mooi.",
+   "The shop window is very pretty."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l1",
+  "old": "Esta ropa me queda holgada.",
+  "new": [
+   "Esta camisa me queda grande.",
+   "Dit overhemd is me te groot.",
+   "This shirt is too big for me."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l2",
+  "old": "Guardo el tique para poder cambiar la camisa.",
+  "new": [
+   "Quiero devolver esta camisa.",
+   "Ik wil dit overhemd terugbrengen.",
+   "I want to return this shirt."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l3",
+  "old": "Esta blusa es de seda.",
+  "new": [
+   "Esta camiseta es de algodón.",
+   "Dit T-shirt is van katoen.",
+   "This T-shirt is made of cotton."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l3",
+  "old": "Me gusta el vestido estampado.",
+  "new": [
+   "Me gusta la camisa a rayas.",
+   "Ik vind het gestreepte overhemd mooi.",
+   "I like the striped shirt."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l4",
+  "old": "¿Os probáis los vestidos juntas?",
+  "new": [
+   "¿Te pruebas los pantalones oscuros?",
+   "Pas jij de donkere broek?",
+   "Are you trying on the dark trousers?"
+  ]
+ },
+ {
+  "lesson": "a2-u16-l3",
+  "old": "Le mando un mensaje a Pedro.",
+  "new": [
+   "Le escribo un mensaje a Pedro.",
+   "Ik schrijf Pedro een bericht.",
+   "I write Pedro a message."
+  ]
+ },
+ {
+  "lesson": "a2-u16-l3",
+  "old": "Le presto mi libro a Ana.",
+  "new": [
+   "Le regalo un libro a Ana.",
+   "Ik geef Ana een boek cadeau.",
+   "I give Ana a book as a present."
+  ]
+ },
+ {
+  "lesson": "a2-u16-l4",
+  "old": "¿Necesitas mi bici? Te la presto.",
+  "new": [
+   "¿Necesitas mi libro? Te lo doy.",
+   "Heb je mijn boek nodig? Ik geef het je.",
+   "Do you need my book? I'll give it to you."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l1",
+  "old": "La pasta está en el estante de abajo.",
+  "new": [
+   "La leche está en la sección de lácteos.",
+   "De melk staat in de zuivelafdeling.",
+   "The milk is in the dairy section."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l1",
+  "old": "El cajero me da el tique y le doy las gracias.",
+  "new": [
+   "La cola es larga; espero con mi carrito.",
+   "De rij is lang; ik wacht met mijn winkelwagentje.",
+   "The queue is long; I wait with my trolley."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l1",
+  "old": "Los helados están en el congelador.",
+  "new": [
+   "Compro verduras congeladas.",
+   "Ik koop diepgevroren groenten.",
+   "I buy frozen vegetables."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l1",
+  "old": "He guardado el tique de compra.",
+  "new": [
+   "He leído la fecha de caducidad.",
+   "Ik heb de houdbaarheidsdatum gelezen.",
+   "I have read the expiry date."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l1",
+  "old": "Peso la fruta en la báscula.",
+  "new": [
+   "Compro medio kilo de fruta.",
+   "Ik koop een halve kilo fruit.",
+   "I buy half a kilo of fruit."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l1",
+  "old": "El código de barras está en el envase.",
+  "new": [
+   "Compro aceite de oliva ecológico.",
+   "Ik koop biologische olijfolie.",
+   "I buy organic olive oil."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l2",
+  "old": "Tengo un cupón de descuento; se lo doy al cajero.",
+  "new": [
+   "Compro una docena de huevos.",
+   "Ik koop een dozijn eieren.",
+   "I buy a dozen eggs."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l2",
+  "old": "Con la tarjeta de fidelidad tengo descuento.",
+  "new": [
+   "Necesito una lata de tomate y un paquete de pasta.",
+   "Ik heb een blik tomaat en een pak pasta nodig.",
+   "I need a can of tomato and a packet of pasta."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l3",
+  "old": "Traigo mi bolsa reutilizable; la uso siempre.",
+  "new": [
+   "Pongo el papel higiénico en la cesta.",
+   "Ik leg het toiletpapier in het mandje.",
+   "I put the toilet paper in the basket."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l3",
+  "old": "Compro una bandeja de pollo.",
+  "new": [
+   "Compro un trozo de queso y un litro de leche.",
+   "Ik koop een stuk kaas en een liter melk.",
+   "I buy a piece of cheese and a litre of milk."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l4",
+  "old": "Mi madre compró lejía y gel de ducha.",
+  "new": [
+   "Mi madre compró productos de limpieza y gel de ducha.",
+   "Mijn moeder kocht schoonmaakmiddelen en douchegel.",
+   "My mother bought cleaning products and shower gel."
+  ]
+ },
+ {
+  "lesson": "a2-u17-l4",
+  "old": "Compro harina y levadura para el pan.",
+  "new": [
+   "Compro harina y nata para el postre.",
+   "Ik koop meel en room voor het toetje.",
+   "I buy flour and cream for the dessert."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l1",
+  "old": "Los domingos hay mercadillo en la plaza.",
+  "new": [
+   "Los domingos hay muchos puestos en la plaza.",
+   "Op zondag zijn er veel kramen op het plein.",
+   "On Sundays there are lots of stalls in the square."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l1",
+  "old": "Le pregunto al tendero el precio de las cerezas.",
+  "new": [
+   "Le pregunto al vendedor el precio de las cerezas.",
+   "Ik vraag de verkoper de prijs van de kersen.",
+   "I ask the seller the price of the cherries.",
+   [
+    "Le pregunto el precio de las cerezas al vendedor."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u18-l3",
+  "old": "Compro merluza en la pescadería.",
+  "new": [
+   "Compro pescado fresco para la cena.",
+   "Ik koop verse vis voor het avondeten.",
+   "I buy fresh fish for dinner."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l3",
+  "old": "Me gusta el embutido ibérico.",
+  "new": [
+   "Me gusta mucho el chorizo.",
+   "Ik hou erg van chorizo.",
+   "I really like chorizo."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l3",
+  "old": "¿Me lo corta en lonchas finas?",
+  "new": [
+   "¿Me pone un kilo de tomates, por favor?",
+   "Mag ik een kilo tomaten, alstublieft?",
+   "Could I have a kilo of tomatoes, please?"
+  ]
+ },
+ {
+  "lesson": "a2-u18-l3",
+  "old": "El queso artesanal es más caro.",
+  "new": [
+   "La fruta de temporada es más barata.",
+   "Fruit van het seizoen is goedkoper.",
+   "Seasonal fruit is cheaper."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l4",
+  "old": "Elegimos calabacines y puerros para la sopa.",
+  "new": [
+   "Elegimos zanahorias y patatas para la sopa.",
+   "Wij kiezen wortels en aardappels voor de soep.",
+   "We choose carrots and potatoes for the soup."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l4",
+  "old": "Los clientes eligen melocotones y mandarinas.",
+  "new": [
+   "Los clientes eligen melones y sandías.",
+   "De klanten kiezen meloenen en watermeloenen.",
+   "The customers choose melons and watermelons."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l4",
+  "old": "Elegí una berenjena y un pepino para la cena.",
+  "new": [
+   "Elegí una lechuga y un pepino para la cena.",
+   "Ik koos een sla en een komkommer voor het avondeten.",
+   "I chose a lettuce and a cucumber for dinner."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l4",
+  "old": "Mi padre eligió judías verdes y guisantes.",
+  "new": [
+   "Mi padre eligió judías verdes y patatas.",
+   "Mijn vader koos sperziebonen en aardappels.",
+   "My father chose green beans and potatoes."
+  ]
+ },
+ {
+  "lesson": "a2-u18-l4",
+  "old": "Elijo un puerro fresco en este puesto.",
+  "new": [
+   "Elijo un melocotón maduro en este puesto.",
+   "Ik kies een rijpe perzik bij deze kraam.",
+   "I choose a ripe peach at this stall."
+  ]
+ },
+ {
+  "lesson": "a2-u19-l1",
+  "old": "¿Tienen menú infantil?",
+  "new": [
+   "¿Tienen menú del día?",
+   "Hebben jullie een dagmenu?",
+   "Do you have a set menu of the day?"
+  ]
+ },
+ {
+  "lesson": "a2-u19-l2",
+  "old": "De entrante, una ensalada.",
+  "new": [
+   "De primero, una ensalada.",
+   "Als voorgerecht een salade.",
+   "For starters, a salad."
+  ]
+ },
+ {
+  "lesson": "a2-u19-l4",
+  "old": "Necesito una cucharilla; ¿me la trae, por favor?",
+  "new": [
+   "Necesito un vaso; ¿me lo trae, por favor?",
+   "Ik heb een glas nodig; kunt u het me brengen?",
+   "I need a glass; could you bring it to me, please?"
+  ]
+ },
+ {
+  "lesson": "a2-u19-l4",
+  "old": "Mi padre pidió otro mantel.",
+  "new": [
+   "Mi padre pidió otro vaso de agua.",
+   "Mijn vader vroeg om nog een glas water.",
+   "My father asked for another glass of water."
+  ]
+ },
+ {
+  "lesson": "a2-u19-l4",
+  "old": "Pido una caña; mi padre, un cortado.",
+  "new": [
+   "Pido una caña; mi padre, un café.",
+   "Ik bestel een biertje; mijn vader een koffie.",
+   "I'll have a small beer; my father, a coffee."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l1",
+  "old": "Voy a abonar y guardo el ticket.",
+  "new": [
+   "Voy a pagar y guardo el ticket.",
+   "Ik ga betalen en bewaar het bonnetje.",
+   "I'm going to pay and I keep the receipt."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l1",
+  "old": "No tengo calderilla, solo billetes.",
+  "new": [
+   "No tengo cambio, solo billetes.",
+   "Ik heb geen kleingeld, alleen biljetten.",
+   "I don't have any change, only notes."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l2",
+  "old": "¿Me trae el datáfono?",
+  "new": [
+   "¿Puedo pagar sin contacto?",
+   "Kan ik contactloos betalen?",
+   "Can I pay contactless?"
+  ]
+ },
+ {
+  "lesson": "a2-u20-l2",
+  "old": "Estoy buscando los billetes en el billetero.",
+  "new": [
+   "Estoy buscando mi tarjeta en la mochila.",
+   "Ik zoek mijn kaart in mijn rugzak.",
+   "I'm looking for my card in my backpack."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l2",
+  "old": "¿Hay recargo si pago con tarjeta?",
+  "new": [
+   "¿Está incluido el servicio?",
+   "Is de bediening inbegrepen?",
+   "Is the service included?"
+  ]
+ },
+ {
+  "lesson": "a2-u20-l3",
+  "old": "Quiero una hoja de reclamaciones.",
+  "new": [
+   "Quiero hablar con el encargado.",
+   "Ik wil met de manager spreken.",
+   "I want to speak to the manager."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l3",
+  "old": "Nos han cobrado de más.",
+  "new": [
+   "Hay un error en la cuenta.",
+   "Er zit een fout in de rekening.",
+   "There is a mistake in the bill."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l3",
+  "old": "El café está tibio.",
+  "new": [
+   "Mi café está frío.",
+   "Mijn koffie is koud.",
+   "My coffee is cold."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l4",
+  "old": "Guarda el comprobante de pago; lo vas a necesitar.",
+  "new": [
+   "Guarda el ticket; lo vas a necesitar.",
+   "Bewaar het bonnetje; je gaat het nodig hebben.",
+   "Keep the receipt; you're going to need it.",
+   [
+    "Guarda el ticket; vas a necesitarlo."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u20-l4",
+  "old": "Hay un cargo de tres euros con cincuenta céntimos.",
+  "new": [
+   "El total son tres euros con cincuenta céntimos.",
+   "Het totaal is drie euro vijftig.",
+   "The total is three euros fifty."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l4",
+  "old": "Este abrigo es una ganga.",
+  "new": [
+   "Pago al contado, no con tarjeta.",
+   "Ik betaal contant, niet met kaart.",
+   "I pay in cash, not by card."
+  ]
+ },
+ {
+  "lesson": "a2-u20-l4",
+  "old": "Pagamos el coche a plazos.",
+  "new": [
+   "Perdone, ¿cuánto le debo?",
+   "Pardon, hoeveel ben ik u schuldig?",
+   "Excuse me, how much do I owe you?"
+  ]
+ },
+ {
+  "lesson": "a2-u20-l4",
+  "old": "En esta tienda hay que pagar por adelantado.",
+  "new": [
+   "Cada uno paga lo suyo.",
+   "Ieder betaalt zijn eigen deel.",
+   "Everyone pays their own share."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l1",
+  "old": "Ayer compré flores en la floristería.",
+  "new": [
+   "Ayer recogí el coche en el taller.",
+   "Gisteren haalde ik de auto op bij de garage.",
+   "Yesterday I picked up the car at the garage."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l1",
+  "old": "Compro cuadernos en la papelería.",
+  "new": [
+   "Compro un sello y un sobre en correos.",
+   "Ik koop een postzegel en een envelop bij het postkantoor.",
+   "I buy a stamp and an envelope at the post office."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l1",
+  "old": "En el estanco venden sellos.",
+  "new": [
+   "Dejo el sobre en el buzón.",
+   "Ik laat de envelop in de brievenbus vallen.",
+   "I drop the envelope in the postbox."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l1",
+  "old": "Necesito tornillos de la ferretería.",
+  "new": [
+   "Necesito una llave nueva.",
+   "Ik heb een nieuwe sleutel nodig.",
+   "I need a new key."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l1",
+  "old": "Llevo el traje a la tintorería.",
+  "new": [
+   "Llevo la ropa a la lavandería.",
+   "Ik breng de kleren naar de wasserette.",
+   "I take the clothes to the laundrette."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l2",
+  "old": "Pongo el remitente en el sobre.",
+  "new": [
+   "Pongo el sello en el sobre.",
+   "Ik plak de postzegel op de envelop.",
+   "I put the stamp on the envelope."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l2",
+  "old": "El paquete es importante; lo envío certificado.",
+  "new": [
+   "El paquete es importante; lo envío hoy.",
+   "Het pakket is belangrijk; ik verstuur het vandaag.",
+   "The parcel is important; I'm sending it today.",
+   [
+    "El paquete es importante; voy a enviarlo hoy."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u21-l2",
+  "old": "Escribe bien la dirección del destinatario.",
+  "new": [
+   "Escribe bien la dirección en el sobre.",
+   "Schrijf het adres goed op de envelop.",
+   "Write the address clearly on the envelope."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l3",
+  "old": "Ofrecen servicio a domicilio.",
+  "new": [
+   "¿Me puede ayudar, por favor?",
+   "Kunt u me helpen, alstublieft?",
+   "Can you help me, please?"
+  ]
+ },
+ {
+  "lesson": "a2-u21-l3",
+  "old": "El zapatero está arreglando mis botas.",
+  "new": [
+   "El mecánico está arreglando mi coche.",
+   "De monteur is mijn auto aan het repareren.",
+   "The mechanic is fixing my car."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l3",
+  "old": "Necesito un repuesto para la bicicleta.",
+  "new": [
+   "Mi bicicleta está estropeada.",
+   "Mijn fiets is kapot.",
+   "My bike is broken."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l4",
+  "old": "Necesito un carpintero para la puerta.",
+  "new": [
+   "Necesito un fontanero para el baño.",
+   "Ik heb een loodgieter nodig voor de badkamer.",
+   "I need a plumber for the bathroom."
+  ]
+ },
+ {
+  "lesson": "a2-u21-l4",
+  "old": "La dependienta nos atiende enseguida.",
+  "new": [
+   "El electricista nos atiende enseguida.",
+   "De elektricien helpt ons meteen.",
+   "The electrician helps us straight away."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l1",
+  "old": "Vamos a guardar las bicis en el trastero.",
+  "new": [
+   "Vamos a guardar las bicis en el sótano.",
+   "We gaan de fietsen in de kelder zetten.",
+   "We're going to put the bikes in the basement."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l1",
+  "old": "La lavadora está en el lavadero.",
+  "new": [
+   "La lavadora está en la cocina.",
+   "De wasmachine staat in de keuken.",
+   "The washing machine is in the kitchen."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l1",
+  "old": "Mi ropa está en el vestidor.",
+  "new": [
+   "Mi despacho es pequeño pero luminoso.",
+   "Mijn kantoor is klein maar licht.",
+   "My office is small but bright."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l1",
+  "old": "Guardamos la comida en la despensa.",
+  "new": [
+   "Guardamos la comida en la nevera.",
+   "We bewaren het eten in de koelkast.",
+   "We keep the food in the fridge."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l1",
+  "old": "Mi hijo duerme en la buhardilla.",
+  "new": [
+   "Mi hermano duerme en el cuarto de invitados.",
+   "Mijn broer slaapt in de logeerkamer.",
+   "My brother sleeps in the guest room."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l2",
+  "old": "Hay un porche con vistas al jardín.",
+  "new": [
+   "El salón es luminoso y acogedor.",
+   "De woonkamer is licht en gezellig.",
+   "The living room is bright and cosy."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l2",
+  "old": "Me agarro a la barandilla al subir.",
+  "new": [
+   "Subimos en el ascensor.",
+   "We gaan met de lift omhoog.",
+   "We go up in the lift."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l2",
+  "old": "Vivimos en un ático.",
+  "new": [
+   "Vivimos en la planta baja.",
+   "We wonen op de begane grond.",
+   "We live on the ground floor."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l2",
+  "old": "Estamos tendiendo la ropa en la azotea.",
+  "new": [
+   "Estoy en la azotea con mi vecino.",
+   "Ik ben met mijn buurman op het dakterras.",
+   "I'm on the roof terrace with my neighbour."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l2",
+  "old": "El vecino vive en el mismo rellano.",
+  "new": [
+   "Mi vecino vive en el mismo edificio.",
+   "Mijn buurman woont in hetzelfde gebouw.",
+   "My neighbour lives in the same building."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l3",
+  "old": "El piso está amueblado.",
+  "new": [
+   "Alquilamos un piso con calefacción.",
+   "We huren een appartement met verwarming.",
+   "We rent a flat with heating."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l4",
+  "old": "Hay un radiador y un enchufe junto a la ventana.",
+  "new": [
+   "Hay un enchufe junto a la ventana.",
+   "Er zit een stopcontact bij het raam.",
+   "There is a socket next to the window."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l4",
+  "old": "Hay un toallero junto al lavabo.",
+  "new": [
+   "Hay un espejo encima del lavabo.",
+   "Er hangt een spiegel boven de wastafel.",
+   "There is a mirror above the washbasin."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l4",
+  "old": "Cierro la persiana por la noche y la abro por la mañana.",
+  "new": [
+   "Enciendo el aire acondicionado en verano.",
+   "In de zomer zet ik de airco aan.",
+   "I turn on the air conditioning in summer."
+  ]
+ },
+ {
+  "lesson": "a2-u22-l4",
+  "old": "En la cocina, el fregadero está junto a la encimera.",
+  "new": [
+   "En la cocina hay un fregadero grande.",
+   "In de keuken is een grote gootsteen.",
+   "In the kitchen there is a big sink."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l1",
+  "old": "La televisión está encima del aparador.",
+  "new": [
+   "La televisión está encima de la cómoda.",
+   "De tv staat op de ladekast.",
+   "The television is on top of the chest of drawers."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l1",
+  "old": "La vitrina está llena de vasos.",
+  "new": [
+   "El cajón está lleno de ropa.",
+   "De la zit vol kleren.",
+   "The drawer is full of clothes."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l1",
+  "old": "Me siento en el taburete de la cocina.",
+  "new": [
+   "Cambio las sábanas de la cama cada semana.",
+   "Ik verschoon elke week de lakens van het bed.",
+   "I change the sheets on the bed every week."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l2",
+  "old": "Hay un flexo en el escritorio.",
+  "new": [
+   "Hay un póster encima del escritorio.",
+   "Er hangt een poster boven het bureau.",
+   "There is a poster above the desk."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l2",
+  "old": "Tengo frío y necesito un edredón.",
+  "new": [
+   "El colchón de mi cama es muy cómodo.",
+   "De matras van mijn bed is erg comfortabel.",
+   "The mattress on my bed is very comfortable."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l2",
+  "old": "El cabecero de la cama es de madera.",
+  "new": [
+   "La mesita de noche es blanca.",
+   "Het nachtkastje is wit.",
+   "The bedside table is white."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l3",
+  "old": "Prefiero el estilo rústico.",
+  "new": [
+   "Prefiero el estilo moderno.",
+   "Ik heb liever de moderne stijl.",
+   "I prefer the modern style."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l3",
+  "old": "Pongo flores en el jarrón.",
+  "new": [
+   "Pongo una vela en la mesa de centro.",
+   "Ik zet een kaars op de salontafel.",
+   "I put a candle on the coffee table."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l4",
+  "old": "Dejo el abrigo en el perchero de la entrada.",
+  "new": [
+   "Cuelgo el abrigo en la percha.",
+   "Ik hang mijn jas aan de hanger.",
+   "I hang my coat on the hanger."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l4",
+  "old": "Monto la estantería con un taladro.",
+  "new": [
+   "Monto un mueble con mi padre.",
+   "Ik zet een meubel in elkaar met mijn vader.",
+   "I put a piece of furniture together with my father."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l4",
+  "old": "Hay un felpudo delante de la puerta.",
+  "new": [
+   "Hay una maceta delante de la ventana.",
+   "Er staat een bloempot voor het raam.",
+   "There is a plant pot in front of the window."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l4",
+  "old": "El suelo del dormitorio es de moqueta.",
+  "new": [
+   "Las cortinas del dormitorio son azules.",
+   "De gordijnen van de slaapkamer zijn blauw.",
+   "The curtains in the bedroom are blue."
+  ]
+ },
+ {
+  "lesson": "a2-u23-l4",
+  "old": "Cuelgo una repisa encima de la cama.",
+  "new": [
+   "Cuelgo un marco con una foto encima de la cama.",
+   "Ik hang een fotolijst boven het bed.",
+   "I hang a photo frame above the bed."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l1",
+  "old": "Ventilo la casa cada mañana.",
+  "new": [
+   "Abro las ventanas cada mañana.",
+   "Ik zet elke ochtend de ramen open.",
+   "I open the windows every morning."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l1",
+  "old": "La fregona está en el balcón.",
+  "new": [
+   "La escoba está en el balcón.",
+   "De bezem staat op het balkon.",
+   "The broom is on the balcony."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l1",
+  "old": "Mañana voy a pasar la aspiradora.",
+  "new": [
+   "Mañana voy a barrer el suelo.",
+   "Morgen ga ik de vloer vegen.",
+   "Tomorrow I'm going to sweep the floor.",
+   [
+    "Voy a barrer el suelo mañana."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u24-l1",
+  "old": "Mi madre está pasando la aspiradora.",
+  "new": [
+   "Mi madre está regando las plantas.",
+   "Mijn moeder geeft de planten water.",
+   "My mother is watering the plants."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l2",
+  "old": "Echo suavizante en la lavadora.",
+  "new": [
+   "Saco la basura por la noche.",
+   "'s Avonds breng ik het afval buiten.",
+   "I take out the rubbish at night."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l3",
+  "old": "Limpio la mesa con un trapo.",
+  "new": [
+   "Limpio la mesa con una esponja.",
+   "Ik maak de tafel schoon met een spons.",
+   "I clean the table with a sponge."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l4",
+  "old": "Limpio la cocina con una esponja y un estropajo.",
+  "new": [
+   "Limpio la mancha con jabón y un cepillo.",
+   "Ik verwijder de vlek met zeep en een borstel.",
+   "I clean the stain with soap and a brush."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l4",
+  "old": "La bayeta está muy sucia.",
+  "new": [
+   "Hay mucha suciedad en el suelo.",
+   "Er zit veel vuil op de vloer.",
+   "There is a lot of dirt on the floor."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l4",
+  "old": "Barro el suelo y uso el recogedor.",
+  "new": [
+   "Después de comer, recojo la mesa.",
+   "Na het eten ruim ik de tafel af.",
+   "After eating, I clear the table."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l4",
+  "old": "Limpio el baño con jabón y desinfectante.",
+  "new": [
+   "Mi hermano y yo repartimos las tareas de casa.",
+   "Mijn broer en ik verdelen de huishoudelijke taken.",
+   "My brother and I share out the housework."
+  ]
+ },
+ {
+  "lesson": "a2-u24-l4",
+  "old": "Limpio las ventanas con limpiacristales.",
+  "new": [
+   "Reciclo el papel en casa.",
+   "Ik recycle papier thuis.",
+   "I recycle paper at home."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l1",
+  "old": "Tiene el antebrazo roto.",
+  "new": [
+   "Tiene el codo roto.",
+   "Hij/zij heeft een gebroken elleboog.",
+   "He/she has a broken elbow."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l1",
+  "old": "Me he cortado la yema del dedo.",
+  "new": [
+   "Me he hecho una herida en el dedo.",
+   "Ik heb me in mijn vinger verwond.",
+   "I've hurt my finger (cut myself on my finger)."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l1",
+  "old": "Me duele la pantorrilla al correr.",
+  "new": [
+   "Me duele la rodilla al correr.",
+   "Mijn knie doet pijn als ik hardloop.",
+   "My knee hurts when I run."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l1",
+  "old": "Me duele el talón de tanto andar.",
+  "new": [
+   "Me duele el pie de tanto caminar.",
+   "Mijn voet doet pijn van al dat lopen.",
+   "My foot hurts from all the walking."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l1",
+  "old": "Me he dado un golpe en el pulgar.",
+  "new": [
+   "Me duele mucho el codo.",
+   "Mijn elleboog doet erg pijn.",
+   "My elbow hurts a lot."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l2",
+  "old": "El hígado está debajo de las costillas.",
+  "new": [
+   "El corazón y los pulmones están en el pecho.",
+   "Het hart en de longen zitten in de borst.",
+   "The heart and the lungs are in the chest."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l2",
+  "old": "Se rompió dos costillas al caerse.",
+  "new": [
+   "Se rompió el brazo al caerse.",
+   "Hij brak zijn arm toen hij viel.",
+   "He broke his arm when he fell.",
+   [
+    "Él se rompió el brazo al caerse."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u25-l3",
+  "old": "Tiene las pestañas muy largas.",
+  "new": [
+   "Tiene los labios muy rojos.",
+   "Ze heeft heel rode lippen.",
+   "She has very red lips."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l3",
+  "old": "Tengo el párpado rojo; voy a ir al médico.",
+  "new": [
+   "Tengo la mejilla roja; voy a ir al médico.",
+   "Mijn wang is rood; ik ga naar de dokter.",
+   "My cheek is red; I'm going to go to the doctor."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l3",
+  "old": "Me duele la mandíbula al comer.",
+  "new": [
+   "Me duele la lengua al comer.",
+   "Mijn tong doet pijn als ik eet.",
+   "My tongue hurts when I eat."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l4",
+  "old": "Me duele la rótula al bajar la escalera.",
+  "new": [
+   "Me duele la cadera al bajar la escalera.",
+   "Mijn heup doet pijn als ik de trap afloop.",
+   "My hip hurts when I go down the stairs."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l4",
+  "old": "Se ha dado un golpe en la barbilla.",
+  "new": [
+   "Le duele la frente.",
+   "Zijn voorhoofd doet pijn.",
+   "His forehead hurts."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l4",
+  "old": "Me duele la axila izquierda.",
+  "new": [
+   "Me duele el hombro izquierdo.",
+   "Mijn linkerschouder doet pijn.",
+   "My left shoulder hurts."
+  ]
+ },
+ {
+  "lesson": "a2-u25-l4",
+  "old": "Después de correr me duele el muslo.",
+  "new": [
+   "Después de correr me duelen las piernas.",
+   "Na het hardlopen doen mijn benen pijn.",
+   "After running my legs hurt."
+  ]
+ },
+ {
+  "lesson": "a2-u26-l1",
+  "old": "Tengo escalofríos y mucho malestar.",
+  "new": [
+   "Tengo náuseas y me siento muy mal.",
+   "Ik ben misselijk en voel me heel slecht.",
+   "I feel nauseous and I feel very bad."
+  ]
+ },
+ {
+  "lesson": "a2-u26-l2",
+  "old": "Sudo mucho cuando tengo fiebre.",
+  "new": [
+   "Toso mucho cuando tengo fiebre.",
+   "Ik hoest veel als ik koorts heb.",
+   "I cough a lot when I have a fever."
+  ]
+ },
+ {
+  "lesson": "a2-u26-l2",
+  "old": "Estoy afónico desde esta mañana.",
+  "new": [
+   "Me duele la garganta desde esta mañana.",
+   "Mijn keel doet pijn sinds vanochtend.",
+   "My throat has hurt since this morning."
+  ]
+ },
+ {
+  "lesson": "a2-u26-l3",
+  "old": "Tomo un comprimido cada mañana.",
+  "new": [
+   "Tomo una pastilla cada ocho horas.",
+   "Ik neem elke acht uur een pil.",
+   "I take a pill every eight hours."
+  ]
+ },
+ {
+  "lesson": "a2-u26-l3",
+  "old": "Me pongo una tirita en el dedo.",
+  "new": [
+   "Me pongo la crema en la mano.",
+   "Ik smeer de crème op mijn hand.",
+   "I put the cream on my hand."
+  ]
+ },
+ {
+  "lesson": "a2-u26-l3",
+  "old": "Me pongo gotas en los ojos.",
+  "new": [
+   "Tomo el jarabe antes de dormir.",
+   "Ik neem de siroop voor het slapen.",
+   "I take the syrup before going to sleep."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l1",
+  "old": "¿Tiene la tarjeta sanitaria?",
+  "new": [
+   "¿Tiene el seguro médico?",
+   "Heeft u uw zorgverzekering bij u?",
+   "Do you have your health insurance?",
+   [
+    "¿Tiene usted el seguro médico?"
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u27-l1",
+  "old": "Necesito un volante para el especialista.",
+  "new": [
+   "Necesito una cita con el especialista.",
+   "Ik heb een afspraak met de specialist nodig.",
+   "I need an appointment with the specialist.",
+   [
+    "Necesito pedir cita con el especialista."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u27-l2",
+  "old": "El médico me receta antibióticos.",
+  "new": [
+   "El médico me da una receta médica.",
+   "De dokter geeft me een recept.",
+   "The doctor gives me a prescription."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l2",
+  "old": "El médico me ha recetado reposo.",
+  "new": [
+   "El médico me ha pedido un análisis de sangre.",
+   "De dokter heeft een bloedonderzoek voor me aangevraagd.",
+   "The doctor has ordered a blood test for me."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l3",
+  "old": "El médico me manda al especialista.",
+  "new": [
+   "La enfermera me toma la tensión.",
+   "De verpleegster meet mijn bloeddruk.",
+   "The nurse takes my blood pressure."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l3",
+  "old": "Mi abuelo ingresó en el hospital ayer.",
+  "new": [
+   "Mi abuelo va a tener una operación mañana.",
+   "Mijn opa heeft morgen een operatie.",
+   "My grandfather is going to have an operation tomorrow."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l4",
+  "old": "Llevo el brazo en yeso.",
+  "new": [
+   "El médico me examina el brazo.",
+   "De dokter onderzoekt mijn arm.",
+   "The doctor examines my arm."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l4",
+  "old": "Me pongo una gasa en el dedo.",
+  "new": [
+   "Me hacen una radiografía del pie.",
+   "Ze maken een röntgenfoto van mijn voet.",
+   "They take an X-ray of my foot."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l4",
+  "old": "Tengo un moratón grande en la pierna.",
+  "new": [
+   "Tengo un dolor leve en la pierna.",
+   "Ik heb een lichte pijn in mijn been.",
+   "I have a slight pain in my leg."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l4",
+  "old": "Me recetó unas pastillas.",
+  "new": [
+   "La médica me ha dado unas pastillas.",
+   "De dokter heeft me een paar pillen gegeven.",
+   "The doctor has given me some pills."
+  ]
+ },
+ {
+  "lesson": "a2-u27-l4",
+  "old": "Para el esguince uso una pomada.",
+  "new": [
+   "Para el dolor uso una crema.",
+   "Voor de pijn gebruik ik een crème.",
+   "For the pain I use a cream."
+  ]
+ },
+ {
+  "lesson": "a2-u28-l2",
+  "old": "He estado en México unas cuantas veces.",
+  "new": [
+   "Hemos estado en México dos veces.",
+   "We zijn twee keer in Mexico geweest.",
+   "We've been to Mexico twice."
+  ]
+ },
+ {
+  "lesson": "a2-u28-l3",
+  "old": "Esta temporada hemos ahorrado bastante.",
+  "new": [
+   "Este otoño hemos viajado bastante.",
+   "Dit najaar hebben we flink gereisd.",
+   "This autumn we've travelled quite a lot."
+  ]
+ },
+ {
+  "lesson": "a2-u28-l4",
+  "old": "Hemos visto un espectáculo muy bonito.",
+  "new": [
+   "Hemos disfrutado de un concierto muy bonito.",
+   "We hebben genoten van een heel mooi concert.",
+   "We've enjoyed a very nice concert."
+  ]
+ },
+ {
+  "lesson": "a2-u28-l4",
+  "old": "Este verano hemos hecho una acampada.",
+  "new": [
+   "Este verano hemos estado en un camping.",
+   "Deze zomer zijn we op een camping geweest.",
+   "This summer we've stayed at a campsite."
+  ]
+ },
+ {
+  "lesson": "a2-u28-l4",
+  "old": "Hoy hemos hecho una caminata por la montaña.",
+  "new": [
+   "Hoy hemos paseado por la montaña.",
+   "Vandaag hebben we in de bergen gewandeld.",
+   "Today we've walked in the mountains."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l1",
+  "old": "Todavía no he deshecho la maleta.",
+  "new": [
+   "Todavía no he abierto la maleta.",
+   "Ik heb mijn koffer nog niet geopend.",
+   "I still haven't opened the suitcase."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l2",
+  "old": "Mi jefe ha propuesto una reunión.",
+  "new": [
+   "Mi jefe nos ha dicho que hay una reunión.",
+   "Mijn baas heeft ons gezegd dat er een vergadering is.",
+   "My boss has told us that there is a meeting."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l2",
+  "old": "El profesor ha descrito el problema.",
+  "new": [
+   "El profesor ha dicho que el examen es fácil.",
+   "De leraar heeft gezegd dat het examen makkelijk is.",
+   "The teacher has said that the exam is easy."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l3",
+  "old": "Hoy el cielo está cubierto.",
+  "new": [
+   "Han descubierto un restaurante nuevo en mi barrio.",
+   "Ze hebben een nieuw restaurant in mijn wijk ontdekt.",
+   "They've discovered a new restaurant in my neighbourhood."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l3",
+  "old": "Estoy muerto de cansancio.",
+  "new": [
+   "Estoy muy cansado; he vuelto muy tarde.",
+   "Ik ben erg moe; ik ben heel laat teruggekomen.",
+   "I'm very tired; I came back very late."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l4",
+  "old": "Han propuesto otra fecha.",
+  "new": [
+   "Han vuelto de vacaciones.",
+   "Ze zijn terug van vakantie.",
+   "They've come back from holiday."
+  ]
+ },
+ {
+  "lesson": "a2-u29-l4",
+  "old": "¿Has descrito bien a esa persona?",
+  "new": [
+   "¿Has visto esa película? Yo la he visto dos veces.",
+   "Heb je die film gezien? Ik heb hem twee keer gezien.",
+   "Have you seen that film? I've seen it twice."
+  ]
+ },
+ {
+  "lesson": "a2-u30-l1",
+  "old": "Al anochecer hemos vuelto a casa.",
+  "new": [
+   "Hace un momento he llegado a casa.",
+   "Net ben ik thuisgekomen.",
+   "I got home a moment ago.",
+   [
+    "Hace un momento llegué a casa."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u30-l1",
+  "old": "A la hora de comer le he mandado un mensaje a mi madre.",
+  "new": [
+   "A mediodía he llamado a mi madre.",
+   "Rond het middaguur heb ik mijn moeder gebeld.",
+   "At midday I called my mother.",
+   [
+    "A mediodía llamé a mi madre."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u30-l2",
+  "old": "A finales de semana estoy muy cansado.",
+  "new": [
+   "Entre semana estoy muy cansado.",
+   "Door de week ben ik erg moe.",
+   "During the week I'm very tired."
+  ]
+ },
+ {
+  "lesson": "a2-u30-l3",
+  "old": "He trabajado sin parar toda la semana.",
+  "new": [
+   "He trabajado casi toda la semana.",
+   "Ik heb bijna de hele week gewerkt.",
+   "I've worked almost the whole week."
+  ]
+ },
+ {
+  "lesson": "a2-u30-l4",
+  "old": "Tengo un imprevisto, no puedo venir.",
+  "new": [
+   "Tengo prisa, no puedo hablar.",
+   "Ik heb haast, ik kan niet praten.",
+   "I'm in a hurry, I can't talk."
+  ]
+ },
+ {
+  "lesson": "a2-u30-l4",
+  "old": "Hay que organizarse bien para acabar a tiempo.",
+  "new": [
+   "Mañana estoy libre por la tarde.",
+   "Morgen ben ik 's middags vrij.",
+   "Tomorrow I'm free in the afternoon."
+  ]
+ },
+ {
+  "lesson": "a2-u30-l4",
+  "old": "Tengo prisa, tengo muchos recados.",
+  "new": [
+   "Aún no he terminado el trabajo.",
+   "Ik heb het werk nog niet af.",
+   "I haven't finished the work yet."
+  ]
+ },
+ {
+  "lesson": "a2-u30-l4",
+  "old": "Hoy ha sido un día muy ajetreado.",
+  "new": [
+   "Hoy he madrugado mucho.",
+   "Vandaag ben ik heel vroeg opgestaan.",
+   "Today I got up very early."
+  ]
+ },
+ {
+  "lesson": "a2-u31-l1",
+  "old": "Mi propósito es hablar español con fluidez.",
+  "new": [
+   "Mi meta es hablar español muy bien.",
+   "Mijn doel is heel goed Spaans spreken.",
+   "My goal is to speak Spanish very well."
+  ]
+ },
+ {
+  "lesson": "a2-u31-l1",
+  "old": "Por fin he alcanzado mi meta.",
+  "new": [
+   "Por fin he conseguido mi meta.",
+   "Eindelijk heb ik mijn doel bereikt.",
+   "I've finally achieved my goal.",
+   [
+    "Por fin he logrado mi meta."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u31-l1",
+  "old": "He cumplido un sueño.",
+  "new": [
+   "He conseguido un trabajo nuevo.",
+   "Ik heb een nieuwe baan gekregen.",
+   "I've got a new job."
+  ]
+ },
+ {
+  "lesson": "a2-u31-l1",
+  "old": "Aprobar el examen ha sido un gran logro.",
+  "new": [
+   "Aprobar el examen ha sido un gran éxito.",
+   "Slagen voor het examen was een groot succes.",
+   "Passing the exam has been a great success."
+  ]
+ },
+ {
+  "lesson": "a2-u31-l2",
+  "old": "Me han dado un ascenso.",
+  "new": [
+   "Me han dado un premio.",
+   "Ik heb een prijs gekregen.",
+   "I've been given a prize."
+  ]
+ },
+ {
+  "lesson": "a2-u31-l2",
+  "old": "Le damos un regalo y brindamos por su éxito.",
+  "new": [
+   "Le damos un regalo y le felicitamos por su éxito.",
+   "We geven hem een cadeau en feliciteren hem met zijn succes.",
+   "We give him a present and congratulate him on his success.",
+   [
+    "Le damos un regalo y lo felicitamos por su éxito."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u31-l3",
+  "old": "La constancia es la clave del éxito.",
+  "new": [
+   "Con paciencia, todo es posible.",
+   "Met geduld is alles mogelijk.",
+   "With patience, everything is possible."
+  ]
+ },
+ {
+  "lesson": "a2-u31-l3",
+  "old": "Quiero perfeccionar mi español.",
+  "new": [
+   "Quiero mejorar mi español.",
+   "Ik wil mijn Spaans verbeteren.",
+   "I want to improve my Spanish."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l1",
+  "old": "Me gustaba el tobogán del parque.",
+  "new": [
+   "Me gustaba jugar en el parque.",
+   "Ik speelde graag in het park.",
+   "I liked playing in the park."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l1",
+  "old": "Iba al colegio en patinete.",
+  "new": [
+   "Iba al colegio en bicicleta.",
+   "Ik ging op de fiets naar school.",
+   "I went to school by bike."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l1",
+  "old": "Me encantaban los columpios del parque.",
+  "new": [
+   "Me encantaban los dibujos animados.",
+   "Ik was dol op tekenfilms.",
+   "I loved cartoons."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l1",
+  "old": "Era un niño muy travieso.",
+  "new": [
+   "Era un niño muy tranquilo.",
+   "Ik was een heel rustig kind.",
+   "I was a very quiet child."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l2",
+  "old": "Soñaba con ser futbolista.",
+  "new": [
+   "Quería ser médico.",
+   "Ik wilde dokter worden.",
+   "I wanted to be a doctor.",
+   [
+    "Quería ser médica."
+   ]
+  ]
+ },
+ {
+  "lesson": "a2-u32-l3",
+  "old": "Me pongo nostálgico al ver estas fotos.",
+  "new": [
+   "Echo de menos mi infancia.",
+   "Ik mis mijn jeugd.",
+   "I miss my childhood."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l3",
+  "old": "Mi pandilla jugaba en la calle.",
+  "new": [
+   "Mis amigos y yo jugábamos en la calle.",
+   "Mijn vrienden en ik speelden op straat.",
+   "My friends and I used to play in the street."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l4",
+  "old": "Jugábamos con canicas en el patio del colegio.",
+  "new": [
+   "Jugábamos al fútbol en el patio del colegio.",
+   "We voetbalden op het schoolplein.",
+   "We used to play football in the school playground."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l4",
+  "old": "Tenía muchos cromos de fútbol.",
+  "new": [
+   "Tenía muchos juguetes.",
+   "Ik had veel speelgoed.",
+   "I had a lot of toys."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l4",
+  "old": "Los niños trepaban a los árboles.",
+  "new": [
+   "Los niños jugaban en el jardín.",
+   "De kinderen speelden in de tuin.",
+   "The children used to play in the garden."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l4",
+  "old": "Teníamos una cometa roja; nos la regaló mi tío.",
+  "new": [
+   "Mis abuelos tenían un perro muy grande.",
+   "Mijn grootouders hadden een hele grote hond.",
+   "My grandparents had a very big dog."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l4",
+  "old": "Mis primos tenían una cabaña en el jardín.",
+  "new": [
+   "Mis primos vivían en un pueblo pequeño.",
+   "Mijn neven en nichten woonden in een klein dorp.",
+   "My cousins lived in a small village."
+  ]
+ },
+ {
+  "lesson": "a2-u32-l4",
+  "old": "Hacíamos hogueras en la playa.",
+  "new": [
+   "De vez en cuando íbamos a la playa.",
+   "Af en toe gingen we naar het strand.",
+   "Now and then we used to go to the beach."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l1",
+  "old": "Antes solo teníamos teléfono fijo.",
+  "new": [
+   "Antes solo teníamos un teléfono en casa.",
+   "Vroeger hadden we maar één telefoon thuis.",
+   "We used to have only one phone at home."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l1",
+  "old": "Las redes sociales son un invento moderno.",
+  "new": [
+   "Hoy en día la gente se comunica de otra manera.",
+   "Tegenwoordig communiceren mensen op een andere manier.",
+   "Nowadays people communicate in a different way."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l1",
+  "old": "En esa época usábamos la máquina de escribir.",
+  "new": [
+   "En aquella época no teníamos móvil.",
+   "In die tijd hadden we geen mobiele telefoon.",
+   "Back then we didn't have a mobile phone."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l1",
+  "old": "Antes había una cabina telefónica en cada calle.",
+  "new": [
+   "Antes había menos coches en la ciudad.",
+   "Vroeger waren er minder auto's in de stad.",
+   "There used to be fewer cars in the city."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l1",
+  "old": "Mis abuelos tenían un tocadiscos y lo usaban cada día.",
+  "new": [
+   "Mis abuelos tenían un jardín y lo cuidaban cada día.",
+   "Mijn grootouders hadden een tuin en zorgden er elke dag voor.",
+   "My grandparents had a garden and looked after it every day."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l2",
+  "old": "Antes la vida era más simple.",
+  "new": [
+   "Antes la vida era más tranquila.",
+   "Vroeger was het leven rustiger.",
+   "Life used to be calmer."
+  ]
+ },
+ {
+  "lesson": "a2-u33-l2",
+  "old": "Antes el ritmo de vida era más lento.",
+  "new": [
+   "Antes la gente tenía menos estrés.",
+   "Vroeger hadden mensen minder stress.",
+   "People used to have less stress."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l1",
+  "old": "Terminó la licenciatura en 2015.",
+  "new": [
+   "Terminó los estudios en 2015.",
+   "Ze rondde haar studie af in 2015.",
+   "She finished her studies in 2015."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l1",
+  "old": "Fue catedrático de la Universidad de Salamanca.",
+  "new": [
+   "Trabajó como profesor en una universidad.",
+   "Hij werkte als leraar aan een universiteit.",
+   "He worked as a teacher at a university."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l2",
+  "old": "Fundó su empresa en 2010.",
+  "new": [
+   "Abrió su propio negocio en 2010.",
+   "Hij/zij begon in 2010 een eigen zaak.",
+   "He/she opened his/her own business in 2010."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l2",
+  "old": "Emigró a Argentina en 1950.",
+  "new": [
+   "Se mudó a Argentina en 1950.",
+   "Hij verhuisde in 1950 naar Argentinië.",
+   "He moved to Argentina in 1950."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l3",
+  "old": "Su biografía es muy interesante; te la presto.",
+  "new": [
+   "Su biografía es muy interesante.",
+   "Zijn biografie is heel interessant.",
+   "His biography is very interesting."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l3",
+  "old": "Frida Kahlo fue una pintora mexicana.",
+  "new": [
+   "Gabriel García Márquez fue un escritor muy famoso.",
+   "Gabriel García Márquez was een zeer beroemde schrijver.",
+   "Gabriel García Márquez was a very famous writer."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l3",
+  "old": "Le dieron un galardón muy importante.",
+  "new": [
+   "Ganó un premio muy importante.",
+   "Hij/zij won een heel belangrijke prijs.",
+   "He/she won a very important prize."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l3",
+  "old": "Destacó como deportista desde joven.",
+  "new": [
+   "Creció en un pueblo pequeño.",
+   "Hij groeide op in een klein dorp.",
+   "He grew up in a small village."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l3",
+  "old": "Tiene una trayectoria impresionante.",
+  "new": [
+   "Tuvo tres hijos.",
+   "Hij/zij kreeg drie kinderen.",
+   "He/she had three children."
+  ]
+ },
+ {
+  "lesson": "a2-u34-l4",
+  "old": "Emigró a Argentina en 1950.",
+  "new": [
+   "Murió en Madrid en 1990.",
+   "Hij/zij overleed in 1990 in Madrid.",
+   "He/she died in Madrid in 1990."
+  ]
+ },
+ {
+  "lesson": "a2-u35-l1",
+  "old": "La comunión de mi hijo fue muy bonita.",
+  "new": [
+   "La ceremonia fue muy bonita.",
+   "De ceremonie was heel mooi.",
+   "The ceremony was very nice."
+  ]
+ },
+ {
+  "lesson": "a2-u35-l1",
+  "old": "El funeral de mi abuelo fue muy triste.",
+  "new": [
+   "El accidente fue muy grave.",
+   "Het ongeluk was heel ernstig.",
+   "The accident was very serious."
+  ]
+ },
+ {
+  "lesson": "a2-u35-l1",
+  "old": "¿Qué ocurrió después de la graduación?",
+  "new": [
+   "¿Qué pasó después de la ceremonia?",
+   "Wat gebeurde er na de ceremonie?",
+   "What happened after the ceremony?"
+  ]
+ },
+ {
+  "lesson": "a2-u35-l2",
+  "old": "El reencuentro con mis amigos fue emocionante.",
+  "new": [
+   "El nacimiento de mi sobrino fue emocionante.",
+   "De geboorte van mijn neefje was ontroerend.",
+   "My nephew's birth was moving."
+  ]
+ },
+ {
+  "lesson": "a2-u35-l3",
+  "old": "A continuación bailamos toda la noche.",
+  "new": [
+   "Poco después bailamos toda la noche.",
+   "Kort daarna dansten we de hele nacht.",
+   "Shortly afterwards we danced all night."
+  ]
+ },
+ {
+  "lesson": "a2-u35-l4",
+  "old": "Mi hermano se independizó a los veinticinco años.",
+  "new": [
+   "Mi hermano se mudó a los veinticinco años.",
+   "Mijn broer verhuisde toen hij vijfentwintig was.",
+   "My brother moved out when he was twenty-five."
+  ]
+ },
+ {
+  "lesson": "a2-u35-l4",
+  "old": "Me enteré de la noticia por la radio.",
+  "new": [
+   "Vi la noticia en la televisión.",
+   "Ik zag het nieuws op televisie.",
+   "I saw the news on television."
+  ]
+ },
+ {
+  "lesson": "a2-u36-l1",
+  "old": "Anteayer vi a una amiga en el centro y la invité a un café.",
+  "new": [
+   "Ayer por la tarde vi a una amiga en el centro.",
+   "Gistermiddag zag ik een vriendin in het centrum.",
+   "Yesterday afternoon I saw a friend in the centre."
+  ]
+ },
+ {
+  "lesson": "a2-u36-l1",
+  "old": "En 2020 viajé a México con mi familia.",
+  "new": [
+   "El año pasado viajé a México con mi familia.",
+   "Vorig jaar reisde ik met mijn familie naar Mexico.",
+   "Last year I travelled to Mexico with my family."
+  ]
+ },
+ {
+  "lesson": "a2-u36-l2",
+  "old": "Con frecuencia les escribíamos cartas a mis tíos.",
+  "new": [
+   "Todos los días hablábamos con mis tíos.",
+   "Elke dag spraken we met mijn oom en tante.",
+   "Every day we used to talk to my aunt and uncle."
+  ]
+ },
+ {
+  "lesson": "a2-u12-l1",
+  "old": "Deshago la maleta al llegar al hotel.",
+  "new": [
+   "Abro la maleta al llegar al hotel.",
+   "Ik maak mijn koffer open als ik in het hotel aankom.",
+   "I open my suitcase when I arrive at the hotel."
+  ]
+ },
+ {
+  "lesson": "a2-u15-l3",
+  "old": "Prefiero las camisetas lisas.",
+  "new": [
+   "Prefiero las camisetas blancas.",
+   "Ik heb liever witte T-shirts.",
+   "I prefer white T-shirts."
+  ]
+ }
+]
